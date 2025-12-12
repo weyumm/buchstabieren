@@ -48,34 +48,40 @@
           "wordCount": 182
         },
         {
-          "id": "D1E8",
-          "name": "Ich wohne gern hier!",
-          "file": "D1E8.json",
-          "wordCount": 209
+          "id": "D1E9",
+          "name": "Wir sind eine Familie",
+          "file": "D1E9.json",
+          "wordCount": 145
+        },
+        {
+          "id": "D1E10",
+          "name": "Aller Anfang ist schwer!",
+          "file": "D1E10.json",
+          "wordCount": 125
         }
       ],
-      "totalWords":1487
+      "totalWords":1747
     },
     {
       "id": "D2",
-      "name": "德语 A2 进阶词汇",
-      "description": "巩固日常交流能力，扩展场景词汇",
+      "name": "新一代大学德语二",
+      "description": "",
       "units": [
         {
           "id": "D2E1",
-          "name": "交通出行",
+          "name": "0",
           "file": "D2E1.json",
           "wordCount": 0
         },
         {
           "id": "D2E2",
-          "name": "购物消费",
+          "name": "0",
           "file": "D2E2.json",
           "wordCount": 0
         },
         {
           "id": "D2E3",
-          "name": "健康与医疗",
+          "name": "0",
           "file": "D2E3.json",
           "wordCount": 0
         }

@@ -1,0 +1,752 @@
+[
+    {
+        "name": "aus/tauschen",
+        "trans": [
+            "动词. 交换，交流   +A"
+        ]
+    },
+    {
+        "name": "die Methode -n",
+        "trans": [
+            "名词. 方法"
+        ]
+    },
+    {
+        "name": "der Zweifel -",
+        "trans": [
+            "名词. 怀疑"
+        ]
+    },
+    {
+        "name": "äußern",
+        "trans": [
+            "动词. 说出 +A"
+        ]
+    },
+    {
+        "name": "verbinden",
+        "trans": [
+            "动词. 连接  +A (+mit)"
+        ]
+    },
+    {
+        "name": "die Mindmap -s",
+        "trans": [
+            "名词. 思维导图"
+        ]
+    },
+    {
+        "name": "besonder-",
+        "trans": [
+            "Adj. 特别的，特殊的"
+        ]
+    },
+    {
+        "name": "grammatikalisch",
+        "trans": [
+            "Adj. 语法的"
+        ]
+    },
+    {
+        "name": "der Fall äe",
+        "trans": [
+            "名词. 情况"
+        ]
+    },
+    {
+        "name": "die Uhrzeit -en",
+        "trans": [
+            "名词. （用钟表时刻表示的）时间"
+        ]
+    },
+    {
+        "name": "unterscheiden",
+        "trans": [
+            "动词. 区分，辨别 (+A)"
+        ]
+    },
+    {
+        "name": "die Silbe -n",
+        "trans": [
+            "名词. 音节"
+        ]
+    },
+    {
+        "name": "die Postkarte -n",
+        "trans": [
+            "名词. 明信片"
+        ]
+    },
+    {
+        "name": "die Pluralendung -en",
+        "trans": [
+            "名词. 复数词尾"
+        ]
+    },
+    {
+        "name": "die Verbform -en",
+        "trans": [
+            "名词. 动词形式"
+        ]
+    },
+    {
+        "name": "die Statistik -en",
+        "trans": [
+            "名词. 统计"
+        ]
+    },
+    {
+        "name": "das Nomen -",
+        "trans": [
+            "名词. 名词"
+        ]
+    },
+    {
+        "name": "der Forumsbeitrag -e",
+        "trans": [
+            "名词. 论坛帖子"
+        ]
+    },
+    {
+        "name": "der Test -e",
+        "trans": [
+            "名词. 测试（复数-s也可以）"
+        ]
+    },
+    {
+        "name": "fließend",
+        "trans": [
+            "Adj. 流利的"
+        ]
+    },
+    {
+        "name": "der Originalfilm -e",
+        "trans": [
+            "名词. 原版电影"
+        ]
+    },
+    {
+        "name": "die Vokabel -n",
+        "trans": [
+            "名词. 单词"
+        ]
+    },
+    {
+        "name": "das Notizbuch üer",
+        "trans": [
+            "名词. （小）记录本"
+        ]
+    },
+    {
+        "name": "die Wiederholung -en",
+        "trans": [
+            "名词. 复习"
+        ]
+    },
+    {
+        "name": "jeweils",
+        "trans": [
+            "Adv. 各"
+        ]
+    },
+    {
+        "name": "unregelmäßig",
+        "trans": [
+            "Adj. 不规则的"
+        ]
+    },
+    {
+        "name": "enthalten",
+        "trans": [
+            "动词. 含有，包含+A (不规则动词)"
+        ]
+    },
+    {
+        "name": "unterschiedlich",
+        "trans": [
+            "Adj. 不同的，有区别的"
+        ]
+    },
+    {
+        "name": "nützlich",
+        "trans": [
+            "Adj. 有益的，有用的"
+        ]
+    },
+    {
+        "name": "die Verbesserung -en",
+        "trans": [
+            "名词. 改善"
+        ]
+    },
+    {
+        "name": "die Kenntnis -se",
+        "trans": [
+            "名词. 知识（Pl.）"
+        ]
+    },
+    {
+        "name": "die Wortart -en",
+        "trans": [
+            "名词. 词类"
+        ]
+    },
+    {
+        "name": "zurück/schreiben +A",
+        "trans": [
+            "动词. 写回信，回复"
+        ]
+    },
+    {
+        "name": "der Einkaufszettel -",
+        "trans": [
+            "名词. 购物清单"
+        ]
+    },
+    {
+        "name": "die Kaffeemaschine -n",
+        "trans": [
+            "名词. 咖啡机"
+        ]
+    },
+    {
+        "name": "das Gehirn -e",
+        "trans": [
+            "名词. 大脑"
+        ]
+    },
+    {
+        "name": "her/stellen +A",
+        "trans": [
+            "动词. 生产，制造"
+        ]
+    },
+    {
+        "name": "landen",
+        "trans": [
+            "动词. 着陆，靠岸，登陆 (s.)"
+        ]
+    },
+    {
+        "name": "das Langzeitgedächtnis -se",
+        "trans": [
+            "名词. 长时记忆（力）"
+        ]
+    },
+    {
+        "name": "hilfreich",
+        "trans": [
+            "Adj. 有益的"
+        ]
+    },
+    {
+        "name": "direkt",
+        "trans": [
+            "Adj. 直接的"
+        ]
+    },
+    {
+        "name": "der Untertitel -",
+        "trans": [
+            "名词. 字幕"
+        ]
+    },
+    {
+        "name": "der Anfänger -",
+        "trans": [
+            "名词. 初学者，新手"
+        ]
+    },
+    {
+        "name": "die Version -en",
+        "trans": [
+            "名词. 版本"
+        ]
+    },
+    {
+        "name": "das Gefühl -e",
+        "trans": [
+            "名词. 感情，心情，感觉"
+        ]
+    },
+    {
+        "name": "der Akzent -e",
+        "trans": [
+            "名词. （口音）腔调"
+        ]
+    },
+    {
+        "name": "der Fortschritt -e",
+        "trans": [
+            "名词. 进步"
+        ]
+    },
+    {
+        "name": "der Comic -s",
+        "trans": [
+            "名词. 漫画"
+        ]
+    },
+    {
+        "name": "die Fernsehserie -n",
+        "trans": [
+            "名词. 电视剧"
+        ]
+    },
+    {
+        "name": "ein/stellen",
+        "trans": [
+            "动词. 校准，调准  +A"
+        ]
+    },
+    {
+        "name": "die Situation -en",
+        "trans": [
+            "名词. 情况，形势，处境"
+        ]
+    },
+    {
+        "name": "aus/denken",
+        "trans": [
+            "动词. 想出 +A"
+        ]
+    },
+    {
+        "name": "überlegen",
+        "trans": [
+            "动词. 考虑，思索 +A"
+        ]
+    },
+    {
+        "name": "der Muttersprachler -",
+        "trans": [
+            "名词. 说母语的人"
+        ]
+    },
+    {
+        "name": "kommunizieren",
+        "trans": [
+            "动词. 沟通，交流 +mit"
+        ]
+    },
+    {
+        "name": "das Gespräch -e",
+        "trans": [
+            "名词. 谈话，会话"
+        ]
+    },
+    {
+        "name": "der Gedanke -n",
+        "trans": [
+            "名词. 思想，主意"
+        ]
+    },
+    {
+        "name": "dar/stellen",
+        "trans": [
+            "动词. 体现，是 +A"
+        ]
+    },
+    {
+        "name": "sicher",
+        "trans": [
+            "Adj. 有把握的；肯定的"
+        ]
+    },
+    {
+        "name": "die Lesestrategie -n",
+        "trans": [
+            "名词. 阅读技巧"
+        ]
+    },
+    {
+        "name": "das Studio -s",
+        "trans": [
+            "名词. 录音室，演播室"
+        ]
+    },
+    {
+        "name": "die Radiosendung -en",
+        "trans": [
+            "名词. 广播节目"
+        ]
+    },
+    {
+        "name": "allmählich",
+        "trans": [
+            "Adj. 逐渐的"
+        ]
+    },
+    {
+        "name": "inzwischen",
+        "trans": [
+            "Adv. 在此期间；与此同时"
+        ]
+    },
+    {
+        "name": "der Austausch oPl",
+        "trans": [
+            "名词. 交流"
+        ]
+    },
+    {
+        "name": "die Überschrift -en",
+        "trans": [
+            "名词. 标题"
+        ]
+    },
+    {
+        "name": "merken",
+        "trans": [
+            "动词. 发觉，察觉 +A"
+        ]
+    },
+    {
+        "name": "das Talent -e",
+        "trans": [
+            "名词. 有才能的人，人才；才能"
+        ]
+    },
+    {
+        "name": "weiter/machen",
+        "trans": [
+            "动词. 继续做 +A"
+        ]
+    },
+    {
+        "name": "die Sprachmentorin -nen",
+        "trans": [
+            "名词. 语言教练（女性）"
+        ]
+    },
+    {
+        "name": "entwickeln",
+        "trans": [
+            "动词. 研制，开发 +A"
+        ]
+    },
+    {
+        "name": "effektiv",
+        "trans": [
+            "Adj. 有效的，有成效的"
+        ]
+    },
+    {
+        "name": "das Spanisch",
+        "trans": [
+            "名词. 西班牙语"
+        ]
+    },
+    {
+        "name": "versuchen",
+        "trans": [
+            "动词. 尝试，试图 +A"
+        ]
+    },
+    {
+        "name": "das Polnisch",
+        "trans": [
+            "名词. 波兰语"
+        ]
+    },
+    {
+        "name": "der Podcast -s",
+        "trans": [
+            "名词. 播客"
+        ]
+    },
+    {
+        "name": "damals",
+        "trans": [
+            "Adv. 当时，那时"
+        ]
+    },
+    {
+        "name": "gebrauchen",
+        "trans": [
+            "动词. 使用，利用  +A"
+        ]
+    },
+    {
+        "name": "auf/geben",
+        "trans": [
+            "动词. 放弃 +A  (gibt auf)"
+        ]
+    },
+    {
+        "name": "auf/hören",
+        "trans": [
+            "动词. 停止 (+mit)"
+        ]
+    },
+    {
+        "name": "der Fleiß oPl",
+        "trans": [
+            "名词. 勤劳，努力"
+        ]
+    },
+    {
+        "name": "die Dauer oPl",
+        "trans": [
+            "名词. （持续）时间"
+        ]
+    },
+    {
+        "name": "deutschsprachig",
+        "trans": [
+            "Adj. 说德语的，用德语（写）的"
+        ]
+    },
+    {
+        "name": "das Medium dien",
+        "trans": [
+            "名词. 媒介"
+        ]
+    },
+    {
+        "name": "erfordern",
+        "trans": [
+            "动词. 要求，需要 +A"
+        ]
+    },
+    {
+        "name": "der Einsatz äe",
+        "trans": [
+            "名词. 投入，使用"
+        ]
+    },
+    {
+        "name": "die Kurve -n",
+        "trans": [
+            "名词. 曲线"
+        ]
+    },
+    {
+        "name": "der Sinn -e",
+        "trans": [
+            "名词. 感觉，意识"
+        ]
+    },
+    {
+        "name": "an/fassen",
+        "trans": [
+            "动词. 触摸 +A"
+        ]
+    },
+    {
+        "name": "erwähnen",
+        "trans": [
+            "动词. 提及，论及 +A"
+        ]
+    },
+    {
+        "name": "auditiv",
+        "trans": [
+            "Adj. 听力的"
+        ]
+    },
+    {
+        "name": "visuell",
+        "trans": [
+            "Adj. 视觉的"
+        ]
+    },
+    {
+        "name": "motorisch",
+        "trans": [
+            "Adj. 运动机能的"
+        ]
+    },
+    {
+        "name": "klassisch",
+        "trans": [
+            "Adj. 古典的，经典的"
+        ]
+    },
+    {
+        "name": "audiovisuell",
+        "trans": [
+            "Adj. 视听的"
+        ]
+    },
+    {
+        "name": "kommunikativ",
+        "trans": [
+            "Adj. 交际的"
+        ]
+    },
+    {
+        "name": "aus/probieren",
+        "trans": [
+            "动词. 试验，使用 +A"
+        ]
+    },
+    {
+        "name": "absolut",
+        "trans": [
+            "Adj. 绝对的"
+        ]
+    },
+    {
+        "name": "die Ruhe oPl",
+        "trans": [
+            "名词. 安静，安宁"
+        ]
+    },
+    {
+        "name": "das Diagramm -e",
+        "trans": [
+            "名词. 图表，示意图"
+        ]
+    },
+    {
+        "name": "die Skizze -n",
+        "trans": [
+            "名词. 草稿，提纲"
+        ]
+    },
+    {
+        "name": "das Symbol -e",
+        "trans": [
+            "名词. 象征"
+        ]
+    },
+    {
+        "name": "die Praxis oPl",
+        "trans": [
+            "名词. 实践"
+        ]
+    },
+    {
+        "name": "der Bezug oPl",
+        "trans": [
+            "名词. 关系，方面"
+        ]
+    },
+    {
+        "name": "aufmerksam",
+        "trans": [
+            "Adj. 留心的，用心的"
+        ]
+    },
+    {
+        "name": "das Experiment -e",
+        "trans": [
+            "名词. 实验"
+        ]
+    },
+    {
+        "name": "die Präsentation -en",
+        "trans": [
+            "名词. 展示"
+        ]
+    },
+    {
+        "name": "die Karteikarte -n",
+        "trans": [
+            "名词. 索引卡片"
+        ]
+    },
+    {
+        "name": "anschaulich",
+        "trans": [
+            "Adj. 直观的，形象的"
+        ]
+    },
+    {
+        "name": "dienen",
+        "trans": [
+            "动词. 服务于，有益于 +D (+zu)"
+        ]
+    },
+    {
+        "name": "die Erinnerung -en",
+        "trans": [
+            "名词. 回忆，记忆；纪念"
+        ]
+    },
+    {
+        "name": "still",
+        "trans": [
+            "Adj. 安静的，静止不动的"
+        ]
+    },
+    {
+        "name": "die Gestik oPl",
+        "trans": [
+            "名词. 手势，姿势"
+        ]
+    },
+    {
+        "name": "die Mimik oPl",
+        "trans": [
+            "名词. 表情"
+        ]
+    },
+    {
+        "name": "das Seminar -e",
+        "trans": [
+            "名词. （高等学校的）（专题）研讨课"
+        ]
+    },
+    {
+        "name": "formulieren",
+        "trans": [
+            "动词. 表达  +A"
+        ]
+    },
+    {
+        "name": "der Experte -n",
+        "trans": [
+            "名词. 专家，行家"
+        ]
+    },
+    {
+        "name": "nutzen",
+        "trans": [
+            "动词. 利用 +A"
+        ]
+    },
+    {
+        "name": "spielerisch",
+        "trans": [
+            "Adj. 游戏式的"
+        ]
+    },
+    {
+        "name": "kneten",
+        "trans": [
+            "动词. 揉，捏 +A"
+        ]
+    },
+    {
+        "name": "das Material -ien",
+        "trans": [
+            "名词. 材料；资料"
+        ]
+    },
+    {
+        "name": "der Workshop -s",
+        "trans": [
+            "名词. 专题研讨会"
+        ]
+    },
+    {
+        "name": "das Klassenzimmer -",
+        "trans": [
+            "名词. 教室"
+        ]
+    },
+    {
+        "name": "gestalten",
+        "trans": [
+            "动词. 塑造，形成；布局 +A"
+        ]
+    },
+    {
+        "name": "aktivieren",
+        "trans": [
+            "动词. 加强，促进 +A"
+        ]
+    }
+]

@@ -1,0 +1,872 @@
+[
+    {
+        "name": "die Bezeichnung -en",
+        "trans": [
+            "名词. 标志，名称"
+        ]
+    },
+    {
+        "name": "die Verwandtschaft -en",
+        "trans": [
+            "名词. 亲属关系；（全体）亲戚"
+        ]
+    },
+    {
+        "name": "die Hochzeit -en",
+        "trans": [
+            "名词. 婚礼"
+        ]
+    },
+    {
+        "name": "das Neujahr oPl.",
+        "trans": [
+            "名词. 新年，元旦"
+        ]
+    },
+    {
+        "name": "der Abschluss üe",
+        "trans": [
+            "名词. 结束"
+        ]
+    },
+    {
+        "name": "das Abitur -e",
+        "trans": [
+            "名词. 八或九年制中学毕业考试"
+        ]
+    },
+    {
+        "name": "bestehen",
+        "trans": [
+            "动词. 通过    (+A)"
+        ]
+    },
+    {
+        "name": "das Fest -e",
+        "trans": [
+            "名词. 庆祝活动，庆典；节日"
+        ]
+    },
+    {
+        "name": "die Feier -n",
+        "trans": [
+            "名词. 庆祝会"
+        ]
+    },
+    {
+        "name": "heiraten",
+        "trans": [
+            "动词. 结婚，嫁，娶   (+A)"
+        ]
+    },
+    {
+        "name": "der Ausdruck üe",
+        "trans": [
+            "名词. 表达"
+        ]
+    },
+    {
+        "name": "der Glückwunsch üe",
+        "trans": [
+            "名词. 庆贺，祝贺，祝愿"
+        ]
+    },
+    {
+        "name": "ewig",
+        "trans": [
+            "Adj. 永远的，持久的"
+        ]
+    },
+    {
+        "name": "die Liebe",
+        "trans": [
+            "名词. 爱，爱情，热爱"
+        ]
+    },
+    {
+        "name": "die Geburtstagsparty -e",
+        "trans": [
+            "名词. 生日派对"
+        ]
+    },
+    {
+        "name": "die Großmutter ü",
+        "trans": [
+            "名词. 祖母，外祖母"
+        ]
+    },
+    {
+        "name": "die Geburt -en",
+        "trans": [
+            "名词. 出生，诞生"
+        ]
+    },
+    {
+        "name": "geboren",
+        "trans": [
+            "Adj. 出生的"
+        ]
+    },
+    {
+        "name": "die Zahl -en",
+        "trans": [
+            "名词. 数字"
+        ]
+    },
+    {
+        "name": "das Fotoalbum -s",
+        "trans": [
+            "名词. 相册，影集(复数ben也可以)"
+        ]
+    },
+    {
+        "name": "die Tante -n",
+        "trans": [
+            "名词. 姑妈，姨母，婶母，舅母"
+        ]
+    },
+    {
+        "name": "die Mama -s",
+        "trans": [
+            "名词. 妈妈"
+        ]
+    },
+    {
+        "name": "die Schwester -n",
+        "trans": [
+            "名词. 姐妹"
+        ]
+    },
+    {
+        "name": "die Nichte -n",
+        "trans": [
+            "名词. 侄女，外甥女"
+        ]
+    },
+    {
+        "name": "die Heimatstadt äe",
+        "trans": [
+            "名词. 故乡（城市）"
+        ]
+    },
+    {
+        "name": "das Frühlingsfest -e",
+        "trans": [
+            "名词. 春节"
+        ]
+    },
+    {
+        "name": "der Onkel -",
+        "trans": [
+            "名词. 伯父，叔父，舅父 （复数-s也可以）"
+        ]
+    },
+    {
+        "name": "der Cousin -s",
+        "trans": [
+            "名词. 表兄弟，堂兄弟"
+        ]
+    },
+    {
+        "name": "die Cousine -n",
+        "trans": [
+            "名词. 表姐妹，堂姐妹"
+        ]
+    },
+    {
+        "name": "die Verwandte -n",
+        "trans": [
+            "名词. 家属，亲属，亲戚  （der也可以）"
+        ]
+    },
+    {
+        "name": "fehlend",
+        "trans": [
+            "Adj. 缺少的"
+        ]
+    },
+    {
+        "name": "das Geschwister -",
+        "trans": [
+            "名词. 兄弟姐妹中的一个；兄弟姐妹（Pl.）"
+        ]
+    },
+    {
+        "name": "die Großeltern Pl.",
+        "trans": [
+            "名词. 祖父母，外祖父母"
+        ]
+    },
+    {
+        "name": "der Urlaub -e",
+        "trans": [
+            "名词. 休假"
+        ]
+    },
+    {
+        "name": "der Ausflug üe",
+        "trans": [
+            "名词. 郊游，短途旅行"
+        ]
+    },
+    {
+        "name": "die Freundin -nen",
+        "trans": [
+            "名词. 女（性）朋友"
+        ]
+    },
+    {
+        "name": "der Familienstammbaum äe",
+        "trans": [
+            "名词. 家谱"
+        ]
+    },
+    {
+        "name": "der Schwiegervater ä",
+        "trans": [
+            "名词. 公公，岳父"
+        ]
+    },
+    {
+        "name": "die Schwiegermutter ü",
+        "trans": [
+            "名词. 婆婆，岳母"
+        ]
+    },
+    {
+        "name": "der Enkel -",
+        "trans": [
+            "名词. 孙子，外孙"
+        ]
+    },
+    {
+        "name": "die Enkelin -nen",
+        "trans": [
+            "名词. 孙女，外孙女"
+        ]
+    },
+    {
+        "name": "der Garten ä",
+        "trans": [
+            "名词. 花园"
+        ]
+    },
+    {
+        "name": "die Ausbildung -en",
+        "trans": [
+            "名词. （职业）训练，培训"
+        ]
+    },
+    {
+        "name": "der Zwilling -e",
+        "trans": [
+            "名词. 双胞胎（之一）"
+        ]
+    },
+    {
+        "name": "ledig",
+        "trans": [
+            "Adj. 未婚的，独身的"
+        ]
+    },
+    {
+        "name": "verheiratet",
+        "trans": [
+            "Adj. 已婚的"
+        ]
+    },
+    {
+        "name": "geschieden",
+        "trans": [
+            "Adj. 离了婚的"
+        ]
+    },
+    {
+        "name": "verwitwet",
+        "trans": [
+            "Adj. 丧偶的"
+        ]
+    },
+    {
+        "name": "das Blatt äer",
+        "trans": [
+            "名词. 纸张"
+        ]
+    },
+    {
+        "name": "der Chat -s",
+        "trans": [
+            "名词. 网上聊天"
+        ]
+    },
+    {
+        "name": "dringend",
+        "trans": [
+            "Adj. 迫切的，紧急的"
+        ]
+    },
+    {
+        "name": "erleichtern",
+        "trans": [
+            "动词. 使容易；减轻 (+A)"
+        ]
+    },
+    {
+        "name": "automatisch",
+        "trans": [
+            "Adj. 自动的"
+        ]
+    },
+    {
+        "name": "das Licht -er",
+        "trans": [
+            "名词. 灯；光"
+        ]
+    },
+    {
+        "name": "der Ein- und Ausschalter -",
+        "trans": [
+            "名词. 开关"
+        ]
+    },
+    {
+        "name": "digital",
+        "trans": [
+            "Adj. 数字的"
+        ]
+    },
+    {
+        "name": "die Wetterstation -en",
+        "trans": [
+            "名词. 气象观测站"
+        ]
+    },
+    {
+        "name": "der Duft üe",
+        "trans": [
+            "名词. 芳香，香味"
+        ]
+    },
+    {
+        "name": "die Kerze -n",
+        "trans": [
+            "名词. 蜡烛"
+        ]
+    },
+    {
+        "name": "der Hausschuh -e",
+        "trans": [
+            "名词. （室内穿的）便鞋"
+        ]
+    },
+    {
+        "name": "das Massagegerät -e",
+        "trans": [
+            "名词. 按摩仪"
+        ]
+    },
+    {
+        "name": "die Wärmefunktion -en",
+        "trans": [
+            "名词. 加热功能"
+        ]
+    },
+    {
+        "name": "die Kaschmirdecke -n",
+        "trans": [
+            "名词. 羊绒毯，羊绒被"
+        ]
+    },
+    {
+        "name": "das Einkaufszentrum tren",
+        "trans": [
+            "名词. 购物中心"
+        ]
+    },
+    {
+        "name": "der Hut üe",
+        "trans": [
+            "名词. （有边的）帽子"
+        ]
+    },
+    {
+        "name": "das Tuch üer",
+        "trans": [
+            "名词. 手帕；头巾；织物"
+        ]
+    },
+    {
+        "name": "bunt",
+        "trans": [
+            "Adj. 彩色的"
+        ]
+    },
+    {
+        "name": "der Handschuh -e",
+        "trans": [
+            "名词. 手套"
+        ]
+    },
+    {
+        "name": "der Blumenstrauß äe",
+        "trans": [
+            "名词. 花束"
+        ]
+    },
+    {
+        "name": "die Schürze -n",
+        "trans": [
+            "名词. （齐胸）围裙"
+        ]
+    },
+    {
+        "name": "die Halskette -n",
+        "trans": [
+            "名词. 项链"
+        ]
+    },
+    {
+        "name": "das Kochbuch üer",
+        "trans": [
+            "名词. 食谱，烹调书"
+        ]
+    },
+    {
+        "name": "der Schlüsselanhänger -",
+        "trans": [
+            "名词. 钥匙扣"
+        ]
+    },
+    {
+        "name": "liebevoll",
+        "trans": [
+            "Adj. 亲切的，慈爱的，温柔的"
+        ]
+    },
+    {
+        "name": "elegant",
+        "trans": [
+            "Adj. 时髦的，优雅的，漂亮的"
+        ]
+    },
+    {
+        "name": "der Werkzeugkasten ä",
+        "trans": [
+            "名词. 工具箱"
+        ]
+    },
+    {
+        "name": "blau",
+        "trans": [
+            "Adj. 蓝色的"
+        ]
+    },
+    {
+        "name": "orange",
+        "trans": [
+            "Adj. 橙色的"
+        ]
+    },
+    {
+        "name": "violett",
+        "trans": [
+            "Adj. 紫色的"
+        ]
+    },
+    {
+        "name": "grau",
+        "trans": [
+            "Adj. 灰色的，灰白的"
+        ]
+    },
+    {
+        "name": "weiß",
+        "trans": [
+            "Adj. 白的，白色的"
+        ]
+    },
+    {
+        "name": "klasse",
+        "trans": [
+            "Adj. 极好的"
+        ]
+    },
+    {
+        "name": "vor/schlagen",
+        "trans": [
+            "动词. 建议，提议 (+D) +A (不规则动词)"
+        ]
+    },
+    {
+        "name": "der Stoff -e",
+        "trans": [
+            "名词. 材料，物质"
+        ]
+    },
+    {
+        "name": "herrlich",
+        "trans": [
+            "Adj. 壮丽的；极好的"
+        ]
+    },
+    {
+        "name": "das Muster -",
+        "trans": [
+            "名词. 图案"
+        ]
+    },
+    {
+        "name": "das Übungsset -s",
+        "trans": [
+            "名词. 全套练习用具"
+        ]
+    },
+    {
+        "name": "der Bambus -se",
+        "trans": [
+            "名词. 竹子"
+        ]
+    },
+    {
+        "name": "der Fächer -",
+        "trans": [
+            "名词. 扇子"
+        ]
+    },
+    {
+        "name": "das Tai Chi",
+        "trans": [
+            "名词. 太极拳"
+        ]
+    },
+    {
+        "name": "das T-Shirt -s",
+        "trans": [
+            "名词. T恤衫"
+        ]
+    },
+    {
+        "name": "der Anzug üe",
+        "trans": [
+            "名词. （男）西服，套装"
+        ]
+    },
+    {
+        "name": "die Sohle -n",
+        "trans": [
+            "名词. 鞋垫；鞋底"
+        ]
+    },
+    {
+        "name": "weich",
+        "trans": [
+            "Adj. 软的"
+        ]
+    },
+    {
+        "name": "dünn",
+        "trans": [
+            "Adj. 薄的；瘦的，细长的；稀的"
+        ]
+    },
+    {
+        "name": "zusätzlich",
+        "trans": [
+            "Adj. 附加的，补充的"
+        ]
+    },
+    {
+        "name": "das Geburtstagskind -er",
+        "trans": [
+            "名词. 寿星"
+        ]
+    },
+    {
+        "name": "die Seite -n",
+        "trans": [
+            "名词. 边，侧面"
+        ]
+    },
+    {
+        "name": "aus/packen",
+        "trans": [
+            "动词. 解开；拿出  +A"
+        ]
+    },
+    {
+        "name": "zuvor",
+        "trans": [
+            "Adv. 事先"
+        ]
+    },
+    {
+        "name": "das Unglück -e",
+        "trans": [
+            "名词. 不幸"
+        ]
+    },
+    {
+        "name": "rund",
+        "trans": [
+            "Adj. 整（数）的"
+        ]
+    },
+    {
+        "name": "vorab",
+        "trans": [
+            "Adv. 事先，预先"
+        ]
+    },
+    {
+        "name": "das Auge -n",
+        "trans": [
+            "名词. 眼睛"
+        ]
+    },
+    {
+        "name": "der Gast äe",
+        "trans": [
+            "名词. 客人，宾客"
+        ]
+    },
+    {
+        "name": "die Reaktion -en",
+        "trans": [
+            "名词. 反应"
+        ]
+    },
+    {
+        "name": "mit/bekommen",
+        "trans": [
+            "动词. 弄清楚，弄明白   +A"
+        ]
+    },
+    {
+        "name": "üblich",
+        "trans": [
+            "Adj. 通常的，习惯的，平常的"
+        ]
+    },
+    {
+        "name": "das Missverständnis -se",
+        "trans": [
+            "名词. 误会，误解"
+        ]
+    },
+    {
+        "name": "die Jugendliche -n",
+        "trans": [
+            "名词. 青少年（der也可以）"
+        ]
+    },
+    {
+        "name": "erwachsen",
+        "trans": [
+            "Adj. 成年的"
+        ]
+    },
+    {
+        "name": "wählen",
+        "trans": [
+            "动词. 选择；选举   (+A)"
+        ]
+    },
+    {
+        "name": "der Führerschein -e",
+        "trans": [
+            "名词. 驾驶执照"
+        ]
+    },
+    {
+        "name": "unterschreiben",
+        "trans": [
+            "动词. 签名   (+A)"
+        ]
+    },
+    {
+        "name": "die Anzeige -n",
+        "trans": [
+            "名词. 通告，广告"
+        ]
+    },
+    {
+        "name": "rein/feiern",
+        "trans": [
+            "动词. 彻夜庆祝   (+in A)"
+        ]
+    },
+    {
+        "name": "bereits",
+        "trans": [
+            "Adv. 已经，业已"
+        ]
+    },
+    {
+        "name": "der Vortag -e",
+        "trans": [
+            "名词. 前一天"
+        ]
+    },
+    {
+        "name": "hinweg",
+        "trans": [
+            "Adv. 越过，超过"
+        ]
+    },
+    {
+        "name": "anstoßen",
+        "trans": [
+            "动词. （祝酒时）碰杯   (不规则动词)"
+        ]
+    },
+    {
+        "name": "der Lebensbereich -e",
+        "trans": [
+            "名词. 生活区"
+        ]
+    },
+    {
+        "name": "der Halt -e",
+        "trans": [
+            "名词. 支持，依靠"
+        ]
+    },
+    {
+        "name": "die Sicherheit -en",
+        "trans": [
+            "名词. 安全；肯定；保证"
+        ]
+    },
+    {
+        "name": "der Report -e",
+        "trans": [
+            "名词. 报告，报道，汇报"
+        ]
+    },
+    {
+        "name": "weiterhin",
+        "trans": [
+            "Adv. 仍然，往后"
+        ]
+    },
+    {
+        "name": "die Mehrheit -en",
+        "trans": [
+            "名词. 多数，大部分"
+        ]
+    },
+    {
+        "name": "die Bedeutung -en",
+        "trans": [
+            "名词. 意义，重要性"
+        ]
+    },
+    {
+        "name": "überwiegend",
+        "trans": [
+            "Adj. 主要的，大多数的，占优势的"
+        ]
+    },
+    {
+        "name": "die Zufriedenheit",
+        "trans": [
+            "名词. 满意，满足"
+        ]
+    },
+    {
+        "name": "einher/gehen",
+        "trans": [
+            "动词. 同时发生，同时出现   (s.)"
+        ]
+    },
+    {
+        "name": "die Befragte -n",
+        "trans": [
+            "名词. 受访者（der也可以）"
+        ]
+    },
+    {
+        "name": "der Staat -en",
+        "trans": [
+            "名词. 国家"
+        ]
+    },
+    {
+        "name": "der Durchschnitt -e",
+        "trans": [
+            "名词. 平均（值）"
+        ]
+    },
+    {
+        "name": "total",
+        "trans": [
+            "Adj. 完全的，彻底的"
+        ]
+    },
+    {
+        "name": "an/geben",
+        "trans": [
+            "动词. 说明，陈述，报告   +A"
+        ]
+    },
+    {
+        "name": "der Vergleich -e",
+        "trans": [
+            "名词. 比较"
+        ]
+    },
+    {
+        "name": "der Anteil -e",
+        "trans": [
+            "名词. 份额"
+        ]
+    },
+    {
+        "name": "die Stelle -n",
+        "trans": [
+            "名词. 名次，等级"
+        ]
+    },
+    {
+        "name": "folgen",
+        "trans": [
+            "动词. 跟随，跟踪   +D (s.)"
+        ]
+    },
+    {
+        "name": "erarbeiten",
+        "trans": [
+            "动词. 写出，拟就，拟出   +A"
+        ]
+    },
+    {
+        "name": "der Fragebogen ä",
+        "trans": [
+            "名词. 问卷"
+        ]
+    },
+    {
+        "name": "die Umfrage -n",
+        "trans": [
+            "名词. 民意调查，民意普查"
+        ]
+    },
+    {
+        "name": "die Tabelle -n",
+        "trans": [
+            "名词. 表格，图表"
+        ]
+    },
+    {
+        "name": "die Grafik -en",
+        "trans": [
+            "名词. 图表"
+        ]
+    },
+    {
+        "name": "veranschaulichen",
+        "trans": [
+            "动词. （用事例、图表等）说明，阐释 +A"
+        ]
+    }
+]
