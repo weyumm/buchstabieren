@@ -1,0 +1,764 @@
+[
+    {
+        "name": "das Symbol -e",
+        "trans": [
+            "名词. 符号；象征"
+        ]
+    },
+    {
+        "name": "das Feuerwerk o. Pl.",
+        "trans": [
+            "名词. 烟火"
+        ]
+    },
+    {
+        "name": "die Rose -n",
+        "trans": [
+            "名词. 玫瑰花"
+        ]
+    },
+    {
+        "name": "der Kürbis -se",
+        "trans": [
+            "名词. 南瓜"
+        ]
+    },
+    {
+        "name": "der Adventskranz -e",
+        "trans": [
+            "名词. 基督降临节花环"
+        ]
+    },
+    {
+        "name": "das Geldgeschenk -e",
+        "trans": [
+            "名词. （以）现金（作为）礼物；红包"
+        ]
+    },
+    {
+        "name": "der Lebkuchen -",
+        "trans": [
+            "名词. 胡椒姜饼"
+        ]
+    },
+    {
+        "name": "das Osterei -er",
+        "trans": [
+            "名词. 复活节彩蛋"
+        ]
+    },
+    {
+        "name": "das Drachenboot -e",
+        "trans": [
+            "名词. 龙舟"
+        ]
+    },
+    {
+        "name": "der Mondkuchen -",
+        "trans": [
+            "名词. 月饼"
+        ]
+    },
+    {
+        "name": "der Hase -n",
+        "trans": [
+            "名词. 兔子"
+        ]
+    },
+    {
+        "name": "die Laterne -n",
+        "trans": [
+            "名词. 灯笼"
+        ]
+    },
+    {
+        "name": "unterhalten",
+        "trans": [
+            "Verb. 谈话；聊天 +sich"
+        ]
+    },
+    {
+        "name": "der Weihnachtsmarkt ¨e",
+        "trans": [
+            "名词. 圣诞市场"
+        ]
+    },
+    {
+        "name": "zu/bereiten",
+        "trans": [
+            "Verb. 准备；烹调 +A"
+        ]
+    },
+    {
+        "name": "weltbekannt",
+        "trans": [
+            "Adj. 世界闻名的"
+        ]
+    },
+    {
+        "name": "der Weihnachtsabend -e",
+        "trans": [
+            "名词. 平安夜；圣诞前夜"
+        ]
+    },
+    {
+        "name": "an/zünden",
+        "trans": [
+            "Verb. 点燃；点火 +A"
+        ]
+    },
+    {
+        "name": "derselbe",
+        "trans": [
+            "Pron. 同一个的（人或物）"
+        ]
+    },
+    {
+        "name": "schmücken",
+        "trans": [
+            "Verb. 装饰；打扮 +A"
+        ]
+    },
+    {
+        "name": "der Weihnachtsmann ¨er",
+        "trans": [
+            "名词. 圣诞老人"
+        ]
+    },
+    {
+        "name": "das Christkind o. Pl.",
+        "trans": [
+            "名词. 耶稣圣婴"
+        ]
+    },
+    {
+        "name": "festlich",
+        "trans": [
+            "Adj. 节日的；盛大的"
+        ]
+    },
+    {
+        "name": "die Süßigkeit -en",
+        "trans": [
+            "名词. 甜食"
+        ]
+    },
+    {
+        "name": "der Christstollen -",
+        "trans": [
+            "名词. 德式圣诞果脯面包"
+        ]
+    },
+    {
+        "name": "die Marzipankartoffel -n",
+        "trans": [
+            "名词. 杏仁糖塑球"
+        ]
+    },
+    {
+        "name": "die Gans ¨e",
+        "trans": [
+            "名词. 鹅"
+        ]
+    },
+    {
+        "name": "der Karpfen -",
+        "trans": [
+            "名词. 鲤鱼"
+        ]
+    },
+    {
+        "name": "der Adventskalender -",
+        "trans": [
+            "名词. 基督降临节日历"
+        ]
+    },
+    {
+        "name": "der Honig -e",
+        "trans": [
+            "名词. 蜂蜜"
+        ]
+    },
+    {
+        "name": "das Gewürz -e",
+        "trans": [
+            "名词. 调料；调味品"
+        ]
+    },
+    {
+        "name": "verwenden",
+        "trans": [
+            "Verb. 使用 +A"
+        ]
+    },
+    {
+        "name": "überprüfen",
+        "trans": [
+            "Verb. 审查；考察；重新考虑 +A"
+        ]
+    },
+    {
+        "name": "jährlich",
+        "trans": [
+            "Adj. 每年的"
+        ]
+    },
+    {
+        "name": "ähnlich",
+        "trans": [
+            "Adj. 相似的 +D"
+        ]
+    },
+    {
+        "name": "erwarten",
+        "trans": [
+            "Verb. 等候；等待；期待；期望；料到 +A"
+        ]
+    },
+    {
+        "name": "definieren",
+        "trans": [
+            "Verb. 对……下定义；界定 +A"
+        ]
+    },
+    {
+        "name": "dekorieren",
+        "trans": [
+            "Verb. 装饰；设景 +A"
+        ]
+    },
+    {
+        "name": "der Brauch ¨e",
+        "trans": [
+            "名词. 风俗；习惯"
+        ]
+    },
+    {
+        "name": "landwirtschaftlich",
+        "trans": [
+            "Adj. 农业的"
+        ]
+    },
+    {
+        "name": "die Ernte -n",
+        "trans": [
+            "名词. 收获"
+        ]
+    },
+    {
+        "name": "der Mondkalender -",
+        "trans": [
+            "名词. 阴历；农历"
+        ]
+    },
+    {
+        "name": "begrüßen",
+        "trans": [
+            "Verb. 问候；欢迎 +A"
+        ]
+    },
+    {
+        "name": "der Staub o. Pl.",
+        "trans": [
+            "名词. 灰尘"
+        ]
+    },
+    {
+        "name": "los/werden",
+        "trans": [
+            "Verb. 脱离；摆脱；丢失"
+        ]
+    },
+    {
+        "name": "auf/hängen",
+        "trans": [
+            "Verb. 挂起；挂上 +A"
+        ]
+    },
+    {
+        "name": "der Spruch -e",
+        "trans": [
+            "名词. 格言；警句；判决；判词"
+        ]
+    },
+    {
+        "name": "der Glückwunsch -e",
+        "trans": [
+            "名词. 庆贺；祝贺；祝愿"
+        ]
+    },
+    {
+        "name": "hoffen",
+        "trans": [
+            "Verb. 希望；盼望；指望 +A/auf +A"
+        ]
+    },
+    {
+        "name": "großen Wert auf A legen",
+        "trans": [
+            "Verb. 重视"
+        ]
+    },
+    {
+        "name": "reichhaltig",
+        "trans": [
+            "Adj. 丰盛的"
+        ]
+    },
+    {
+        "name": "je nach",
+        "trans": [
+            "Präp. 各按；视……而定 +D"
+        ]
+    },
+    {
+        "name": "die Region -en",
+        "trans": [
+            "名词. 地方；地区；领域；行政区"
+        ]
+    },
+    {
+        "name": "die Maultasche -n",
+        "trans": [
+            "名词. 饺子；馄饨"
+        ]
+    },
+    {
+        "name": "die Fleischfüllung",
+        "trans": [
+            "名词. 肉馅"
+        ]
+    },
+    {
+        "name": "der Reichtum ¨er",
+        "trans": [
+            "名词. 财富"
+        ]
+    },
+    {
+        "name": "böse",
+        "trans": [
+            "Adj. 凶恶的；坏的；生气的；恼火的"
+        ]
+    },
+    {
+        "name": "der Geist -er",
+        "trans": [
+            "名词. 精神；心灵；思想；才智；有才智的人；幽灵"
+        ]
+    },
+    {
+        "name": "fressen",
+        "trans": [
+            "Verb. （牲畜）吃 +A"
+        ]
+    },
+    {
+        "name": "vertreiben",
+        "trans": [
+            "Verb. 驱逐；赶走 +A"
+        ]
+    },
+    {
+        "name": "durch/wachen",
+        "trans": [
+            "Verb. 不眠；守夜"
+        ]
+    },
+    {
+        "name": "gegenseitig",
+        "trans": [
+            "Adj. 相互的；双方的"
+        ]
+    },
+    {
+        "name": "das Pech -e",
+        "trans": [
+            "名词. 倒霉；晦运；沥青"
+        ]
+    },
+    {
+        "name": "der Umschlag ¨e",
+        "trans": [
+            "名词. 封面；信封"
+        ]
+    },
+    {
+        "name": "verletzen",
+        "trans": [
+            "Verb. 使受伤；违反 +A"
+        ]
+    },
+    {
+        "name": "fegen",
+        "trans": [
+            "Verb. 打扫 +A"
+        ]
+    },
+    {
+        "name": "das Schriftzeichen -",
+        "trans": [
+            "名词. 文字；字符"
+        ]
+    },
+    {
+        "name": "vor/bereiten",
+        "trans": [
+            "Verb. 准备 +sich (+auf +A / +für +A)"
+        ]
+    },
+    {
+        "name": "symbolhaft",
+        "trans": [
+            "Adj. 象征性的"
+        ]
+    },
+    {
+        "name": "symbolisieren",
+        "trans": [
+            "Verb. 象征；用象征表示 +A"
+        ]
+    },
+    {
+        "name": "die Überstunde -n",
+        "trans": [
+            "名词. 加班；加点"
+        ]
+    },
+    {
+        "name": "zu/nehmen",
+        "trans": [
+            "Verb. 增加；增多；体重增加"
+        ]
+    },
+    {
+        "name": "die Sicherheit -en",
+        "trans": [
+            "名词. 安全；肯定；保证"
+        ]
+    },
+    {
+        "name": "das Skript -s/(-en)",
+        "trans": [
+            "名词. 讲稿；讲义；剧本"
+        ]
+    },
+    {
+        "name": "pro",
+        "trans": [
+            "Adv. 赞成"
+        ]
+    },
+    {
+        "name": "kontra",
+        "trans": [
+            "Adv. 反对"
+        ]
+    },
+    {
+        "name": "leiten",
+        "trans": [
+            "Verb. 主持；领导；引入；引导 +A"
+        ]
+    },
+    {
+        "name": "das Arbeitsblatt ¨er",
+        "trans": [
+            "名词. 工作单；工作表"
+        ]
+    },
+    {
+        "name": "christlich",
+        "trans": [
+            "Adj. 基督教的；信奉基督教的"
+        ]
+    },
+    {
+        "name": "das Gedenken o. Pl.",
+        "trans": [
+            "名词. 纪念"
+        ]
+    },
+    {
+        "name": "beweglich",
+        "trans": [
+            "Adj. 可移动的；灵活的"
+        ]
+    },
+    {
+        "name": "typisch",
+        "trans": [
+            "Adj. 典型的"
+        ]
+    },
+    {
+        "name": "bemalen",
+        "trans": [
+            "Verb. 给……着色；涂色 +A"
+        ]
+    },
+    {
+        "name": "verstecken",
+        "trans": [
+            "Verb. 隐藏 +A"
+        ]
+    },
+    {
+        "name": "ebenso",
+        "trans": [
+            "Adv. 同样"
+        ]
+    },
+    {
+        "name": "die Fruchtbarkeit -en",
+        "trans": [
+            "名词. 多产；肥沃；生育力"
+        ]
+    },
+    {
+        "name": "für etw. stehen",
+        "trans": [
+            "Verb. 代表"
+        ]
+    },
+    {
+        "name": "nichts/etwas mit jm./etw. zu tun haben",
+        "trans": [
+            "Verb. 与……无关；与……有关"
+        ]
+    },
+    {
+        "name": "die Religion -en",
+        "trans": [
+            "名词. 宗教"
+        ]
+    },
+    {
+        "name": "germanisch",
+        "trans": [
+            "Adj. 日耳曼的"
+        ]
+    },
+    {
+        "name": "regional",
+        "trans": [
+            "Adj. 地区的；区域性的"
+        ]
+    },
+    {
+        "name": "das Volksfest -e",
+        "trans": [
+            "名词. 民间节日"
+        ]
+    },
+    {
+        "name": "die Tracht -en",
+        "trans": [
+            "名词. 传统服饰"
+        ]
+    },
+    {
+        "name": "das Dirndl -",
+        "trans": [
+            "名词. （德国巴伐利亚地区以及奥地利阿尔卑斯山区的）紧身连衣裙"
+        ]
+    },
+    {
+        "name": "die Lederhose -n",
+        "trans": [
+            "名词. 皮裤"
+        ]
+    },
+    {
+        "name": "riesig",
+        "trans": [
+            "Adj. 巨大的；宏伟的"
+        ]
+    },
+    {
+        "name": "das Festzelt -e",
+        "trans": [
+            "名词. 节日帐篷"
+        ]
+    },
+    {
+        "name": "das Brathähnchen -",
+        "trans": [
+            "名词. 油煎童子鸡"
+        ]
+    },
+    {
+        "name": "bayrisch",
+        "trans": [
+            "Adj. 巴伐利亚的"
+        ]
+    },
+    {
+        "name": "die Blasmusik o. Pl.",
+        "trans": [
+            "名词. 管乐"
+        ]
+    },
+    {
+        "name": "schunkeln",
+        "trans": [
+            "Verb. 摇摆；晃动"
+        ]
+    },
+    {
+        "name": "das Bundesland ¨er",
+        "trans": [
+            "名词. 联邦州"
+        ]
+    },
+    {
+        "name": "dienen",
+        "trans": [
+            "Verb. 作……用 +als"
+        ]
+    },
+    {
+        "name": "die Kunst -e",
+        "trans": [
+            "名词. 艺术；技巧；本领"
+        ]
+    },
+    {
+        "name": "die Jahreswende -n",
+        "trans": [
+            "名词. 岁序更新；新年"
+        ]
+    },
+    {
+        "name": "der Jahreswechsel -n",
+        "trans": [
+            "名词. 岁序更新；新年"
+        ]
+    },
+    {
+        "name": "die Mitternacht -e",
+        "trans": [
+            "名词. 半夜；午夜"
+        ]
+    },
+    {
+        "name": "der Sekt -e",
+        "trans": [
+            "名词. 香槟酒"
+        ]
+    },
+    {
+        "name": "der Rutsch -e",
+        "trans": [
+            "名词. 滑；跌"
+        ]
+    },
+    {
+        "name": "Guten Rutsch!",
+        "trans": [
+            "Interj. （新年祝福语）新年顺遂"
+        ]
+    },
+    {
+        "name": "hebräisch",
+        "trans": [
+            "Adj. 希伯来人的；希伯来语的"
+        ]
+    },
+    {
+        "name": "das Latein o. Pl.",
+        "trans": [
+            "名词. 拉丁语"
+        ]
+    },
+    {
+        "name": "der Offizier -e",
+        "trans": [
+            "名词. 军官"
+        ]
+    },
+    {
+        "name": "römisch",
+        "trans": [
+            "Adj. 罗马（人）的"
+        ]
+    },
+    {
+        "name": "der Bettler -",
+        "trans": [
+            "名词. 乞丐"
+        ]
+    },
+    {
+        "name": "die Selbstlosigkeit o. Pl.",
+        "trans": [
+            "名词. 无私"
+        ]
+    },
+    {
+        "name": "die Hilfsbereitschaft o. Pl.",
+        "trans": [
+            "名词. 乐于助人"
+        ]
+    },
+    {
+        "name": "auf/stellen",
+        "trans": [
+            "Verb. 竖立；建立；集结；安置 +A"
+        ]
+    },
+    {
+        "name": "zurück/gehen",
+        "trans": [
+            "Verb. 起源于；追溯到"
+        ]
+    },
+    {
+        "name": "die Zuneigung -en",
+        "trans": [
+            "名词. 好感；爱慕"
+        ]
+    },
+    {
+        "name": "somit",
+        "trans": [
+            "Adv. 因此；所以"
+        ]
+    },
+    {
+        "name": "die Liebeserklärung -en",
+        "trans": [
+            "名词. 表白；爱的宣言"
+        ]
+    },
+    {
+        "name": "auffordern",
+        "trans": [
+            "Verb. 请求；要求 +A (+zu)"
+        ]
+    },
+    {
+        "name": "heimisch",
+        "trans": [
+            "Adj. 本地的；家乡的；本国的"
+        ]
+    },
+    {
+        "name": "die Landeskunde o. Pl.",
+        "trans": [
+            "名词. 国家概况；地方概况；国情学"
+        ]
+    },
+    {
+        "name": "bereiten",
+        "trans": [
+            "Verb. 给予；带来；准备好 +D +A"
+        ]
+    },
+    {
+        "name": "der Dichter -",
+        "trans": [
+            "名词. 诗人；作家"
+        ]
+    }
+]

@@ -66,7 +66,7 @@
           "wordCount": 125
         }
       ],
-      "totalWords":1747
+      "totalWords":1760
     },
     {
       "id": "D2",
@@ -75,24 +75,66 @@
       "units": [
         {
           "id": "D2E1",
-          "name": "0",
+          "name": "Sie sind auch wichtig",
           "file": "D2E1.json",
-          "wordCount": 0
+          "wordCount": 59
         },
         {
           "id": "D2E2",
-          "name": "0",
+          "name": "Hier bin ich zu Hause",
           "file": "D2E2.json",
-          "wordCount": 0
+          "wordCount": 134
         },
         {
           "id": "D2E3",
-          "name": "0",
+          "name": "Wir reisen!",
           "file": "D2E3.json",
-          "wordCount": 0
+          "wordCount": 95
+        },
+        {
+          "id": "D2E4",
+          "name": "Der Aufenthalt im Ausland",
+          "file": "D2E4.json",
+          "wordCount": 123
+        },
+        {
+          "id": "D2E5",
+          "name": "Bleib gesund!",
+          "file": "D2E5.json",
+          "wordCount": 152
+        },
+        {
+          "id": "D2E6",
+          "name": "Bank und Mobiles Bezahlen",
+          "file": "D2E6.json",
+          "wordCount": 114
+        },
+        {
+          "id": "D2E7",
+          "name": "So feiern wir!",
+          "file": "D2E7.json",
+          "wordCount": 127
+        },
+        {
+          "id": "D2E8",
+          "name": "Familie ß ein ewiges Thema",
+          "file": "D2E8.json",
+          "wordCount": 129
+        },
+        {
+          "id": "D2E9",
+          "name": "Sei umweltfreundlich!",
+          "file": "D2E9.json",
+          "wordCount": 99
+        },
+        {
+          "id": "D2E10",
+          "name": "Lernen wir Online?!",
+          "file": "D2E10.json",
+          "wordCount": 104
         }
       ],
-      "totalWords": 0
+      "totalWords": 1136
     }
   ]
 }

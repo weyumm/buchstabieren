@@ -1,0 +1,740 @@
+[
+    {
+        "name": "die Möglichkeit -en",
+        "trans": [
+            "名词. 可能性"
+        ]
+    },
+    {
+        "name": "die Broschüre -n",
+        "trans": [
+            "名词. 小册子；平装小书"
+        ]
+    },
+    {
+        "name": "das Praktikum -ka",
+        "trans": [
+            "名词. （校内外）实习（课）"
+        ]
+    },
+    {
+        "name": "das Auslandspraktikum -ka",
+        "trans": [
+            "名词. 海外实习"
+        ]
+    },
+    {
+        "name": "die Freiwilligenarbeit -en",
+        "trans": [
+            "名词. 志愿者活动；志愿工作"
+        ]
+    },
+    {
+        "name": "das Auslandssemester -",
+        "trans": [
+            "名词. 海外学期"
+        ]
+    },
+    {
+        "name": "die Sprachreise -n",
+        "trans": [
+            "名词. 语言之旅"
+        ]
+    },
+    {
+        "name": "das Au-pair",
+        "trans": [
+            "名词. 互惠生"
+        ]
+    },
+    {
+        "name": "fest",
+        "trans": [
+            "Adj. 坚固的；固定的"
+        ]
+    },
+    {
+        "name": "der Wohnsitz -e",
+        "trans": [
+            "名词. 居住地"
+        ]
+    },
+    {
+        "name": "der Kinderbetreuer -",
+        "trans": [
+            "名词. 看护孩子的人"
+        ]
+    },
+    {
+        "name": "die Hochschule -n",
+        "trans": [
+            "名词. 高等学校"
+        ]
+    },
+    {
+        "name": "die Neuorientierung -en",
+        "trans": [
+            "名词. 新方向；再定位"
+        ]
+    },
+    {
+        "name": "die Auszeit -en",
+        "trans": [
+            "名词. 停学；休息时间"
+        ]
+    },
+    {
+        "name": "unterstützen",
+        "trans": [
+            "Verb. 支持 +A"
+        ]
+    },
+    {
+        "name": "der Schutz o. Pl.",
+        "trans": [
+            "名词. 保护"
+        ]
+    },
+    {
+        "name": "die Umwelt o. Pl.",
+        "trans": [
+            "名词. 环境"
+        ]
+    },
+    {
+        "name": "sozial",
+        "trans": [
+            "Adj. 社会的；社会福利的"
+        ]
+    },
+    {
+        "name": "erkunden",
+        "trans": [
+            "Verb. 勘察；探究 +A"
+        ]
+    },
+    {
+        "name": "einmalig",
+        "trans": [
+            "Adj. 一次的；无与伦比的"
+        ]
+    },
+    {
+        "name": "zeugen von",
+        "trans": [
+            "Verb. 证明；证实 +D"
+        ]
+    },
+    {
+        "name": "der Mut o. Pl.",
+        "trans": [
+            "名词. 勇气；胆识"
+        ]
+    },
+    {
+        "name": "die Selbständigkeit -en",
+        "trans": [
+            "名词. 独立性"
+        ]
+    },
+    {
+        "name": "interkulturell",
+        "trans": [
+            "Adj. 跨文化的"
+        ]
+    },
+    {
+        "name": "die Kompetenz -en",
+        "trans": [
+            "名词. 才能；权限"
+        ]
+    },
+    {
+        "name": "zuletzt",
+        "trans": [
+            "Adv. 最后；前一个"
+        ]
+    },
+    {
+        "name": "nicht zuletzt",
+        "trans": [
+            "Adv. 特别是；特别；尤其是"
+        ]
+    },
+    {
+        "name": "beruflich",
+        "trans": [
+            "Adj. 职业的"
+        ]
+    },
+    {
+        "name": "nirgends",
+        "trans": [
+            "Adv. 无处；哪儿也没有"
+        ]
+    },
+    {
+        "name": "der Landsmann -leute",
+        "trans": [
+            "名词. 同胞；同乡"
+        ]
+    },
+    {
+        "name": "zusammen/kommen",
+        "trans": [
+            "Verb. 和……相聚；碰面"
+        ]
+    },
+    {
+        "name": "beherrschen",
+        "trans": [
+            "Verb. 统治；控制；掌握；精通 +A"
+        ]
+    },
+    {
+        "name": "ab und zu",
+        "trans": [
+            "Adv. 有时；偶尔"
+        ]
+    },
+    {
+        "name": "kombinieren",
+        "trans": [
+            "Verb. 联合；结合 +A"
+        ]
+    },
+    {
+        "name": "bevorzugen",
+        "trans": [
+            "Verb. 更喜欢；宁愿；优选 +A"
+        ]
+    },
+    {
+        "name": "plaudern",
+        "trans": [
+            "Verb. 闲谈聊天"
+        ]
+    },
+    {
+        "name": "früher",
+        "trans": [
+            "Adj./Adv. 以前的；以前"
+        ]
+    },
+    {
+        "name": "Australien",
+        "trans": [
+            "名词. 澳大利亚"
+        ]
+    },
+    {
+        "name": "die Vorbereitung -en",
+        "trans": [
+            "名词. 准备"
+        ]
+    },
+    {
+        "name": "nervös",
+        "trans": [
+            "Adj. 紧张不安的"
+        ]
+    },
+    {
+        "name": "das Ziel -e",
+        "trans": [
+            "名词. 目标；目的地"
+        ]
+    },
+    {
+        "name": "die Entscheidung -en",
+        "trans": [
+            "名词. 决定"
+        ]
+    },
+    {
+        "name": "behandeln",
+        "trans": [
+            "Verb. 对待；处理 +A"
+        ]
+    },
+    {
+        "name": "die Hausarbeit -en",
+        "trans": [
+            "名词. 家务"
+        ]
+    },
+    {
+        "name": "die Gegend -en",
+        "trans": [
+            "名词. 地区；附近地区"
+        ]
+    },
+    {
+        "name": "der Abschied -e",
+        "trans": [
+            "名词. 离别；告别"
+        ]
+    },
+    {
+        "name": "der Haushalt -e",
+        "trans": [
+            "名词. 家政；家务"
+        ]
+    },
+    {
+        "name": "einerseits",
+        "trans": [
+            "Adv. 一方面"
+        ]
+    },
+    {
+        "name": "andererseits",
+        "trans": [
+            "Adv. 另一方面"
+        ]
+    },
+    {
+        "name": "einsam",
+        "trans": [
+            "Adj. 孤独的；寂寞的"
+        ]
+    },
+    {
+        "name": "Nepal",
+        "trans": [
+            "名词. 尼泊尔"
+        ]
+    },
+    {
+        "name": "die Kindertagesstätte -n",
+        "trans": [
+            "名词. 日托"
+        ]
+    },
+    {
+        "name": "arm",
+        "trans": [
+            "Adj. 贫穷的；可怜的"
+        ]
+    },
+    {
+        "name": "der Kindergarten ¨-",
+        "trans": [
+            "名词. 幼儿园"
+        ]
+    },
+    {
+        "name": "gymnastisch",
+        "trans": [
+            "Adj. 体操的"
+        ]
+    },
+    {
+        "name": "überraschen",
+        "trans": [
+            "Verb. 使人感到意外 +A"
+        ]
+    },
+    {
+        "name": "grundlegend",
+        "trans": [
+            "Adj. 基础的；根本的"
+        ]
+    },
+    {
+        "name": "ein/bringen",
+        "trans": [
+            "Verb. 引进；引入 +A"
+        ]
+    },
+    {
+        "name": "die Müllvermeidung -en",
+        "trans": [
+            "名词. 垃圾最少化"
+        ]
+    },
+    {
+        "name": "durch/führen",
+        "trans": [
+            "Verb. 实施；进行 +A"
+        ]
+    },
+    {
+        "name": "nach/fragen",
+        "trans": [
+            "Verb. 打听；再问"
+        ]
+    },
+    {
+        "name": "der Studienabschluss ¨e",
+        "trans": [
+            "名词. 学位"
+        ]
+    },
+    {
+        "name": "der Standort -e",
+        "trans": [
+            "名词. 位置；方位"
+        ]
+    },
+    {
+        "name": "die Voraussetzung -en",
+        "trans": [
+            "名词. 前提；先决条件"
+        ]
+    },
+    {
+        "name": "die Kosten Pl.",
+        "trans": [
+            "名词. 花费；支出"
+        ]
+    },
+    {
+        "name": "der Studiengang ¨e",
+        "trans": [
+            "名词. 大学课程设置"
+        ]
+    },
+    {
+        "name": "weltweit",
+        "trans": [
+            "Adj. 世界范围的"
+        ]
+    },
+    {
+        "name": "belegen",
+        "trans": [
+            "Verb. 证实；表明；占用 +A"
+        ]
+    },
+    {
+        "name": "das Zielland ¨er",
+        "trans": [
+            "名词. 目的国"
+        ]
+    },
+    {
+        "name": "eingeschrieben",
+        "trans": [
+            "Adj. 注册过的"
+        ]
+    },
+    {
+        "name": "der Bachelor -s",
+        "trans": [
+            "名词. 学士（学位）"
+        ]
+    },
+    {
+        "name": "der Master -",
+        "trans": [
+            "名词. 硕士（学位）"
+        ]
+    },
+    {
+        "name": "der Konflikt -e",
+        "trans": [
+            "名词. 冲突；争执"
+        ]
+    },
+    {
+        "name": "die Forschung -en",
+        "trans": [
+            "名词. 研究；探讨"
+        ]
+    },
+    {
+        "name": "beinahe",
+        "trans": [
+            "Adv. 几乎；险些"
+        ]
+    },
+    {
+        "name": "achten auf",
+        "trans": [
+            "Verb. 注意；顾着 +A"
+        ]
+    },
+    {
+        "name": "Jura",
+        "trans": [
+            "名词. 法学"
+        ]
+    },
+    {
+        "name": "das Staatsexamen -",
+        "trans": [
+            "名词. 国家考试"
+        ]
+    },
+    {
+        "name": "sogenannt",
+        "trans": [
+            "Adj. 所谓的"
+        ]
+    },
+    {
+        "name": "ab/schließen",
+        "trans": [
+            "Verb. 终止；结束 (+A)"
+        ]
+    },
+    {
+        "name": "die Einführung -en",
+        "trans": [
+            "名词. 引进；导言"
+        ]
+    },
+    {
+        "name": "gewiss",
+        "trans": [
+            "Adj./Adv. 确定的；某个的；当然；一定"
+        ]
+    },
+    {
+        "name": "erfüllen",
+        "trans": [
+            "Verb. 完成；实现；充满 +A"
+        ]
+    },
+    {
+        "name": "die Bewerbung -en",
+        "trans": [
+            "名词. 申请；申请书"
+        ]
+    },
+    {
+        "name": "der Ansprechpartner -",
+        "trans": [
+            "名词. 对口联系人"
+        ]
+    },
+    {
+        "name": "akademisch",
+        "trans": [
+            "Adj. 大学的；学院式的"
+        ]
+    },
+    {
+        "name": "das Auslandsamt ¨er",
+        "trans": [
+            "名词. 对外办事处"
+        ]
+    },
+    {
+        "name": "die Zulassung -en",
+        "trans": [
+            "名词. 准许；许可"
+        ]
+    },
+    {
+        "name": "die Bedingung -en",
+        "trans": [
+            "名词. 条件；前提"
+        ]
+    },
+    {
+        "name": "informieren",
+        "trans": [
+            "Verb. 告知 +A"
+        ]
+    },
+    {
+        "name": "die Anzahl o. Pl.",
+        "trans": [
+            "名词. 一定数目"
+        ]
+    },
+    {
+        "name": "stammen +aus/von",
+        "trans": [
+            "Verb. 出身于；来自 +D"
+        ]
+    },
+    {
+        "name": "betragen",
+        "trans": [
+            "Verb. 计；共计 +A"
+        ]
+    },
+    {
+        "name": "das Tutorium -rien",
+        "trans": [
+            "名词. 辅导（性）练习"
+        ]
+    },
+    {
+        "name": "das Kolloquium -ien",
+        "trans": [
+            "名词. 课堂讨论；学术讨论会"
+        ]
+    },
+    {
+        "name": "referieren +über",
+        "trans": [
+            "Verb. 汇报；作报告 +A"
+        ]
+    },
+    {
+        "name": "beschränkt",
+        "trans": [
+            "Adj. 受限制的"
+        ]
+    },
+    {
+        "name": "vertiefen",
+        "trans": [
+            "Verb. 加深 +A"
+        ]
+    },
+    {
+        "name": "ernst",
+        "trans": [
+            "Adj. 严肃的；认真的"
+        ]
+    },
+    {
+        "name": "betrunken",
+        "trans": [
+            "Adj. 喝醉了的"
+        ]
+    },
+    {
+        "name": "real",
+        "trans": [
+            "Adj. 物质的；真实的；现实的"
+        ]
+    },
+    {
+        "name": "fest/stellen",
+        "trans": [
+            "Verb. 确定；发现；强调说明 +A"
+        ]
+    },
+    {
+        "name": "außer",
+        "trans": [
+            "Präp. 除……以外；在……外 +D"
+        ]
+    },
+    {
+        "name": "der Friseur -e",
+        "trans": [
+            "名词. 理发师"
+        ]
+    },
+    {
+        "name": "vergehen",
+        "trans": [
+            "Verb. （时间）流逝；消逝"
+        ]
+    },
+    {
+        "name": "der Flug -e",
+        "trans": [
+            "名词. 飞；飞行"
+        ]
+    },
+    {
+        "name": "zurück/blicken auf",
+        "trans": [
+            "Verb. 回头看；回顾 +A"
+        ]
+    },
+    {
+        "name": "gemischt",
+        "trans": [
+            "Adj. 混合的；混杂的"
+        ]
+    },
+    {
+        "name": "profitieren +von",
+        "trans": [
+            "Verb. 从……中获利；受益 +D"
+        ]
+    },
+    {
+        "name": "der Horizont -e",
+        "trans": [
+            "名词. 地平线；视野"
+        ]
+    },
+    {
+        "name": "erweitern",
+        "trans": [
+            "Verb. 加宽；扩大 +A"
+        ]
+    },
+    {
+        "name": "tolerant",
+        "trans": [
+            "Adj. 宽容的"
+        ]
+    },
+    {
+        "name": "breit",
+        "trans": [
+            "Adj. 宽广的；广阔的"
+        ]
+    },
+    {
+        "name": "die Perspektive -n",
+        "trans": [
+            "名词. 远景；前途；观点；看法"
+        ]
+    },
+    {
+        "name": "der Zwischenfall ¨e",
+        "trans": [
+            "名词. （意外）事件；事故"
+        ]
+    },
+    {
+        "name": "um/gehen +mit",
+        "trans": [
+            "Verb. 对待；对付 +D"
+        ]
+    },
+    {
+        "name": "wertvoll",
+        "trans": [
+            "Adj. 贵重的；有价值的"
+        ]
+    },
+    {
+        "name": "der Kleiderbügel -",
+        "trans": [
+            "名词. 衣架"
+        ]
+    },
+    {
+        "name": "positiv",
+        "trans": [
+            "Adj. 肯定的；积极的"
+        ]
+    },
+    {
+        "name": "negativ",
+        "trans": [
+            "Adj. 否定的；消极的"
+        ]
+    },
+    {
+        "name": "geisteswissenschaftlich",
+        "trans": [
+            "Adj. 人文学科的；社会科学的"
+        ]
+    },
+    {
+        "name": "naturwissenschaftlich",
+        "trans": [
+            "Adj. 自然科学的"
+        ]
+    },
+    {
+        "name": "ingenieurwissenschaftlich",
+        "trans": [
+            "Adj. 工程学的"
+        ]
+    }
+]

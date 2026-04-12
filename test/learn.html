@@ -2126,43 +2126,6 @@
     });
   }
 
-  /**
-   * 启用键盘数字键 1-6 快速答题功能
-   */
-  function enableNumberKeyQuizNavigation() {
-    document.addEventListener('keydown', (e) => {
-      // 仅在测验视图且有活跃测验、尚未作答当前题时生效
-      if (state.view !== "quiz" || !state.quiz || state.quiz.answered) {
-        return;
-      }
-
-      // 仅处理数字键 1 到 6
-      if (e.key >= '1' && e.key <= '6') {
-        e.preventDefault(); // 阻止浏览器默认行为（如页面滚动等）
-
-        const idx = parseInt(e.key, 10) - 1; // 转为 0-based 索引
-        const choicesWrap = $("#choices", elViewRoot);
-        if (!choicesWrap) return;
-
-        const choiceButtons = $$(".choice", choicesWrap);
-        if (idx >= choiceButtons.length) return;
-
-        const targetBtn = choiceButtons[idx];
-        if (
-          targetBtn &&
-          !targetBtn.disabled &&
-          targetBtn.getAttribute("data-choice") !== "（无更多选项）"
-        ) {
-          // 确保选项在视口内（提升 UX）
-          targetBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-          // 模拟点击，复用已有答题逻辑
-          targetBtn.click();
-        }
-      }
-    });
-  }
-
-
   /** ---------- Init ---------- */
   async function init() {
     loadSetting();
@@ -2171,8 +2134,6 @@
     updateSidebarPills();
 
     bindEvents();
-    // 启用键盘 1-6 快速答题
-    enableNumberKeyQuizNavigation();
 
     try {
       await loadDictionary();

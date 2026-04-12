@@ -1,0 +1,686 @@
+[
+    {
+        "name": "die Bank -en",
+        "trans": [
+            "名词. 银行"
+        ]
+    },
+    {
+        "name": "die Bankkarte -n",
+        "trans": [
+            "名词. 银行卡"
+        ]
+    },
+    {
+        "name": "per",
+        "trans": [
+            "Präp. 经；由；用；以；每"
+        ]
+    },
+    {
+        "name": "scannen",
+        "trans": [
+            "Verb. 扫描 +A"
+        ]
+    },
+    {
+        "name": "berühmt",
+        "trans": [
+            "Adj. 著名的；有名气的"
+        ]
+    },
+    {
+        "name": "normal",
+        "trans": [
+            "Adj. 平常的；通常的"
+        ]
+    },
+    {
+        "name": "das Konto -s",
+        "trans": [
+            "名词. 账户"
+        ]
+    },
+    {
+        "name": "die Bankleistungen Pl.",
+        "trans": [
+            "名词. 银行服务"
+        ]
+    },
+    {
+        "name": "das Girokonto -s",
+        "trans": [
+            "名词. 转账账户"
+        ]
+    },
+    {
+        "name": "das Sparkonto -s",
+        "trans": [
+            "名词. 储蓄账户"
+        ]
+    },
+    {
+        "name": "der Geldautomat -en",
+        "trans": [
+            "名词. 自动存取款机"
+        ]
+    },
+    {
+        "name": "eröffnen",
+        "trans": [
+            "Verb. （宣布）开始；开幕；开设；开除；开启 +A"
+        ]
+    },
+    {
+        "name": "schließen",
+        "trans": [
+            "Verb. 关；闭；锁；结束；缔结；订立 +A"
+        ]
+    },
+    {
+        "name": "überweisen",
+        "trans": [
+            "Verb. 汇款；汇入；转账；转诊 +A"
+        ]
+    },
+    {
+        "name": "der Zins -en",
+        "trans": [
+            "名词. 利息"
+        ]
+    },
+    {
+        "name": "die EC-Karte -n",
+        "trans": [
+            "名词. 借记卡"
+        ]
+    },
+    {
+        "name": "die Einzahlung -en",
+        "trans": [
+            "名词. 存入"
+        ]
+    },
+    {
+        "name": "die Abhebung -en",
+        "trans": [
+            "名词. 提款"
+        ]
+    },
+    {
+        "name": "die Abzahlung -en",
+        "trans": [
+            "名词. 分期付款"
+        ]
+    },
+    {
+        "name": "das Darlehen -",
+        "trans": [
+            "名词. 贷款；借贷"
+        ]
+    },
+    {
+        "name": "treffen sich",
+        "trans": [
+            "Verb. 会面；碰头"
+        ]
+    },
+    {
+        "name": "der Mentor -ren",
+        "trans": [
+            "名词. 指导人；指导教师"
+        ]
+    },
+    {
+        "name": "die Formalität -en",
+        "trans": [
+            "名词. 形式（上的事）；惯例；手续"
+        ]
+    },
+    {
+        "name": "erledigen",
+        "trans": [
+            "Verb. 处理完毕；解决；了结 +A"
+        ]
+    },
+    {
+        "name": "die Pflicht -en",
+        "trans": [
+            "名词. 义务；责任；职责"
+        ]
+    },
+    {
+        "name": "üblich",
+        "trans": [
+            "Adj. 普遍的；通常的"
+        ]
+    },
+    {
+        "name": "die Absicht -en",
+        "trans": [
+            "名词. 目的；意图"
+        ]
+    },
+    {
+        "name": "etwas",
+        "trans": [
+            "Pron. 一些；少许"
+        ]
+    },
+    {
+        "name": "der Korb -e",
+        "trans": [
+            "名词. 篮子；篓子；篮球；摇篮"
+        ]
+    },
+    {
+        "name": "das Subjekt -e",
+        "trans": [
+            "名词. 主体；【语法】主语"
+        ]
+    },
+    {
+        "name": "das Attribut -e",
+        "trans": [
+            "名词. 特征；属性；【语法】定语"
+        ]
+    },
+    {
+        "name": "um/formen",
+        "trans": [
+            "Verb. 改变；改造；使变成 +A"
+        ]
+    },
+    {
+        "name": "der Farbstift -e",
+        "trans": [
+            "名词. 彩笔"
+        ]
+    },
+    {
+        "name": "markieren",
+        "trans": [
+            "Verb. 在……上做标记；把……标出；强调；使突出 +A"
+        ]
+    },
+    {
+        "name": "ab/wechseln",
+        "trans": [
+            "Verb. 交替 +sich"
+        ]
+    },
+    {
+        "name": "der Plan -e",
+        "trans": [
+            "名词. 计划；打算；设计图；图纸"
+        ]
+    },
+    {
+        "name": "das Paket -e",
+        "trans": [
+            "名词. 包裹；套餐"
+        ]
+    },
+    {
+        "name": "die Gebühr -en",
+        "trans": [
+            "名词. 支付；（公用事业）费用；会费"
+        ]
+    },
+    {
+        "name": "die Geheimzahl -en",
+        "trans": [
+            "名词. 密码"
+        ]
+    },
+    {
+        "name": "an/streichen",
+        "trans": [
+            "Verb. 画线标出；勾出 +A"
+        ]
+    },
+    {
+        "name": "der Meldezettel -",
+        "trans": [
+            "名词. 申请表"
+        ]
+    },
+    {
+        "name": "aus/füllen",
+        "trans": [
+            "Verb. 填满；塞满；填写；填空 +A"
+        ]
+    },
+    {
+        "name": "an/stellen",
+        "trans": [
+            "Verb. 排队；（以某种方式）表现；做；装作 +sich"
+        ]
+    },
+    {
+        "name": "der Schalter -",
+        "trans": [
+            "名词. 开关；（营业）窗口"
+        ]
+    },
+    {
+        "name": "der Semesterbeginn o. Pl.",
+        "trans": [
+            "名词. 新学期；学期开始"
+        ]
+    },
+    {
+        "name": "speziell",
+        "trans": [
+            "Adj. 特别的；特殊的；专门的"
+        ]
+    },
+    {
+        "name": "die Kontoführung -en",
+        "trans": [
+            "名词. 账户管理"
+        ]
+    },
+    {
+        "name": "gratis",
+        "trans": [
+            "Adj. 免费的"
+        ]
+    },
+    {
+        "name": "ab",
+        "trans": [
+            "Präp. 从……起；从……开始 +D/+A"
+        ]
+    },
+    {
+        "name": "das Online-Banking",
+        "trans": [
+            "名词. 网络银行业务"
+        ]
+    },
+    {
+        "name": "die Studienbestätigung -en",
+        "trans": [
+            "名词. 学生证明"
+        ]
+    },
+    {
+        "name": "der Brief -e",
+        "trans": [
+            "名词. 信；函"
+        ]
+    },
+    {
+        "name": "korrigieren",
+        "trans": [
+            "Verb. 改正；修改 +A"
+        ]
+    },
+    {
+        "name": "entscheiden",
+        "trans": [
+            "Verb. 决定；选定；抉择 +A/sich"
+        ]
+    },
+    {
+        "name": "der Detektiv -e",
+        "trans": [
+            "名词. 侦探"
+        ]
+    },
+    {
+        "name": "mobil",
+        "trans": [
+            "Adj. 活动的；流动的"
+        ]
+    },
+    {
+        "name": "lösen",
+        "trans": [
+            "Verb. 解决；解答；购买（票）；解开；解除；溶化 +A"
+        ]
+    },
+    {
+        "name": "beantragen",
+        "trans": [
+            "Verb. 申请 +A"
+        ]
+    },
+    {
+        "name": "der Geldbeutel -",
+        "trans": [
+            "名词. 钱包"
+        ]
+    },
+    {
+        "name": "leihen",
+        "trans": [
+            "Verb. 借给；借入 +D +A"
+        ]
+    },
+    {
+        "name": "gewohnt",
+        "trans": [
+            "Adj. 习惯的"
+        ]
+    },
+    {
+        "name": "der Luftballon -s",
+        "trans": [
+            "名词. 气球"
+        ]
+    },
+    {
+        "name": "zu/geben",
+        "trans": [
+            "Verb. 供认；承认；容许；允许 +A"
+        ]
+    },
+    {
+        "name": "sowieso",
+        "trans": [
+            "Adv. 反正"
+        ]
+    },
+    {
+        "name": "buchen",
+        "trans": [
+            "Verb. 预订（车、船、机票等） +A"
+        ]
+    },
+    {
+        "name": "aus/gehen",
+        "trans": [
+            "Verb. 外出"
+        ]
+    },
+    {
+        "name": "der Cappuccino -s",
+        "trans": [
+            "名词. 意大利奶泡咖啡"
+        ]
+    },
+    {
+        "name": "der Espresso -s",
+        "trans": [
+            "名词. 意式浓咖啡"
+        ]
+    },
+    {
+        "name": "die Zeitumstellung -en",
+        "trans": [
+            "名词. 调时间；倒时差"
+        ]
+    },
+    {
+        "name": "der Laden -",
+        "trans": [
+            "名词. 商店；百叶窗"
+        ]
+    },
+    {
+        "name": "der Imbissstand -e",
+        "trans": [
+            "名词. 小吃摊"
+        ]
+    },
+    {
+        "name": "die Bratwurst ¨e",
+        "trans": [
+            "名词. 德国油煎香肠"
+        ]
+    },
+    {
+        "name": "das Zahlungsmittel -",
+        "trans": [
+            "名词. 支付手段"
+        ]
+    },
+    {
+        "name": "halten von",
+        "trans": [
+            "Verb. 认为"
+        ]
+    },
+    {
+        "name": "die Übersetzung -en",
+        "trans": [
+            "名词. 翻译；译文；译本"
+        ]
+    },
+    {
+        "name": "der Kommentator -en / die Kommentatorin -nen",
+        "trans": [
+            "名词. 评论员；注释者"
+        ]
+    },
+    {
+        "name": "der Strafzettel -",
+        "trans": [
+            "名词. 罚单"
+        ]
+    },
+    {
+        "name": "bedauern",
+        "trans": [
+            "Verb. 遗憾；惋惜 +A"
+        ]
+    },
+    {
+        "name": "weinen",
+        "trans": [
+            "Verb. 哭；流泪"
+        ]
+    },
+    {
+        "name": "vervollständigen",
+        "trans": [
+            "Verb. 使完整 +A"
+        ]
+    },
+    {
+        "name": "die Zahlungsweise -n",
+        "trans": [
+            "名词. 支付方式"
+        ]
+    },
+    {
+        "name": "der Bürger -",
+        "trans": [
+            "名词. 市民；公民"
+        ]
+    },
+    {
+        "name": "altmodisch",
+        "trans": [
+            "Adj. 不时髦的；过时的；落后的"
+        ]
+    },
+    {
+        "name": "das Prozent o. Pl.",
+        "trans": [
+            "名词. 百分率；百分数"
+        ]
+    },
+    {
+        "name": "die Münze -n",
+        "trans": [
+            "名词. 钱币；硬币"
+        ]
+    },
+    {
+        "name": "verbreiten",
+        "trans": [
+            "Verb. 传播；散布；推广；流行 +A/sich"
+        ]
+    },
+    {
+        "name": "der Grund -e",
+        "trans": [
+            "名词. 理由；动机"
+        ]
+    },
+    {
+        "name": "der Datenklau o. Pl.",
+        "trans": [
+            "名词. 数据盗取"
+        ]
+    },
+    {
+        "name": "die Hinsicht o. Pl.",
+        "trans": [
+            "名词. 方面"
+        ]
+    },
+    {
+        "name": "völlig",
+        "trans": [
+            "Adj. 完全的；充分的"
+        ]
+    },
+    {
+        "name": "die Mode -n",
+        "trans": [
+            "名词. 时装；流行式样"
+        ]
+    },
+    {
+        "name": "das Entwicklungsland ¨er",
+        "trans": [
+            "名词. 发展中国家"
+        ]
+    },
+    {
+        "name": "insbesondere",
+        "trans": [
+            "Adv. 尤其；特别"
+        ]
+    },
+    {
+        "name": "ungern",
+        "trans": [
+            "Adv. 不乐意地；不情愿地"
+        ]
+    },
+    {
+        "name": "sogar",
+        "trans": [
+            "Adv. 甚至；连"
+        ]
+    },
+    {
+        "name": "bargeldlos",
+        "trans": [
+            "Adj. 不用现金的"
+        ]
+    },
+    {
+        "name": "die Tendenz -en",
+        "trans": [
+            "名词. 倾向"
+        ]
+    },
+    {
+        "name": "abhängen von",
+        "trans": [
+            "Verb. 依赖；取决于 +D"
+        ]
+    },
+    {
+        "name": "das Verhalten o. Pl.",
+        "trans": [
+            "名词. 行为"
+        ]
+    },
+    {
+        "name": "der Verbraucher -",
+        "trans": [
+            "名词. 消费者；用户"
+        ]
+    },
+    {
+        "name": "die Technologie -n",
+        "trans": [
+            "名词. 科技；工艺（学）"
+        ]
+    },
+    {
+        "name": "die Firma -men",
+        "trans": [
+            "名词. 公司；企业"
+        ]
+    },
+    {
+        "name": "die Kooperation -en",
+        "trans": [
+            "名词. 合作；协作"
+        ]
+    },
+    {
+        "name": "europäisch",
+        "trans": [
+            "Adj. 欧洲的"
+        ]
+    },
+    {
+        "name": "global",
+        "trans": [
+            "Adj. 全球的；总的；大众的；一般的"
+        ]
+    },
+    {
+        "name": "die Ambition -en",
+        "trans": [
+            "名词. 抱负；野心"
+        ]
+    },
+    {
+        "name": "die Generation -en",
+        "trans": [
+            "名词. 代；世"
+        ]
+    },
+    {
+        "name": "vergesslich",
+        "trans": [
+            "Adj. 健忘的；易忘的"
+        ]
+    },
+    {
+        "name": "der Dieb -e",
+        "trans": [
+            "名词. 贼；小偷"
+        ]
+    },
+    {
+        "name": "der Akku -s",
+        "trans": [
+            "名词. 蓄电池"
+        ]
+    },
+    {
+        "name": "technisch",
+        "trans": [
+            "Adj. 技术方面的；技术（上）的"
+        ]
+    },
+    {
+        "name": "der Link -s",
+        "trans": [
+            "名词. 网络连接"
+        ]
+    },
+    {
+        "name": "die Hälfte -n",
+        "trans": [
+            "名词. 一半"
+        ]
+    },
+    {
+        "name": "obig",
+        "trans": [
+            "Adj. 上述的"
+        ]
+    }
+]

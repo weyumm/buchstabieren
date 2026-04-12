@@ -1,0 +1,776 @@
+[
+    {
+        "name": "die Zusammensetzung -en",
+        "trans": [
+            "名词. 成分；组成；组建"
+        ]
+    },
+    {
+        "name": "schicksalhaft",
+        "trans": [
+            "Adj. 命中注定的；天赐的"
+        ]
+    },
+    {
+        "name": "das Wunder -",
+        "trans": [
+            "名词. 奇迹；奇事（物）"
+        ]
+    },
+    {
+        "name": "die Erde -n",
+        "trans": [
+            "名词. 地球；世界"
+        ]
+    },
+    {
+        "name": "friedlich",
+        "trans": [
+            "Adj. 和平的；安宁的"
+        ]
+    },
+    {
+        "name": "der Treibstoff -e",
+        "trans": [
+            "名词. 燃料；推进剂"
+        ]
+    },
+    {
+        "name": "der Hafen ¨-",
+        "trans": [
+            "名词. 港口"
+        ]
+    },
+    {
+        "name": "reich",
+        "trans": [
+            "Adj. 富有的；丰富的 +an +D"
+        ]
+    },
+    {
+        "name": "die Großfamilie -n",
+        "trans": [
+            "名词. （由几代人组成的）大家庭"
+        ]
+    },
+    {
+        "name": "an/schauen",
+        "trans": [
+            "Verb. 参观；观察；检查 +A/sich (+D)"
+        ]
+    },
+    {
+        "name": "die Informatik o. Pl.",
+        "trans": [
+            "名词. 信息学；计算机科学"
+        ]
+    },
+    {
+        "name": "fort/bilden",
+        "trans": [
+            "Verb. 深造；进修 +A/sich"
+        ]
+    },
+    {
+        "name": "der Ruhestand o. Pl.",
+        "trans": [
+            "名词. 退休；退休状态"
+        ]
+    },
+    {
+        "name": "die Grundschule -n",
+        "trans": [
+            "名词. 小学"
+        ]
+    },
+    {
+        "name": "der/die Rechtsanwalt ¨e / Rechtsanwältin -nen",
+        "trans": [
+            "名词. 律师"
+        ]
+    },
+    {
+        "name": "das Dach ¨er",
+        "trans": [
+            "名词. 屋面；（转）安全；保护；庇护"
+        ]
+    },
+    {
+        "name": "das Zuhause o. Pl.",
+        "trans": [
+            "名词. 家；住处"
+        ]
+    },
+    {
+        "name": "die Lebensform -en",
+        "trans": [
+            "名词. 生活方式"
+        ]
+    },
+    {
+        "name": "populär",
+        "trans": [
+            "Adj. 大众的；通俗的；受欢迎的"
+        ]
+    },
+    {
+        "name": "die Lösung -en",
+        "trans": [
+            "名词. 解答；解法；答案；解除；政权；溶解"
+        ]
+    },
+    {
+        "name": "der Stellenwert -e",
+        "trans": [
+            "名词. 价值；重要意义"
+        ]
+    },
+    {
+        "name": "obwohl",
+        "trans": [
+            "Konj. 虽然；尽管"
+        ]
+    },
+    {
+        "name": "die Praktik -en",
+        "trans": [
+            "名词. 方式；做法；方法；程序；步骤"
+        ]
+    },
+    {
+        "name": "praktizieren",
+        "trans": [
+            "Verb. 实施；应用；实行"
+        ]
+    },
+    {
+        "name": "nach wie vor",
+        "trans": [
+            "Adv. 一如既往"
+        ]
+    },
+    {
+        "name": "das Bewusstsein o. Pl.",
+        "trans": [
+            "名词. 意识；知悉；觉悟"
+        ]
+    },
+    {
+        "name": "innerhalb",
+        "trans": [
+            "Präp. 在……之内 +G"
+        ]
+    },
+    {
+        "name": "die Verantwortung -en",
+        "trans": [
+            "名词. 责任"
+        ]
+    },
+    {
+        "name": "die Ehrfurcht o. Pl.",
+        "trans": [
+            "名词. 敬畏；崇敬；尊敬"
+        ]
+    },
+    {
+        "name": "sorgen",
+        "trans": [
+            "Verb. 照料；关心；为……忧虑 +für"
+        ]
+    },
+    {
+        "name": "die Quelle -n",
+        "trans": [
+            "名词. 来源；发源地；出处"
+        ]
+    },
+    {
+        "name": "die Weisheit o. Pl.",
+        "trans": [
+            "名词. 智慧"
+        ]
+    },
+    {
+        "name": "der Respekt -e",
+        "trans": [
+            "名词. 尊敬；尊重"
+        ]
+    },
+    {
+        "name": "die Nacht -e",
+        "trans": [
+            "名词. 夜"
+        ]
+    },
+    {
+        "name": "das Heilkraut ¨er",
+        "trans": [
+            "名词. 药草"
+        ]
+    },
+    {
+        "name": "die Erziehung o. Pl.",
+        "trans": [
+            "名词. 教育"
+        ]
+    },
+    {
+        "name": "pädagogisch",
+        "trans": [
+            "Adj. 师范的；教育学的"
+        ]
+    },
+    {
+        "name": "die Strenge o. Pl.",
+        "trans": [
+            "名词. 严厉；严格"
+        ]
+    },
+    {
+        "name": "die Geduld o. Pl.",
+        "trans": [
+            "名词. 耐心；忍耐"
+        ]
+    },
+    {
+        "name": "die Disziplin o. Pl.",
+        "trans": [
+            "名词. 纪律；风纪"
+        ]
+    },
+    {
+        "name": "die Fürsorge o. Pl.",
+        "trans": [
+            "名词. 关怀；照顾；帮助"
+        ]
+    },
+    {
+        "name": "die Belehrung -en",
+        "trans": [
+            "名词. 教训；教导；劝导"
+        ]
+    },
+    {
+        "name": "schuld",
+        "trans": [
+            "Adj. 有过失的；对……负有责任的"
+        ]
+    },
+    {
+        "name": "erziehen",
+        "trans": [
+            "Verb. 教育；抚养 +A"
+        ]
+    },
+    {
+        "name": "befassen sich mit",
+        "trans": [
+            "Verb. 从事于；致力于；研究"
+        ]
+    },
+    {
+        "name": "moralisch",
+        "trans": [
+            "Adj. 道德的；道义上的"
+        ]
+    },
+    {
+        "name": "das Volk -er",
+        "trans": [
+            "名词. 人民；民族；平民"
+        ]
+    },
+    {
+        "name": "betonen",
+        "trans": [
+            "Verb. 强调 +A"
+        ]
+    },
+    {
+        "name": "die Wichtigkeit -en",
+        "trans": [
+            "名词. 重要性；必要性"
+        ]
+    },
+    {
+        "name": "der Gehorsam o. Pl.",
+        "trans": [
+            "名词. 服从；顺从"
+        ]
+    },
+    {
+        "name": "die Autorität -en",
+        "trans": [
+            "名词. 权威人士；专家"
+        ]
+    },
+    {
+        "name": "gesamt",
+        "trans": [
+            "Adj. 全部的；完全的"
+        ]
+    },
+    {
+        "name": "das Reich -e",
+        "trans": [
+            "名词. 帝国；大国；领域"
+        ]
+    },
+    {
+        "name": "einmal",
+        "trans": [
+            "Adv. 有一次；某个时候"
+        ]
+    },
+    {
+        "name": "ergeben sich",
+        "trans": [
+            "Verb. 产生；得出 +aus"
+        ]
+    },
+    {
+        "name": "die Tugend -en",
+        "trans": [
+            "名词. 美德；德行"
+        ]
+    },
+    {
+        "name": "beschränken",
+        "trans": [
+            "Verb. 把……限制在；限于 +A/sich (+auf +A)"
+        ]
+    },
+    {
+        "name": "hochschätzen",
+        "trans": [
+            "Verb. 高度评价；非常尊重 +A"
+        ]
+    },
+    {
+        "name": "die Stabilität o. Pl.",
+        "trans": [
+            "名词. 坚固；平稳性；稳定；安定"
+        ]
+    },
+    {
+        "name": "solide",
+        "trans": [
+            "Adj. 坚固的；耐用的；有节制的；诚恳的"
+        ]
+    },
+    {
+        "name": "gesellschaftlich",
+        "trans": [
+            "Adj. 社会的"
+        ]
+    },
+    {
+        "name": "das Bevölkerungswachstum o. Pl.",
+        "trans": [
+            "名词. 人口增长"
+        ]
+    },
+    {
+        "name": "die Entwicklung -en",
+        "trans": [
+            "名词. 发展；成长"
+        ]
+    },
+    {
+        "name": "vererben",
+        "trans": [
+            "Verb. 把……传给；把……遗传给 +D +A"
+        ]
+    },
+    {
+        "name": "weiter/geben",
+        "trans": [
+            "Verb. 传递；传授 +A"
+        ]
+    },
+    {
+        "name": "die Beziehung -en",
+        "trans": [
+            "名词. 关系"
+        ]
+    },
+    {
+        "name": "gehorsam",
+        "trans": [
+            "Adj. 服从的；顺从的；听话的"
+        ]
+    },
+    {
+        "name": "entwickeln",
+        "trans": [
+            "Verb. 发展；发挥；发达 +A/sich"
+        ]
+    },
+    {
+        "name": "liebevoll",
+        "trans": [
+            "Adj. 亲切的；慈爱的；温柔的"
+        ]
+    },
+    {
+        "name": "besprechen",
+        "trans": [
+            "Verb. 讨论；谈论 +A"
+        ]
+    },
+    {
+        "name": "die Angelegenheit -en",
+        "trans": [
+            "名词. 事情；事务"
+        ]
+    },
+    {
+        "name": "planen",
+        "trans": [
+            "Verb. 计划；打算 +A"
+        ]
+    },
+    {
+        "name": "die Planung -en",
+        "trans": [
+            "名词. 计划；规划"
+        ]
+    },
+    {
+        "name": "verschicken",
+        "trans": [
+            "Verb. 发送；寄送 +A"
+        ]
+    },
+    {
+        "name": "reservieren",
+        "trans": [
+            "Verb. 预订；保留 +A"
+        ]
+    },
+    {
+        "name": "respektieren",
+        "trans": [
+            "Verb. 尊敬；敬重 +A"
+        ]
+    },
+    {
+        "name": "ein/beziehen",
+        "trans": [
+            "Verb. 包括；包含 +A (+in +A)"
+        ]
+    },
+    {
+        "name": "das Zeichen -",
+        "trans": [
+            "名词. 符号；文字；标志"
+        ]
+    },
+    {
+        "name": "das Gefühl -e",
+        "trans": [
+            "名词. 感情；心情；感觉"
+        ]
+    },
+    {
+        "name": "groß/ziehen",
+        "trans": [
+            "Verb. 抚养长大 +A"
+        ]
+    },
+    {
+        "name": "auf/ziehen",
+        "trans": [
+            "Verb. 抚养；培养 +A"
+        ]
+    },
+    {
+        "name": "das Gesetz -e",
+        "trans": [
+            "名词. 法律；法则"
+        ]
+    },
+    {
+        "name": "das Band -e",
+        "trans": [
+            "名词. 纽带；联系；关系"
+        ]
+    },
+    {
+        "name": "die Toleranz o. Pl.",
+        "trans": [
+            "名词. 宽容；容许"
+        ]
+    },
+    {
+        "name": "die Höflichkeit -en",
+        "trans": [
+            "名词. 礼貌；客气"
+        ]
+    },
+    {
+        "name": "durchblättern",
+        "trans": [
+            "Verb. 翻书；浏览 +A"
+        ]
+    },
+    {
+        "name": "erregen",
+        "trans": [
+            "Verb. 使兴奋；激动；不安；引起；惹起 +A"
+        ]
+    },
+    {
+        "name": "das Ehepaar -e",
+        "trans": [
+            "名词. 夫妇"
+        ]
+    },
+    {
+        "name": "die Zustimmung -en",
+        "trans": [
+            "名词. 同意；赞成"
+        ]
+    },
+    {
+        "name": "bezeichnen",
+        "trans": [
+            "Verb. 说明；表示；把……称为 +A/als"
+        ]
+    },
+    {
+        "name": "wirtschaftlich",
+        "trans": [
+            "Adj. 经济（上的）；节俭的"
+        ]
+    },
+    {
+        "name": "der Aspekt -e",
+        "trans": [
+            "名词. 角度；观点；方面"
+        ]
+    },
+    {
+        "name": "ignorieren",
+        "trans": [
+            "Verb. 忽视；无视 +A"
+        ]
+    },
+    {
+        "name": "beschäftigen sich mit",
+        "trans": [
+            "Verb. 从事；研究"
+        ]
+    },
+    {
+        "name": "die Zwischenprüfung -en",
+        "trans": [
+            "名词. 中期考试"
+        ]
+    },
+    {
+        "name": "absolvieren",
+        "trans": [
+            "Verb. 完成；毕业于 +A"
+        ]
+    },
+    {
+        "name": "starten",
+        "trans": [
+            "Verb. 开始；起飞；使起飞 +A"
+        ]
+    },
+    {
+        "name": "niedrig",
+        "trans": [
+            "Adj. 低的；浅的"
+        ]
+    },
+    {
+        "name": "fördern",
+        "trans": [
+            "Verb. 促进；推动 +A"
+        ]
+    },
+    {
+        "name": "die Seltenheit -en",
+        "trans": [
+            "名词. 稀有；罕见（的事物）"
+        ]
+    },
+    {
+        "name": "wesentlich",
+        "trans": [
+            "Adj. 重要的；基本的；显著的"
+        ]
+    },
+    {
+        "name": "sowie",
+        "trans": [
+            "Konj. 以及"
+        ]
+    },
+    {
+        "name": "die Karriere -n",
+        "trans": [
+            "名词. 职业生涯"
+        ]
+    },
+    {
+        "name": "der Wandel o. Pl.",
+        "trans": [
+            "名词. 变化；变迁"
+        ]
+    },
+    {
+        "name": "das Rollenbild -er",
+        "trans": [
+            "名词. 角色形象"
+        ]
+    },
+    {
+        "name": "der Kaufmann -leute / die Kauffrau -en",
+        "trans": [
+            "名词. 商人"
+        ]
+    },
+    {
+        "name": "nach/denken",
+        "trans": [
+            "Verb. 思考；思索 +über +A"
+        ]
+    },
+    {
+        "name": "der Druck -e",
+        "trans": [
+            "名词. 压力"
+        ]
+    },
+    {
+        "name": "wechseln",
+        "trans": [
+            "Verb. 更换；交换；兑换 +A"
+        ]
+    },
+    {
+        "name": "ab/schreiben",
+        "trans": [
+            "Verb. 抄写；抄袭 +A"
+        ]
+    },
+    {
+        "name": "die Forderung o. Pl.",
+        "trans": [
+            "名词. 强制；支持；要求"
+        ]
+    },
+    {
+        "name": "die Rollenverteilung -en",
+        "trans": [
+            "名词. 角色分配"
+        ]
+    },
+    {
+        "name": "der Nesthocker -",
+        "trans": [
+            "名词. 依赖父母生活的成年人"
+        ]
+    },
+    {
+        "name": "der Moderator -en / die Moderatorin -nen",
+        "trans": [
+            "名词. 主持人；解说员"
+        ]
+    },
+    {
+        "name": "der Soziologe -n / die Soziologin -nen",
+        "trans": [
+            "名词. 社会学家"
+        ]
+    },
+    {
+        "name": "das Nest -er",
+        "trans": [
+            "名词. 巢；窝；穴"
+        ]
+    },
+    {
+        "name": "hocken",
+        "trans": [
+            "Verb. 蹲（坐）；闲待着"
+        ]
+    },
+    {
+        "name": "vorkommen",
+        "trans": [
+            "Verb. 发生；出现"
+        ]
+    },
+    {
+        "name": "verändern",
+        "trans": [
+            "Verb. 改变；变化 +A/sich"
+        ]
+    },
+    {
+        "name": "beurteilen",
+        "trans": [
+            "Verb. 判断；评价 +A"
+        ]
+    },
+    {
+        "name": "statistisch",
+        "trans": [
+            "Adj. 统计（学）的"
+        ]
+    },
+    {
+        "name": "ab/kürzen",
+        "trans": [
+            "Verb. 缩短；缩写 +A"
+        ]
+    },
+    {
+        "name": "berufstätig",
+        "trans": [
+            "Adj. 在职的；有职业的"
+        ]
+    },
+    {
+        "name": "der Brieffreund -e / die Brieffreundin -nen",
+        "trans": [
+            "名词. 笔友"
+        ]
+    },
+    {
+        "name": "die Trennung -en",
+        "trans": [
+            "名词. 分开；分手"
+        ]
+    },
+    {
+        "name": "preiswert",
+        "trans": [
+            "Adj. 物美价廉的；便宜的"
+        ]
+    },
+    {
+        "name": "die Selbständigkeit o. Pl.",
+        "trans": [
+            "名词. 独立性"
+        ]
+    },
+    {
+        "name": "die Redewendung -en",
+        "trans": [
+            "名词. 惯用语；习用语"
+        ]
+    },
+    {
+        "name": "der Status o. Pl.",
+        "trans": [
+            "名词. （社会、法律）地位；状况；身份"
+        ]
+    }
+]

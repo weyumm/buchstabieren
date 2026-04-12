@@ -1,0 +1,572 @@
+[
+    {
+        "name": "an/schauen +A",
+        "trans": [
+            "名词. 注视，察看"
+        ]
+    },
+    {
+        "name": "die Atmosphäre, -n",
+        "trans": [
+            "名词. 大气；气氛"
+        ]
+    },
+    {
+        "name": "das Niveau, -s",
+        "trans": [
+            "名词. 水平"
+        ]
+    },
+    {
+        "name": "mindestens",
+        "trans": [
+            "名词. 至少，起码"
+        ]
+    },
+    {
+        "name": "doppelt",
+        "trans": [
+            "名词. 双倍的"
+        ]
+    },
+    {
+        "name": "der Franken, -",
+        "trans": [
+            "名词. （瑞士）法郎"
+        ]
+    },
+    {
+        "name": "die Bar, -s",
+        "trans": [
+            "名词. 酒吧"
+        ]
+    },
+    {
+        "name": "entfernt",
+        "trans": [
+            "名词. 远离的"
+        ]
+    },
+    {
+        "name": "die Gasse, -n",
+        "trans": [
+            "名词. 巷，胡同"
+        ]
+    },
+    {
+        "name": "auf/brechen (s.) (bricht auf)",
+        "trans": [
+            "名词. 动身，启程"
+        ]
+    },
+    {
+        "name": "klappen (+A)",
+        "trans": [
+            "名词. 成功，顺利；翻，翻转"
+        ]
+    },
+    {
+        "name": "der Katzensprung, ⸚e",
+        "trans": [
+            "名词. 很短的距离"
+        ]
+    },
+    {
+        "name": "die Fahrt, -en",
+        "trans": [
+            "名词. 行驶，行程"
+        ]
+    },
+    {
+        "name": "knapp",
+        "trans": [
+            "名词. 不足的；紧的"
+        ]
+    },
+    {
+        "name": "parken (+A)",
+        "trans": [
+            "名词. （汽车）停放"
+        ]
+    },
+    {
+        "name": "die Tiefgarage, -n",
+        "trans": [
+            "名词. 地下停车库"
+        ]
+    },
+    {
+        "name": "die Hotelrezeption, -en",
+        "trans": [
+            "名词. 宾馆前台"
+        ]
+    },
+    {
+        "name": "aus/steigen (s.)",
+        "trans": [
+            "名词. 下（车、船等）"
+        ]
+    },
+    {
+        "name": "der Luxus o. Pl.",
+        "trans": [
+            "名词. 奢华，豪华"
+        ]
+    },
+    {
+        "name": "die Konditorei, -en",
+        "trans": [
+            "名词. 糕点甜食店"
+        ]
+    },
+    {
+        "name": "bieten +D +A",
+        "trans": [
+            "名词. 提供，给予"
+        ]
+    },
+    {
+        "name": "die Landschaft, -en",
+        "trans": [
+            "名词. 风光，风景"
+        ]
+    },
+    {
+        "name": "der Ausblick, -e",
+        "trans": [
+            "名词. 远眺；前景"
+        ]
+    },
+    {
+        "name": "die Wissenschaft, -en",
+        "trans": [
+            "名词. 科学"
+        ]
+    },
+    {
+        "name": "bestätigen +A",
+        "trans": [
+            "名词. 证实，证明"
+        ]
+    },
+    {
+        "name": "mehrere",
+        "trans": [
+            "名词. 好些，几个"
+        ]
+    },
+    {
+        "name": "wissenschaftlich",
+        "trans": [
+            "名词. 科学的"
+        ]
+    },
+    {
+        "name": "die Studie, -n",
+        "trans": [
+            "名词. 研究，调查"
+        ]
+    },
+    {
+        "name": "das Abenteuer, -",
+        "trans": [
+            "名词. 冒险，奇遇"
+        ]
+    },
+    {
+        "name": "entdecken +A",
+        "trans": [
+            "名词. （首次）发现"
+        ]
+    },
+    {
+        "name": "(das) Thailand",
+        "trans": [
+            "名词. 泰国"
+        ]
+    },
+    {
+        "name": "gewöhnlich",
+        "trans": [
+            "名词. 通常的，一般的"
+        ]
+    },
+    {
+        "name": "entspannt",
+        "trans": [
+            "名词. 放松的"
+        ]
+    },
+    {
+        "name": "alltäglich",
+        "trans": [
+            "名词. 日常的"
+        ]
+    },
+    {
+        "name": "der Alltag",
+        "trans": [
+            "名词. 平日，工作日"
+        ]
+    },
+    {
+        "name": "entfliehen +D (s.)",
+        "trans": [
+            "名词. 逃走，逃脱"
+        ]
+    },
+    {
+        "name": "stoßen +auf +A",
+        "trans": [
+            "名词. 偶然发现，遇到"
+        ]
+    },
+    {
+        "name": "unerwartet",
+        "trans": [
+            "名词. 出乎意料的"
+        ]
+    },
+    {
+        "name": "das Hindernis, -se",
+        "trans": [
+            "名词. 障碍"
+        ]
+    },
+    {
+        "name": "flexibel",
+        "trans": [
+            "名词. 灵活的"
+        ]
+    },
+    {
+        "name": "erstaunlich",
+        "trans": [
+            "名词. 惊人的，不可思议的"
+        ]
+    },
+    {
+        "name": "die Freude, -n",
+        "trans": [
+            "名词. 愉快，高兴"
+        ]
+    },
+    {
+        "name": "die Vorfreude, -n",
+        "trans": [
+            "名词. 事前的喜悦"
+        ]
+    },
+    {
+        "name": "spüren +A",
+        "trans": [
+            "名词. 觉察到"
+        ]
+    },
+    {
+        "name": "das Großmünster",
+        "trans": [
+            "名词. 苏黎世大教堂"
+        ]
+    },
+    {
+        "name": "testen +A",
+        "trans": [
+            "名词. 测试，检验"
+        ]
+    },
+    {
+        "name": "orientalisch",
+        "trans": [
+            "名词. 东方的，东方国家的"
+        ]
+    },
+    {
+        "name": "die Auswahl o. Pl.",
+        "trans": [
+            "名词. （供选择的）花色品种"
+        ]
+    },
+    {
+        "name": "beenden +A",
+        "trans": [
+            "名词. 结束，完成"
+        ]
+    },
+    {
+        "name": "die Ansichtskarte, -n",
+        "trans": [
+            "名词. 风景明信片"
+        ]
+    },
+    {
+        "name": "der Westsee",
+        "trans": [
+            "名词. 西湖"
+        ]
+    },
+    {
+        "name": "die Pagode, -n",
+        "trans": [
+            "名词. 塔"
+        ]
+    },
+    {
+        "name": "die Teeplantage, -n",
+        "trans": [
+            "名词. 茶园"
+        ]
+    },
+    {
+        "name": "der/die Einheimische (dekl. wie Adj.)",
+        "trans": [
+            "名词. 本地人"
+        ]
+    },
+    {
+        "name": "verreisen (s.)",
+        "trans": [
+            "名词. 外出旅行"
+        ]
+    },
+    {
+        "name": "die Herzogin, -nen",
+        "trans": [
+            "名词. 女公爵；公爵夫人"
+        ]
+    },
+    {
+        "name": "besichtigen +A",
+        "trans": [
+            "名词. 参观"
+        ]
+    },
+    {
+        "name": "durstig",
+        "trans": [
+            "名词. 口渴的"
+        ]
+    },
+    {
+        "name": "das Bauhaus",
+        "trans": [
+            "名词. 包豪斯"
+        ]
+    },
+    {
+        "name": "unter/gehen (s.)",
+        "trans": [
+            "名词. 落下；毁灭"
+        ]
+    },
+    {
+        "name": "das Souvenir, -s",
+        "trans": [
+            "名词. 纪念礼物"
+        ]
+    },
+    {
+        "name": "das Kunsthandwerk, -e",
+        "trans": [
+            "名词. 手工艺品"
+        ]
+    },
+    {
+        "name": "das Kunstwerk, -e",
+        "trans": [
+            "名词. 艺术品"
+        ]
+    },
+    {
+        "name": "fantasieren (+A)",
+        "trans": [
+            "名词. 想象，梦想"
+        ]
+    },
+    {
+        "name": "das Szenario, ...rien",
+        "trans": [
+            "名词. 场景"
+        ]
+    },
+    {
+        "name": "materiell",
+        "trans": [
+            "名词. 物质的；经济上的"
+        ]
+    },
+    {
+        "name": "schätzen +A",
+        "trans": [
+            "名词. 尊敬，赏识；估计，估量"
+        ]
+    },
+    {
+        "name": "unglaublich",
+        "trans": [
+            "名词. 巨大的；非常"
+        ]
+    },
+    {
+        "name": "stimulieren +A",
+        "trans": [
+            "名词. 刺激，使兴奋"
+        ]
+    },
+    {
+        "name": "die Fantasie o. Pl.",
+        "trans": [
+            "名词. 幻想，想象力"
+        ]
+    },
+    {
+        "name": "die Anekdote, -n",
+        "trans": [
+            "名词. 轶事"
+        ]
+    },
+    {
+        "name": "verschwinden (s.)",
+        "trans": [
+            "名词. 消失，不见了"
+        ]
+    },
+    {
+        "name": "einzigartig",
+        "trans": [
+            "名词. 独特的，独一无二的"
+        ]
+    },
+    {
+        "name": "das Bargeld o. Pl.",
+        "trans": [
+            "名词. 现金"
+        ]
+    },
+    {
+        "name": "die Kreditkarte, -n",
+        "trans": [
+            "名词. 信用卡"
+        ]
+    },
+    {
+        "name": "der Personalausweis, -e",
+        "trans": [
+            "名词. 身份证"
+        ]
+    },
+    {
+        "name": "das Ladegerät, -e",
+        "trans": [
+            "名词. 充电器"
+        ]
+    },
+    {
+        "name": "der Pass, ⸚e",
+        "trans": [
+            "名词. 护照；山口"
+        ]
+    },
+    {
+        "name": "die Zahnbürste, -n",
+        "trans": [
+            "名词. 牙刷"
+        ]
+    },
+    {
+        "name": "der Föhn, -e",
+        "trans": [
+            "名词. 吹风机"
+        ]
+    },
+    {
+        "name": "der Kamm, ⸚e",
+        "trans": [
+            "名词. 梳子"
+        ]
+    },
+    {
+        "name": "die Unterwäsche o. Pl.",
+        "trans": [
+            "名词. 内衣"
+        ]
+    },
+    {
+        "name": "der Flipflop, -s",
+        "trans": [
+            "名词. 人字拖鞋"
+        ]
+    },
+    {
+        "name": "das Moskitonetz, -e",
+        "trans": [
+            "名词. 蚊帐"
+        ]
+    },
+    {
+        "name": "der Stadtplan, ⸚e",
+        "trans": [
+            "名词. 城市地图"
+        ]
+    },
+    {
+        "name": "nach/schlagen (+A)",
+        "trans": [
+            "名词. 查阅，参考"
+        ]
+    },
+    {
+        "name": "ein/packen (+A)",
+        "trans": [
+            "名词. 包入，装入"
+        ]
+    },
+    {
+        "name": "dorthin",
+        "trans": [
+            "名词. 去那儿"
+        ]
+    },
+    {
+        "name": "die Schweiz",
+        "trans": [
+            "名词. 瑞士"
+        ]
+    },
+    {
+        "name": "mieten +A",
+        "trans": [
+            "名词. 租（用）"
+        ]
+    },
+    {
+        "name": "südlich",
+        "trans": [
+            "名词. 南方的"
+        ]
+    },
+    {
+        "name": "der Bundesstaat, -en",
+        "trans": [
+            "名词. 联邦制国家"
+        ]
+    },
+    {
+        "name": "der Kanton, -e",
+        "trans": [
+            "名词. （瑞士的）州"
+        ]
+    },
+    {
+        "name": "der Abschnitt, -e",
+        "trans": [
+            "名词. 章节，段落"
+        ]
+    },
+    {
+        "name": "auffällig",
+        "trans": [
+            "名词. 引人注目的，突出的"
+        ]
+    }
+]

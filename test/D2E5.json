@@ -1,0 +1,914 @@
+[
+    {
+        "name": "der/das Teil -e",
+        "trans": [
+            "名词. 部分；零件"
+        ]
+    },
+    {
+        "name": "der Mund ¨er",
+        "trans": [
+            "名词. 口；嘴"
+        ]
+    },
+    {
+        "name": "der Arm -e",
+        "trans": [
+            "名词. （胳）膊"
+        ]
+    },
+    {
+        "name": "der Hals ¨e",
+        "trans": [
+            "名词. 脖子；喉；咽喉"
+        ]
+    },
+    {
+        "name": "der Magen ¨-",
+        "trans": [
+            "名词. 胃"
+        ]
+    },
+    {
+        "name": "der Bauch ¨e",
+        "trans": [
+            "名词. 腹部；肚子"
+        ]
+    },
+    {
+        "name": "das Bein -e",
+        "trans": [
+            "名词. 腿"
+        ]
+    },
+    {
+        "name": "der Schmerz -en",
+        "trans": [
+            "名词. 疼痛；痛苦"
+        ]
+    },
+    {
+        "name": "die Erkältung -en",
+        "trans": [
+            "名词. 着凉；感冒"
+        ]
+    },
+    {
+        "name": "das Medikament -e",
+        "trans": [
+            "名词. 药品；药物"
+        ]
+    },
+    {
+        "name": "die Krankheit -en",
+        "trans": [
+            "名词. 疾病"
+        ]
+    },
+    {
+        "name": "die Praxis -xen",
+        "trans": [
+            "名词. 诊所；事务所"
+        ]
+    },
+    {
+        "name": "der Doktor -en",
+        "trans": [
+            "名词. 医生；大夫；博士"
+        ]
+    },
+    {
+        "name": "die Sehschule",
+        "trans": [
+            "名词. 视力矫正"
+        ]
+    },
+    {
+        "name": "die Kontaktlinse -n",
+        "trans": [
+            "名词. 隐形眼镜"
+        ]
+    },
+    {
+        "name": "der Zahnarzt ¨e",
+        "trans": [
+            "名词. 牙医"
+        ]
+    },
+    {
+        "name": "der Hausarzt ¨e",
+        "trans": [
+            "名词. 家庭医生"
+        ]
+    },
+    {
+        "name": "die Hausärztin -nen",
+        "trans": [
+            "名词. 家庭医生（女性）"
+        ]
+    },
+    {
+        "name": "das Fieber -",
+        "trans": [
+            "名词. 发烧；发热"
+        ]
+    },
+    {
+        "name": "der Schnupfen -",
+        "trans": [
+            "名词. 感冒；伤风"
+        ]
+    },
+    {
+        "name": "die Austauschstudentin -nen",
+        "trans": [
+            "名词. 留学交换生（女性）"
+        ]
+    },
+    {
+        "name": "fühlen",
+        "trans": [
+            "Verb. 感觉；觉得；感到 +A/sich"
+        ]
+    },
+    {
+        "name": "wohl",
+        "trans": [
+            "Adv. 舒服；（健康及精神）良好"
+        ]
+    },
+    {
+        "name": "die Tandempartnerin -nen",
+        "trans": [
+            "名词. 语伴；语言伙伴（女性）"
+        ]
+    },
+    {
+        "name": "erfahren",
+        "trans": [
+            "Verb. 得知；获悉 +A"
+        ]
+    },
+    {
+        "name": "die Versicherungskarte -n",
+        "trans": [
+            "名词. 医保卡"
+        ]
+    },
+    {
+        "name": "krankenversichert",
+        "trans": [
+            "Adj. 上过医疗保险的"
+        ]
+    },
+    {
+        "name": "vorbei/kommen",
+        "trans": [
+            "Verb. 走过；经过"
+        ]
+    },
+    {
+        "name": "bei jmdm. vorbei/kommen",
+        "trans": [
+            "Verb. 顺便看看某人"
+        ]
+    },
+    {
+        "name": "befinden sich",
+        "trans": [
+            "Verb. 处于；在"
+        ]
+    },
+    {
+        "name": "die Beschwerde -n",
+        "trans": [
+            "名词. 辛苦；负担；疼苦；病情（Pl.）"
+        ]
+    },
+    {
+        "name": "das Sprechzimmer -",
+        "trans": [
+            "名词. 门诊室；会客室"
+        ]
+    },
+    {
+        "name": "das Symptom -e",
+        "trans": [
+            "名词. （医）症状；征兆"
+        ]
+    },
+    {
+        "name": "niesen",
+        "trans": [
+            "Verb. 打喷嚏"
+        ]
+    },
+    {
+        "name": "erholen sich",
+        "trans": [
+            "Verb. 休养；复原"
+        ]
+    },
+    {
+        "name": "setzen",
+        "trans": [
+            "Verb. 使坐；放；置；坐下 +A/sich"
+        ]
+    },
+    {
+        "name": "weh",
+        "trans": [
+            "Adj. 疼痛的；痛苦的"
+        ]
+    },
+    {
+        "name": "jmdm./sich weh tun",
+        "trans": [
+            "Verb. 使某人/自己疼痛"
+        ]
+    },
+    {
+        "name": "messen",
+        "trans": [
+            "Verb. 量；测量；测量结果是…… +A"
+        ]
+    },
+    {
+        "name": "auf/machen",
+        "trans": [
+            "Verb. 打开；掀开 +A"
+        ]
+    },
+    {
+        "name": "verschreiben",
+        "trans": [
+            "Verb. 开（药方）；开（药） +D +A"
+        ]
+    },
+    {
+        "name": "die Tablette -n",
+        "trans": [
+            "名词. 药片"
+        ]
+    },
+    {
+        "name": "krank/schreiben",
+        "trans": [
+            "Verb. 开病假条 +A"
+        ]
+    },
+    {
+        "name": "unten",
+        "trans": [
+            "Adv. 下面"
+        ]
+    },
+    {
+        "name": "furchtbar",
+        "trans": [
+            "Adj./Adv. 可怕的；非常"
+        ]
+    },
+    {
+        "name": "ein/nehmen",
+        "trans": [
+            "Verb. 吃；服用；收入；住入；占有（空间） +A"
+        ]
+    },
+    {
+        "name": "beachten",
+        "trans": [
+            "Verb. 注意；重视 +A"
+        ]
+    },
+    {
+        "name": "die Zuzahlung -en",
+        "trans": [
+            "名词. 部分费用"
+        ]
+    },
+    {
+        "name": "teilweise",
+        "trans": [
+            "Adv. 部分地"
+        ]
+    },
+    {
+        "name": "höchstens",
+        "trans": [
+            "Adv. 最多；至多"
+        ]
+    },
+    {
+        "name": "schläfrig",
+        "trans": [
+            "Adj. 昏倦的；瞌睡的"
+        ]
+    },
+    {
+        "name": "kümmern sich",
+        "trans": [
+            "Verb. 关心；照顾；围绕 (+um)"
+        ]
+    },
+    {
+        "name": "an/ziehen",
+        "trans": [
+            "Verb. 穿；穿衣；吸引 +A/sich"
+        ]
+    },
+    {
+        "name": "um/ziehen",
+        "trans": [
+            "Verb. 给……换衣服；换衣服 +A/sich"
+        ]
+    },
+    {
+        "name": "freuen sich",
+        "trans": [
+            "Verb. 感到高兴；期待 (+auf +A / +über +A)"
+        ]
+    },
+    {
+        "name": "erkälten sich",
+        "trans": [
+            "Verb. 感冒；受凉"
+        ]
+    },
+    {
+        "name": "das Wartezimmer -",
+        "trans": [
+            "名词. 候诊室；等候室"
+        ]
+    },
+    {
+        "name": "wegen",
+        "trans": [
+            "Präp. 由于；为了 +G"
+        ]
+    },
+    {
+        "name": "die Sorge -n",
+        "trans": [
+            "名词. 忧虑；担心；照看；操劳；护理"
+        ]
+    },
+    {
+        "name": "sich Sorge machen",
+        "trans": [
+            "Verb. 忧虑；担心 (+um)"
+        ]
+    },
+    {
+        "name": "auf keinen Fall",
+        "trans": [
+            "Adv. 无论如何不；绝不"
+        ]
+    },
+    {
+        "name": "während",
+        "trans": [
+            "Präp./Konj. 在……期间；和……同时；（然后，）相反 +G"
+        ]
+    },
+    {
+        "name": "Gute Besserung!",
+        "trans": [
+            "Interj. 祝早日康复"
+        ]
+    },
+    {
+        "name": "wünschen",
+        "trans": [
+            "Verb. 希望；祝愿；想要 +D +A"
+        ]
+    },
+    {
+        "name": "die Lebensweise -n",
+        "trans": [
+            "名词. 生活方式"
+        ]
+    },
+    {
+        "name": "die Ernährung -en",
+        "trans": [
+            "名词. 食物；营养"
+        ]
+    },
+    {
+        "name": "bestehen +aus",
+        "trans": [
+            "Verb. 由……组成 +D"
+        ]
+    },
+    {
+        "name": "die Portion -en",
+        "trans": [
+            "名词. 一份；份额；部分"
+        ]
+    },
+    {
+        "name": "das Salz o. Pl.",
+        "trans": [
+            "名词. 盐"
+        ]
+    },
+    {
+        "name": "der Zucker o. Pl.",
+        "trans": [
+            "名词. 糖"
+        ]
+    },
+    {
+        "name": "das Blut o. Pl.",
+        "trans": [
+            "名词. 血"
+        ]
+    },
+    {
+        "name": "funktionieren",
+        "trans": [
+            "Verb. 正常运转；起作用"
+        ]
+    },
+    {
+        "name": "fließen",
+        "trans": [
+            "Verb. 流（动）"
+        ]
+    },
+    {
+        "name": "der Schlaf o. Pl.",
+        "trans": [
+            "名词. 睡觉；睡眠"
+        ]
+    },
+    {
+        "name": "das Bedürfnis -se",
+        "trans": [
+            "名词. 需要；需求"
+        ]
+    },
+    {
+        "name": "das Grundbedürfnis -se",
+        "trans": [
+            "名词. 基本需要"
+        ]
+    },
+    {
+        "name": "verstärken",
+        "trans": [
+            "Verb. 使坚固；加强；增强 +A/sich"
+        ]
+    },
+    {
+        "name": "das Immunsystem -e",
+        "trans": [
+            "名词. 免疫系统"
+        ]
+    },
+    {
+        "name": "das Nervensystem -e",
+        "trans": [
+            "名词. 神经系统"
+        ]
+    },
+    {
+        "name": "das Verdauungssystem -e",
+        "trans": [
+            "名词. 消化系统"
+        ]
+    },
+    {
+        "name": "auf jeden Fall",
+        "trans": [
+            "Adv. 无论如何"
+        ]
+    },
+    {
+        "name": "garantieren",
+        "trans": [
+            "Verb. 保证；担保；保障 +A/+für"
+        ]
+    },
+    {
+        "name": "bei/tragen +zu",
+        "trans": [
+            "Verb. 为……出贡献；有助于 +D"
+        ]
+    },
+    {
+        "name": "der Sauerstoff o. Pl.",
+        "trans": [
+            "名词. 氧（气）"
+        ]
+    },
+    {
+        "name": "die Stimmung -en",
+        "trans": [
+            "名词. 情绪；心情；气氛；情调"
+        ]
+    },
+    {
+        "name": "die Produktion -en",
+        "trans": [
+            "名词. 生产"
+        ]
+    },
+    {
+        "name": "der Knochen -",
+        "trans": [
+            "名词. 骨"
+        ]
+    },
+    {
+        "name": "die Spannung -en",
+        "trans": [
+            "名词. 紧张的心情；紧张；敌对；关系"
+        ]
+    },
+    {
+        "name": "niemand",
+        "trans": [
+            "Pron. 没有人；谁也不"
+        ]
+    },
+    {
+        "name": "das Gleichgewicht o. Pl.",
+        "trans": [
+            "名词. 平衡；均衡"
+        ]
+    },
+    {
+        "name": "die Entspannung o. Pl.",
+        "trans": [
+            "名词. 放松；缓和"
+        ]
+    },
+    {
+        "name": "die Technik -en",
+        "trans": [
+            "名词. 技术；技巧；技能"
+        ]
+    },
+    {
+        "name": "der/das Yoga o. Pl.",
+        "trans": [
+            "名词. 瑜伽"
+        ]
+    },
+    {
+        "name": "die Schönheit -en",
+        "trans": [
+            "名词. 美；美丽；美人"
+        ]
+    },
+    {
+        "name": "es handelt sich um etw.",
+        "trans": [
+            "Verb. 涉及……"
+        ]
+    },
+    {
+        "name": "das Ergebnis -se",
+        "trans": [
+            "名词. 结果；成果"
+        ]
+    },
+    {
+        "name": "möglicherweise",
+        "trans": [
+            "Adv. 也许；可能"
+        ]
+    },
+    {
+        "name": "die Aussage -n",
+        "trans": [
+            "名词. 见解；看法；陈述；说话；吐露"
+        ]
+    },
+    {
+        "name": "direkt",
+        "trans": [
+            "Adj. 直达的；直截的"
+        ]
+    },
+    {
+        "name": "beeinflussen",
+        "trans": [
+            "Verb. 影响 +A"
+        ]
+    },
+    {
+        "name": "überhaupt",
+        "trans": [
+            "Adv. （与否定词连用）完全（没有）；根本（不）；（在疑问句中）究竟；到底；一般地；总的说来"
+        ]
+    },
+    {
+        "name": "die Einstellung -en",
+        "trans": [
+            "名词. 态度；见解"
+        ]
+    },
+    {
+        "name": "eine Frage stellen",
+        "trans": [
+            "Verb. 提一个问题"
+        ]
+    },
+    {
+        "name": "unterstreichen",
+        "trans": [
+            "Verb. 在……下面画线；着重指出；强调 +A"
+        ]
+    },
+    {
+        "name": "kauen",
+        "trans": [
+            "Verb. 咬；咀嚼 (+A)"
+        ]
+    },
+    {
+        "name": "die Vielfalt o. Pl.",
+        "trans": [
+            "名词. 多样性；多种化；繁多"
+        ]
+    },
+    {
+        "name": "das Signal -e",
+        "trans": [
+            "名词. 信号"
+        ]
+    },
+    {
+        "name": "der Mangel -",
+        "trans": [
+            "名词. 不足；缺少；缺乏；缺点；缺陷 (+an +D)"
+        ]
+    },
+    {
+        "name": "konzentrieren",
+        "trans": [
+            "Verb. 集中；集结；专注 +A/sich"
+        ]
+    },
+    {
+        "name": "die Länge o. Pl.",
+        "trans": [
+            "名词. 长；长度；经度"
+        ]
+    },
+    {
+        "name": "um/formulieren",
+        "trans": [
+            "Verb. 变换；变形 +A"
+        ]
+    },
+    {
+        "name": "die Garantie -n",
+        "trans": [
+            "名词. 保证；担保"
+        ]
+    },
+    {
+        "name": "die Verstärkung o. Pl.",
+        "trans": [
+            "名词. 加固；扩大；增加；增强"
+        ]
+    },
+    {
+        "name": "akzeptieren",
+        "trans": [
+            "Verb. 接受 +A"
+        ]
+    },
+    {
+        "name": "der Screenshot -s",
+        "trans": [
+            "名词. 截屏"
+        ]
+    },
+    {
+        "name": "seitdem",
+        "trans": [
+            "Konj./Adv. 从……以来；从那时起"
+        ]
+    },
+    {
+        "name": "traditionell",
+        "trans": [
+            "Adj. （按照）传统的；习惯的；流传的"
+        ]
+    },
+    {
+        "name": "geheimnisvoll",
+        "trans": [
+            "Adj. 神秘的"
+        ]
+    },
+    {
+        "name": "die Legende -n",
+        "trans": [
+            "名词. 传说；传奇"
+        ]
+    },
+    {
+        "name": "medizinisch",
+        "trans": [
+            "Adj. 医学的"
+        ]
+    },
+    {
+        "name": "die Vorgeschichte -n",
+        "trans": [
+            "名词. 某事件发生前的经历；有史以来发生的事情；史前史"
+        ]
+    },
+    {
+        "name": "heilen",
+        "trans": [
+            "Verb. 治愈；治好；痊愈；康复 +A/(s.)"
+        ]
+    },
+    {
+        "name": "das Werk -e",
+        "trans": [
+            "名词. 作品；工厂；工作"
+        ]
+    },
+    {
+        "name": "theoretisch",
+        "trans": [
+            "Adj. 理论（上）的"
+        ]
+    },
+    {
+        "name": "die Grundlage -n",
+        "trans": [
+            "名词. 基础；根据；前提"
+        ]
+    },
+    {
+        "name": "die Harmonie -n",
+        "trans": [
+            "名词. 和谐；和睦；一致；协调"
+        ]
+    },
+    {
+        "name": "die Kraft ¨e",
+        "trans": [
+            "名词. 力（量）；精力；效力"
+        ]
+    },
+    {
+        "name": "existieren",
+        "trans": [
+            "Verb. 存在；生存"
+        ]
+    },
+    {
+        "name": "der Kosmos o. Pl.",
+        "trans": [
+            "名词. 宇宙"
+        ]
+    },
+    {
+        "name": "zerstören",
+        "trans": [
+            "Verb. 破坏；毁坏 +A"
+        ]
+    },
+    {
+        "name": "die Behandlung -en",
+        "trans": [
+            "名词. 治疗；（加工）处理"
+        ]
+    },
+    {
+        "name": "entstehen",
+        "trans": [
+            "Verb. 出现；产生"
+        ]
+    },
+    {
+        "name": "an/sehen +als",
+        "trans": [
+            "Verb. 看作 +A +A"
+        ]
+    },
+    {
+        "name": "untersuchen",
+        "trans": [
+            "Verb. 检查；检验；调查；审查；研究；探讨 +A"
+        ]
+    },
+    {
+        "name": "die Untersuchung -en",
+        "trans": [
+            "名词. 检查；调查；研讨"
+        ]
+    },
+    {
+        "name": "beobachten",
+        "trans": [
+            "Verb. 观察；注视 +A"
+        ]
+    },
+    {
+        "name": "die Zunge -n",
+        "trans": [
+            "名词. 舌"
+        ]
+    },
+    {
+        "name": "der Patient -en",
+        "trans": [
+            "名词. 病人"
+        ]
+    },
+    {
+        "name": "die Stimme -n",
+        "trans": [
+            "名词. 嗓音；声音；（投）票"
+        ]
+    },
+    {
+        "name": "die Atmung -en",
+        "trans": [
+            "名词. 呼吸"
+        ]
+    },
+    {
+        "name": "der Puls o. Pl.",
+        "trans": [
+            "名词. 脉搏"
+        ]
+    },
+    {
+        "name": "die Akupunktur -en",
+        "trans": [
+            "名词. 针灸"
+        ]
+    },
+    {
+        "name": "die Massage -n",
+        "trans": [
+            "名词. 按摩；推拿"
+        ]
+    },
+    {
+        "name": "die Ernährungslehre o. Pl.",
+        "trans": [
+            "名词. 营养学"
+        ]
+    },
+    {
+        "name": "phantastisch",
+        "trans": [
+            "Adj. 非凡的；极妙的"
+        ]
+    },
+    {
+        "name": "der Begriff -e",
+        "trans": [
+            "名词. 概念；观念；想象；理解"
+        ]
+    },
+    {
+        "name": "die Körperhaltung -en",
+        "trans": [
+            "名词. 姿态；体态"
+        ]
+    },
+    {
+        "name": "interessieren sich +für",
+        "trans": [
+            "Verb. 对……感兴趣 +A"
+        ]
+    },
+    {
+        "name": "die Ursache -n",
+        "trans": [
+            "名词. 原因；起因；理由"
+        ]
+    },
+    {
+        "name": "die Zusammenfassung -en",
+        "trans": [
+            "名词. 摘要；概述"
+        ]
+    },
+    {
+        "name": "das Sprichwort ¨er",
+        "trans": [
+            "名词. 谚语"
+        ]
+    },
+    {
+        "name": "die Wandlung -en",
+        "trans": [
+            "名词. 变化；变形"
+        ]
+    }
+]

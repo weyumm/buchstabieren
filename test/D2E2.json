@@ -1,0 +1,806 @@
+[
+    {
+        "name": "der Wolkenkratzer, -",
+        "trans": [
+            "名词. 摩天大楼"
+        ]
+    },
+    {
+        "name": "die Luftverschmutzung, -en",
+        "trans": [
+            "名词. 空气污染"
+        ]
+    },
+    {
+        "name": "die Kuh, =e",
+        "trans": [
+            "名词. 母牛"
+        ]
+    },
+    {
+        "name": "der Ackerbau",
+        "trans": [
+            "名词. 耕作，农业"
+        ]
+    },
+    {
+        "name": "die Fußgängerzone, -n",
+        "trans": [
+            "名词. 步行街"
+        ]
+    },
+    {
+        "name": "der Feldweg, -e",
+        "trans": [
+            "名词. 田间小路"
+        ]
+    },
+    {
+        "name": "das Schwein, -e",
+        "trans": [
+            "名词. 猪"
+        ]
+    },
+    {
+        "name": "die Ziege, -n",
+        "trans": [
+            "名词. 山羊"
+        ]
+    },
+    {
+        "name": "züchten +A",
+        "trans": [
+            "名词. 栽培，培植；培育，饲养"
+        ]
+    },
+    {
+        "name": "die Hansestadt, =e",
+        "trans": [
+            "名词. 汉萨（同盟）城市"
+        ]
+    },
+    {
+        "name": "durcheinander/geraten (gerät durcheinander)",
+        "trans": [
+            "名词. 陷入混乱"
+        ]
+    },
+    {
+        "name": "die Reihenfolge, -n",
+        "trans": [
+            "名词. 顺序，次序"
+        ]
+    },
+    {
+        "name": "das Rathaus, =er",
+        "trans": [
+            "名词. 市政厅，市议会，市政府"
+        ]
+    },
+    {
+        "name": "das Universum",
+        "trans": [
+            "名词. 宇宙"
+        ]
+    },
+    {
+        "name": "die Wallanlage, -n",
+        "trans": [
+            "名词. 护城壕沟"
+        ]
+    },
+    {
+        "name": "der Musikant, -en",
+        "trans": [
+            "名词. 音乐家"
+        ]
+    },
+    {
+        "name": "der Dom, -e",
+        "trans": [
+            "名词. 大教堂"
+        ]
+    },
+    {
+        "name": "der Hauptbahnhof, =e",
+        "trans": [
+            "名词. 主火车站"
+        ]
+    },
+    {
+        "name": "allgemein",
+        "trans": [
+            "名词. 一般的，普通的"
+        ]
+    },
+    {
+        "name": "der Einwohner, -",
+        "trans": [
+            "名词. 居民"
+        ]
+    },
+    {
+        "name": "der Fluss, =e",
+        "trans": [
+            "名词. 河流"
+        ]
+    },
+    {
+        "name": "das Mittelalter o. Pl.",
+        "trans": [
+            "名词. 中世纪"
+        ]
+    },
+    {
+        "name": "der Marktplatz, =e",
+        "trans": [
+            "名词. 集市广场"
+        ]
+    },
+    {
+        "name": "der Baustil, -e",
+        "trans": [
+            "名词. 建筑风格"
+        ]
+    },
+    {
+        "name": "die Backsteingotik",
+        "trans": [
+            "名词. 砖砌哥特式"
+        ]
+    },
+    {
+        "name": "die Weserrenaissance",
+        "trans": [
+            "名词. 威悉文艺复兴"
+        ]
+    },
+    {
+        "name": "bewundern +A",
+        "trans": [
+            "名词. 欣赏；钦佩"
+        ]
+    },
+    {
+        "name": "gelten +als",
+        "trans": [
+            "名词. 被看作"
+        ]
+    },
+    {
+        "name": "das Wahrzeichen, -",
+        "trans": [
+            "名词. 象征，标志"
+        ]
+    },
+    {
+        "name": "das UNESCO-Weltkulturerbe",
+        "trans": [
+            "名词. 联合国教科文组织世界文化遗产"
+        ]
+    },
+    {
+        "name": "ebenfalls",
+        "trans": [
+            "名词. 同样，也是"
+        ]
+    },
+    {
+        "name": "das Märchen, -",
+        "trans": [
+            "名词. 童话"
+        ]
+    },
+    {
+        "name": "der Esel, -",
+        "trans": [
+            "名词. 驴"
+        ]
+    },
+    {
+        "name": "der Hund, -e",
+        "trans": [
+            "名词. 狗"
+        ]
+    },
+    {
+        "name": "der Affe, -n",
+        "trans": [
+            "名词. 猴"
+        ]
+    },
+    {
+        "name": "der Hahn, =e",
+        "trans": [
+            "名词. 公鸡"
+        ]
+    },
+    {
+        "name": "der Tourist, -en",
+        "trans": [
+            "名词. 旅游者"
+        ]
+    },
+    {
+        "name": "evangelisch",
+        "trans": [
+            "名词. 新教的"
+        ]
+    },
+    {
+        "name": "die Kirche, -n",
+        "trans": [
+            "名词. 教堂"
+        ]
+    },
+    {
+        "name": "der Denkmalschutz o. Pl.",
+        "trans": [
+            "名词. 文物保护"
+        ]
+    },
+    {
+        "name": "das Wissenschaftszentrum, ...tren",
+        "trans": [
+            "名词. 科学中心"
+        ]
+    },
+    {
+        "name": "das Universitätsgelände, -",
+        "trans": [
+            "名词. 校园"
+        ]
+    },
+    {
+        "name": "das Phänomen, -e",
+        "trans": [
+            "名词. 现象"
+        ]
+    },
+    {
+        "name": "erleben +A",
+        "trans": [
+            "名词. 经历，体验"
+        ]
+    },
+    {
+        "name": "die Mischung, -en",
+        "trans": [
+            "名词. 混合（物）"
+        ]
+    },
+    {
+        "name": "der Wal, -e",
+        "trans": [
+            "名词. 鲸"
+        ]
+    },
+    {
+        "name": "die Muschel, -n",
+        "trans": [
+            "名词. 贝"
+        ]
+    },
+    {
+        "name": "die Schlachte",
+        "trans": [
+            "名词. 施拉赫特（不来梅的一条街道/堤岸）"
+        ]
+    },
+    {
+        "name": "das Ufer, -",
+        "trans": [
+            "名词. 岸"
+        ]
+    },
+    {
+        "name": "die Kneipe, -n",
+        "trans": [
+            "名词. 小酒馆"
+        ]
+    },
+    {
+        "name": "das Terrasse, -n",
+        "trans": [
+            "名词. 平台，露台"
+        ]
+    },
+    {
+        "name": "der Kohl, -e",
+        "trans": [
+            "名词. 卷心菜"
+        ]
+    },
+    {
+        "name": "die Pinkel, -n",
+        "trans": [
+            "名词. 平克香肠"
+        ]
+    },
+    {
+        "name": "die Grützwurst, =e",
+        "trans": [
+            "名词. 掺有麦粒的香肠"
+        ]
+    },
+    {
+        "name": "fett",
+        "trans": [
+            "名词. 油腻的；肥胖的"
+        ]
+    },
+    {
+        "name": "nahrhaft",
+        "trans": [
+            "名词. 有营养的"
+        ]
+    },
+    {
+        "name": "die Beilage, -n",
+        "trans": [
+            "名词. 配菜"
+        ]
+    },
+    {
+        "name": "verbreitet",
+        "trans": [
+            "名词. 流行的，分布广泛的"
+        ]
+    },
+    {
+        "name": "das Gebäck, -e",
+        "trans": [
+            "名词. 烘制的糕饼"
+        ]
+    },
+    {
+        "name": "die Tradition, -en",
+        "trans": [
+            "名词. 传统，风俗"
+        ]
+    },
+    {
+        "name": "die Zuckerstange, -n",
+        "trans": [
+            "名词. 棒形糖"
+        ]
+    },
+    {
+        "name": "ein/wickeln +A",
+        "trans": [
+            "名词. 把……包起来"
+        ]
+    },
+    {
+        "name": "husten (+A)",
+        "trans": [
+            "名词. 咳嗽"
+        ]
+    },
+    {
+        "name": "die Apotheke, -n",
+        "trans": [
+            "名词. 药房"
+        ]
+    },
+    {
+        "name": "der Kiosk, -e",
+        "trans": [
+            "名词. 书报亭；小卖部"
+        ]
+    },
+    {
+        "name": "unkompliziert",
+        "trans": [
+            "名词. 简单的，不复杂的"
+        ]
+    },
+    {
+        "name": "wehen (+A)",
+        "trans": [
+            "名词. （风）吹"
+        ]
+    },
+    {
+        "name": "die Veranstaltung, -en",
+        "trans": [
+            "名词. 举办；活动"
+        ]
+    },
+    {
+        "name": "die Fläche, -n",
+        "trans": [
+            "名词. 平面；面积"
+        ]
+    },
+    {
+        "name": "die Lage, -n",
+        "trans": [
+            "名词. 位置；姿势；处境"
+        ]
+    },
+    {
+        "name": "die Sehenswürdigkeit, -en",
+        "trans": [
+            "名词. 名胜古迹，景点"
+        ]
+    },
+    {
+        "name": "der Tempel, -",
+        "trans": [
+            "名词. 神庙，寺院"
+        ]
+    },
+    {
+        "name": "das Opfer, -",
+        "trans": [
+            "名词. 牺牲；牺牲品，祭品"
+        ]
+    },
+    {
+        "name": "das Massaker, -",
+        "trans": [
+            "名词. 大屠杀，血洗"
+        ]
+    },
+    {
+        "name": "die Hauptstadt, =e",
+        "trans": [
+            "名词. 首都，首府"
+        ]
+    },
+    {
+        "name": "historisch",
+        "trans": [
+            "名词. 历史的，历史性的"
+        ]
+    },
+    {
+        "name": "die Dynastie, -n",
+        "trans": [
+            "名词. 朝代"
+        ]
+    },
+    {
+        "name": "politisch",
+        "trans": [
+            "名词. 政治的；策略的"
+        ]
+    },
+    {
+        "name": "daher",
+        "trans": [
+            "名词. 因此；从那儿（来）"
+        ]
+    },
+    {
+        "name": "die Gedenkstätte, -n",
+        "trans": [
+            "名词. 纪念场所"
+        ]
+    },
+    {
+        "name": "damalig",
+        "trans": [
+            "名词. 当时的，那时的"
+        ]
+    },
+    {
+        "name": "japanisch",
+        "trans": [
+            "名词. 日本的，日语的"
+        ]
+    },
+    {
+        "name": "der Soldat, -en",
+        "trans": [
+            "名词. 士兵"
+        ]
+    },
+    {
+        "name": "der Stadtrand, =er",
+        "trans": [
+            "名词. 市郊"
+        ]
+    },
+    {
+        "name": "das Grab, =er",
+        "trans": [
+            "名词. 坟墓；死亡，终结"
+        ]
+    },
+    {
+        "name": "botanisch",
+        "trans": [
+            "名词. 植物的"
+        ]
+    },
+    {
+        "name": "die Steinzeit, -en",
+        "trans": [
+            "名词. 石器时代"
+        ]
+    },
+    {
+        "name": "kommunistisch",
+        "trans": [
+            "名词. 共产主义的，共产党的"
+        ]
+    },
+    {
+        "name": "das Porzellan, -e",
+        "trans": [
+            "名词. 瓷（器）"
+        ]
+    },
+    {
+        "name": "das Textil, -en",
+        "trans": [
+            "名词. 纺织品"
+        ]
+    },
+    {
+        "name": "die Volkskunst",
+        "trans": [
+            "名词. 民间艺术"
+        ]
+    },
+    {
+        "name": "umfassen +A",
+        "trans": [
+            "名词. 包括；抱住"
+        ]
+    },
+    {
+        "name": "die Insel, -n",
+        "trans": [
+            "名词. 岛"
+        ]
+    },
+    {
+        "name": "der Kampferbaum, =e",
+        "trans": [
+            "名词. 樟树"
+        ]
+    },
+    {
+        "name": "der Kirschbaum, =e",
+        "trans": [
+            "名词. 樱桃树"
+        ]
+    },
+    {
+        "name": "der Wald, =er",
+        "trans": [
+            "名词. 森林，树林"
+        ]
+    },
+    {
+        "name": "bedeutend",
+        "trans": [
+            "名词. 重要的，显著的，有名的"
+        ]
+    },
+    {
+        "name": "der Herrscher, -",
+        "trans": [
+            "名词. 统治者"
+        ]
+    },
+    {
+        "name": "der Kaiser, -",
+        "trans": [
+            "名词. 皇帝，帝王"
+        ]
+    },
+    {
+        "name": "der Autor, -en",
+        "trans": [
+            "名词. 作家，作者"
+        ]
+    },
+    {
+        "name": "der Astronom, -en",
+        "trans": [
+            "名词. 天文学家"
+        ]
+    },
+    {
+        "name": "die Animation, -en",
+        "trans": [
+            "名词. 动画片绘制"
+        ]
+    },
+    {
+        "name": "das Klima, ...mate",
+        "trans": [
+            "名词. 气候"
+        ]
+    },
+    {
+        "name": "durchschnittlich",
+        "trans": [
+            "名词. 平均的"
+        ]
+    },
+    {
+        "name": "regnen",
+        "trans": [
+            "名词. 下雨"
+        ]
+    },
+    {
+        "name": "das Quiz, -",
+        "trans": [
+            "名词. 智力竞赛，问答游戏"
+        ]
+    },
+    {
+        "name": "der Journalist, -en",
+        "trans": [
+            "名词. 记者，新闻工作者"
+        ]
+    },
+    {
+        "name": "um/ziehen (s.)",
+        "trans": [
+            "名词. 迁居，搬家"
+        ]
+    },
+    {
+        "name": "das Interview, -s",
+        "trans": [
+            "名词. 采访，访谈"
+        ]
+    },
+    {
+        "name": "verlassen +A",
+        "trans": [
+            "名词. 离开"
+        ]
+    },
+    {
+        "name": "zufrieden (+mit)",
+        "trans": [
+            "名词. 满意的"
+        ]
+    },
+    {
+        "name": "der Lärm o. Pl.",
+        "trans": [
+            "名词. 嘈杂声，噪音"
+        ]
+    },
+    {
+        "name": "die Industrie, -n",
+        "trans": [
+            "名词. 工业"
+        ]
+    },
+    {
+        "name": "das Abgas, -e",
+        "trans": [
+            "名词. 废气"
+        ]
+    },
+    {
+        "name": "das Miethaus, =er",
+        "trans": [
+            "名词. 出租房屋"
+        ]
+    },
+    {
+        "name": "der Nachbar, -n",
+        "trans": [
+            "名词. 邻居；邻座；邻国"
+        ]
+    },
+    {
+        "name": "ständig",
+        "trans": [
+            "名词. 经常的，不断的，永久的"
+        ]
+    },
+    {
+        "name": "ein/ziehen (s.)",
+        "trans": [
+            "名词. 迁入"
+        ]
+    },
+    {
+        "name": "aus/ziehen (s.)",
+        "trans": [
+            "名词. 迁移，搬出"
+        ]
+    },
+    {
+        "name": "der Spielplatz, =e",
+        "trans": [
+            "名词. 运动场，游乐场"
+        ]
+    },
+    {
+        "name": "pur",
+        "trans": [
+            "名词. 纯的；纯净的"
+        ]
+    },
+    {
+        "name": "der Zugang, -̈ e",
+        "trans": [
+            "名词. 入口，通道"
+        ]
+    },
+    {
+        "name": "neulich",
+        "trans": [
+            "名词. 新近，不久前"
+        ]
+    },
+    {
+        "name": "vermissen +A",
+        "trans": [
+            "名词. 发觉丢失；惦念"
+        ]
+    },
+    {
+        "name": "insgesamt",
+        "trans": [
+            "名词. 总共，合计"
+        ]
+    },
+    {
+        "name": "neutral",
+        "trans": [
+            "名词. 中性的，中立的"
+        ]
+    },
+    {
+        "name": "argumentieren",
+        "trans": [
+            "名词. 提出论证，陈述理由"
+        ]
+    },
+    {
+        "name": "ätzend",
+        "trans": [
+            "名词. 尖酸的，刻薄的"
+        ]
+    },
+    {
+        "name": "die Feuerwehr",
+        "trans": [
+            "名词. 消防队"
+        ]
+    },
+    {
+        "name": "das Kompromiss, -e",
+        "trans": [
+            "名词. 妥协，和解，谅解"
+        ]
+    },
+    {
+        "name": "tauschen (+A)",
+        "trans": [
+            "名词. 交换"
+        ]
+    },
+    {
+        "name": "das Argument, -e",
+        "trans": [
+            "名词. 论据"
+        ]
+    },
+    {
+        "name": "der Wettbewerb, -e",
+        "trans": [
+            "名词. 比赛，竞争"
+        ]
+    },
+    {
+        "name": "die Veränderung, -en",
+        "trans": [
+            "名词. 变化，改变"
+        ]
+    }
+]

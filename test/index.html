@@ -1,0 +1,1629 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b0f19" />
+  <title>Deutsch Lookup - 德语查词</title>
+  <style>
+    :root{
+      --bg:#0b0f19;
+      --panel: rgba(255,255,255,.06);
+      --panel2: rgba(255,255,255,.08);
+      --border: rgba(255,255,255,.12);
+      --border2: rgba(255,255,255,.18);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.66);
+      --faint: rgba(255,255,255,.45);
+      --brand:#7c5cff;
+      --good:#22c55e;
+      --danger:#fb7185;
+      --warn:#fbbf24;
+      --shadow: 0 12px 34px rgba(0,0,0,.35);
+      --radius: 16px;
+      --radius2: 22px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono","Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    }
+    [data-theme="light"]{
+      --bg:#ffffff;
+      --panel: rgba(15,18,28,.05);
+      --panel2: rgba(15,18,28,.07);
+      --border: rgba(15,18,28,.10);
+      --border2: rgba(15,18,28,.16);
+      --text: rgba(15,18,28,.92);
+      --muted: rgba(15,18,28,.66);
+      --faint: rgba(15,18,28,.45);
+      --shadow: 0 12px 34px rgba(15,18,28,.10);
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      overflow-x:hidden;
+    }
+    a{ color:inherit; text-decoration:none; }
+    .wrap{
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 18px 14px 26px;
+    }
+
+    .topbar{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius2);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+    .brand{
+      display:flex; align-items:center; gap:10px;
+      min-width: 220px;
+    }
+    .logo{
+      width: 34px; height: 34px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, rgba(124,92,255,.95), rgba(34,197,94,.72));
+      border: 1px solid rgba(255,255,255,.18);
+      box-shadow: 0 10px 28px rgba(124,92,255,.22);
+    }
+    .brand h1{ font-size: 14px; margin:0; line-height:1.2; }
+    .brand p{ margin:2px 0 0; font-size:12px; color: var(--muted); }
+
+    .actions{
+      display:flex; align-items:center; gap:10px;
+      flex-wrap: wrap;
+      justify-content:flex-end;
+    }
+    .btn{
+      appearance:none;
+      border: 1px solid var(--border);
+      background: var(--panel);
+      color: var(--text);
+      padding: 9px 12px;
+      border-radius: 12px;
+      cursor:pointer;
+      font-size: 12px;
+      display:inline-flex;
+      gap:8px;
+      align-items:center;
+      transition: transform .08s ease, background .15s ease, border-color .15s ease;
+      user-select:none;
+      white-space:nowrap;
+    }
+    .btn:hover{ background: var(--panel2); border-color: var(--border2); }
+    .btn:active{ transform: translateY(1px); }
+    .btn.primary{
+      border-color: rgba(124,92,255,.45);
+      background: linear-gradient(180deg, rgba(124,92,255,.18), rgba(124,92,255,.10));
+    }
+    .btn.good{
+      border-color: rgba(34,197,94,.42);
+      background: linear-gradient(180deg, rgba(34,197,94,.16), rgba(34,197,94,.08));
+    }
+    .btn.danger{
+      border-color: rgba(251,113,133,.42);
+      background: linear-gradient(180deg, rgba(251,113,133,.14), rgba(251,113,133,.08));
+    }
+    .btn.ghost{ background: transparent; }
+    .btn.small{
+      padding: 7px 10px;
+      border-radius: 10px;
+      font-size: 11px;
+      gap:6px;
+    }
+
+    .kbd{
+      font-family: var(--mono);
+      font-size: 11px;
+      padding: 2px 6px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      background: var(--panel);
+    }
+
+    .grid{ display:grid; grid-template-columns: 1fr; gap: 14px; margin-top: 14px; }
+
+    .card{
+      border: 1px solid var(--border);
+      border-radius: var(--radius2);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      backdrop-filter: blur(10px);
+    }
+    .card .hd{
+      padding: 12px 12px 10px;
+      border-bottom: 1px solid var(--border);
+      display:flex; align-items:center; justify-content:space-between;
+      gap:10px; flex-wrap: wrap;
+    }
+    .card .hd h2{ margin:0; font-size: 13px; letter-spacing:.2px; }
+    .card .bd{ padding: 12px; }
+
+    .pill{
+      display:inline-flex; align-items:center;
+      gap:6px; font-size: 11px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      color: var(--muted);
+      white-space:nowrap;
+    }
+    [data-theme="light"] .pill{ background: rgba(15,18,28,.03); }
+    .pill b{ color: var(--text); font-weight: 650; }
+
+    .hint{ font-size: 12px; color: var(--muted); line-height:1.55; }
+    .hint code{ font-family: var(--mono); font-size: 11px; color: var(--text); }
+
+    .row{ display:flex; gap:10px; align-items:center; flex-wrap: wrap; }
+    .mono{ font-family: var(--mono); }
+
+    .searchRow{ display:flex; gap:10px; align-items: stretch; flex-wrap: wrap; }
+    .searchRow > *{ flex: 1; }
+    .searchRow .btn{ flex: 0 0 auto; }
+
+    label{ font-size: 12px; color: var(--muted); }
+    select, input[type="number"], input[type="text"]{
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 14px;
+      outline:none;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      color: var(--text);
+      transition: border-color .15s ease, background .15s ease;
+    }
+    [data-theme="light"] select,
+    [data-theme="light"] input{ background: rgba(15,18,28,.03); }
+    select:focus, input:focus{
+      border-color: rgba(124,92,255,.45);
+      background: rgba(255,255,255,.05);
+    }
+    [data-theme="light"] select:focus,
+    [data-theme="light"] input:focus{ background: rgba(15,18,28,.05); }
+
+    /* Suggestions: fold by max-height + scrollbar */
+    .suggestWrap{ margin-top: 10px; display:none; }
+    .suggestWrap.open{ display:block; }
+
+    .suggestHeader{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding: 8px 2px 8px;
+    }
+    .suggestHeader .left{
+      min-width: 0;
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+      overflow:hidden;
+      text-overflow: ellipsis;
+    }
+    .suggestHeader .right{
+      display:flex;
+      gap:8px;
+      align-items:center;
+      flex-wrap: wrap;
+      justify-content:flex-end;
+    }
+
+    .suggestBox{
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      overflow-y: auto; /* scroll */
+      max-height: 420px; /* JS 会按照“同时显示条数”覆盖 */
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+    }
+    .suggestBox::-webkit-scrollbar{ height: 10px; width: 10px; }
+    .suggestBox::-webkit-scrollbar-thumb{
+      background: rgba(255,255,255,.18);
+      border-radius: 999px;
+      border: 2px solid rgba(255,255,255,.06);
+    }
+    [data-theme="light"] .suggestBox{
+      background: rgba(15,18,28,.03);
+    }
+    [data-theme="light"] .suggestBox::-webkit-scrollbar-thumb{
+      background: rgba(15,18,28,.22);
+      border: 2px solid rgba(15,18,28,.06);
+    }
+
+    .sItem{
+      padding: 10px 12px;
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      cursor:pointer;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    [data-theme="light"] .sItem{ border-bottom: 1px solid rgba(15,18,28,.08); }
+    .sItem:last-child{ border-bottom:none; }
+    .sItem:hover, .sItem.active{ background: rgba(124,92,255,.12); }
+    [data-theme="light"] .sItem:hover,
+    [data-theme="light"] .sItem.active{ background: rgba(124,92,255,.10); }
+    .sLeft{ min-width: 0; }
+    .sWord{
+      font-size: 12px;
+      font-weight: 750;
+      color: var(--text);
+      white-space: nowrap;
+      overflow:hidden;
+      text-overflow: ellipsis;
+    }
+    .sTrans{
+      font-size: 11px;
+      margin-top: 2px;
+      color: var(--muted);
+      white-space: nowrap;
+      overflow:hidden;
+      text-overflow: ellipsis;
+    }
+    .tag{
+      font-size: 10px;
+      padding: 4px 8px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--muted);
+      background: rgba(255,255,255,.02);
+      white-space:nowrap;
+    }
+    [data-theme="light"] .tag{ background: rgba(15,18,28,.02); }
+
+    .results{ display:flex; flex-direction:column; gap: 10px; margin-top: 12px; }
+    .rCard{
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      overflow:hidden;
+      transition: border-color .15s ease, background .15s ease;
+    }
+    [data-theme="light"] .rCard{ background: rgba(15,18,28,.03); }
+    .rCard:hover{ border-color: var(--border2); background: rgba(255,255,255,.05); }
+    [data-theme="light"] .rCard:hover{ background: rgba(15,18,28,.05); }
+
+    .rHd{
+      padding: 12px 12px 10px;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:10px;
+      flex-wrap: wrap;
+    }
+    [data-theme="light"] .rHd{ border-bottom: 1px solid rgba(15,18,28,.08); }
+    .rWord{
+      font-weight: 850;
+      font-size: 14px;
+      letter-spacing: .2px;
+      color: var(--text);
+      line-height:1.2;
+    }
+    .rMeta{
+      margin-top: 6px;
+      display:flex;
+      gap:8px;
+      flex-wrap: wrap;
+      align-items:center;
+    }
+    .rBd{
+      padding: 10px 12px 12px;
+      display:flex;
+      justify-content:space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items:flex-end;
+    }
+    .rTransList{
+      flex: 1 1 420px;
+      min-width: 240px;
+      display:flex;
+      flex-direction:column;
+      gap: 6px;
+    }
+    .tLine{
+      font-size: 12px;
+      color: var(--text);
+      opacity: .92;
+      line-height:1.50;
+      word-break: break-word;
+    }
+    .rBtns{ display:flex; gap: 8px; flex-wrap: wrap; align-items:center; justify-content:flex-end; }
+
+    .mutedBar{
+      padding: 10px 12px;
+      border-radius: 16px;
+      border: 1px dashed var(--border);
+      background: rgba(255,255,255,.02);
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+    [data-theme="light"] .mutedBar{ background: rgba(15,18,28,.02); }
+
+    .toast{
+      position: fixed;
+      left: 50%;
+      bottom: 18px;
+      transform: translateX(-50%);
+      background: rgba(10,12,18,.86);
+      color: white;
+      border: 1px solid rgba(255,255,255,.16);
+      padding: 10px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      box-shadow: 0 10px 40px rgba(0,0,0,.35);
+      backdrop-filter: blur(10px);
+      opacity: 0;
+      pointer-events:none;
+      transition: opacity .2s ease, transform .2s ease;
+      z-index: 80;
+      max-width: min(560px, calc(100vw - 24px));
+      white-space: nowrap;
+      overflow:hidden;
+      text-overflow: ellipsis;
+    }
+    .toast.show{ opacity: 1; transform: translateX(-50%) translateY(-4px); }
+
+    /* Settings Drawer */
+    .overlay{
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.45);
+      display:none;
+      z-index: 60;
+    }
+    .overlay.open{ display:block; }
+
+    .drawer{
+      position: fixed;
+      top: 0; right: 0;
+      height: 100%;
+      width: min(520px, 92vw);
+      background: var(--bg);
+      border-left: 1px solid var(--border);
+      box-shadow: -12px 0 32px rgba(0,0,0,.25);
+      transform: translateX(100%);
+      transition: transform .18s ease;
+      z-index: 70;
+      display:flex;
+      flex-direction:column;
+    }
+    .drawer.open{ transform: translateX(0); }
+    .drawerHd{
+      padding: 14px 14px 12px;
+      border-bottom: 1px solid var(--border);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+    }
+    .drawerHd h3{ margin:0; font-size: 13px; letter-spacing:.2px; }
+    .drawerBd{ padding: 14px; overflow:auto; }
+    .drawerFoot{
+      padding: 12px 14px;
+      border-top: 1px solid var(--border);
+      display:flex;
+      gap:10px;
+      flex-wrap: wrap;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .dictBlock{
+      border: 1px solid var(--border);
+      background: var(--panel);
+      border-radius: 16px;
+      overflow:hidden;
+      margin-bottom: 12px;
+    }
+    .dictHd{
+      padding: 10px 10px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      flex-wrap: wrap;
+    }
+    [data-theme="light"] .dictHd{ border-bottom: 1px solid rgba(15,18,28,.08); }
+    .dictTitle{ display:flex; flex-direction:column; gap:2px; min-width: 240px; }
+    .dictTitle .t1{ font-size: 12px; font-weight: 800; color: var(--text); }
+    .dictTitle .t2{ font-size: 11px; color: var(--muted); }
+    .dictBtns{ display:flex; gap:8px; flex-wrap: wrap; }
+
+    .units{ padding: 10px; display:grid; grid-template-columns: 1fr; gap: 8px; }
+    .unit-item{
+      display:flex;
+      padding: 10px 10px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.02);
+      gap:10px;
+      align-items:flex-start;
+      cursor:pointer;
+      user-select:none;
+    }
+    [data-theme="light"] .unit-item{ background: rgba(15,18,28,.02); }
+    .unit-item:hover{ border-color: var(--border2); background: rgba(255,255,255,.04); }
+    [data-theme="light"] .unit-item:hover{ background: rgba(15,18,28,.04); }
+    .unit-item input{ margin-top: 2px; accent-color: var(--brand); }
+    .unit-meta{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+    .unit-name{ font-size: 12px; color: var(--text); font-weight: 700; }
+    .unit-sub{
+      font-size: 11px; color: var(--muted);
+      display:flex; gap:8px; flex-wrap: wrap;
+    }
+    .unit-sub .mono{ white-space:nowrap; }
+
+    @media (max-width: 640px){
+      .brand{ min-width: unset; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap" id="app">
+    <div class="topbar">
+      <div class="brand">
+        <!-- <div class="logo" aria-hidden="true"></div> -->
+        <div>
+          <h1>Deutsch Lookup</h1>
+          <p>德语查词小助手</p>
+        </div>
+      </div>
+      <div class="actions">
+        <span class="pill" title="已加载条目数"><b id="loadedCount">0</b> 条</span>
+        <button class="btn" id="btnSettings" title="打开词库设置">
+          设置 <span class="kbd">S</span>
+        </button>
+        <button class="btn" id="btnTheme" title="切换主题">
+          主题 <span class="kbd">T</span>
+        </button>
+        <button class="btn primary" id="btnReload" title="重新加载已选单元（跳过失败文件）">
+          刷新 <span class="kbd">R</span>
+        </button>
+        <button class="btn ghost" id="btnHelp" title="使用说明">
+          说明 <span class="kbd">?</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="hd">
+          <h2>查词</h2>
+          <div class="row">
+            <span class="pill" title="当前匹配数量"><b id="matchCount">0</b> 匹配</span>
+            <span class="pill" title="已载入文件数"><b id="fileCount">0</b> 文件</span>
+            <span class="pill" title="当前搜索模式"><b id="modePill">自动</b></span>
+            <button class="btn" id="btnExport" title="导出当前匹配列表（CSV）">导出匹配</button>
+            <button class="btn danger" id="btnClear" title="清空搜索">清空</button>
+          </div>
+        </div>
+        <div class="bd">
+          <div class="searchRow">
+            <input id="q" type="text" placeholder="输入德语或中文（支持前缀/包含/近似）…" autocomplete="off" />
+            <button class="btn primary" id="btnSearch" title="立即搜索">搜索</button>
+          </div>
+
+          <!-- 推荐：折叠高度 + 滚动条 -->
+          <div class="suggestWrap" id="suggestWrap">
+            <div class="suggestHeader">
+              <div class="left" id="suggestInfo">
+                搜索推荐（总数 <span class="mono" id="suggestTotalN">16</span>，同时显示 <span class="mono" id="suggestVisibleN">8</span>）
+              </div>
+              <div class="right">
+                <button class="btn small ghost" id="btnScrollTop" title="滚动到顶部">顶部</button>
+                <button class="btn small ghost" id="btnScrollBottom" title="滚动到底部">底部</button>
+              </div>
+            </div>
+            <div class="suggestBox" id="suggestBox">
+              <div id="suggest"></div>
+            </div>
+          </div>
+
+          <div class="hint" id="searchHint" style="margin-top:10px;">
+            示例：<code>schmecken</code> / <code>der Apfel</code> / <code>aus/sehen</code> / <code>好吃</code> / <code>用德语</code>。
+          </div>
+
+          <div class="results" id="results"></div>
+
+<div class="mutedBar" id="emptyState" style="margin-top:12px; display:none;">
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;">
+    <div>
+      没有结果。
+      <span style="color:var(--muted);">可尝试直接去德语助手查：</span>
+      <span class="mono" id="emptyQueryHint"></span>
+    </div>
+    <a class="btn ghost" id="btnGoDicEmpty" href="https://www.godic.net/dicts/de/" target="_blank" rel="noopener">
+      跳转德语助手
+    </a>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Drawer -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawerHd">
+      <h3>设置（词库 + 搜索）</h3>
+      <button class="btn" id="btnClose">关闭 <span class="kbd">Esc</span></button>
+    </div>
+    <div class="drawerBd">
+      <div class="hint">
+        <!-- 默认读取同目录 <code>dictionary.json</code>。进入页面会自动加载你勾选的单元；加载失败的 JSON 只在 console 打印并跳过。<br>
+        推荐用本地服务器打开：<code>python -m http.server 8000</code> 或 VSCode Live Server。 -->
+      </div>
+
+      <div style="height:12px;"></div>
+
+      <div class="row">
+        <div style="flex:1 1 220px; min-width:210px;">
+          <label for="searchMode">搜索模式</label>
+          <select id="searchMode">
+            <option value="auto">自动：含中文则中文查，否则德语查</option>
+            <option value="de">德语 → 中文（按词条 name）</option>
+            <option value="zh">中文 → 德语（按释义 trans）</option>
+          </select>
+        </div>
+
+        <div style="flex:1 1 200px; min-width:180px;">
+          <label for="numSuggestTotal">提示总数（默认 16）</label>
+          <input id="numSuggestTotal" type="number" min="4" max="64" step="1" value="16" />
+        </div>
+
+        <div style="flex:1 1 200px; min-width:180px;">
+          <label for="numSuggestVisible">推荐同时显示（默认 8）</label>
+          <input id="numSuggestVisible" type="number" min="1" max="20" step="1" value="8" />
+        </div>
+      </div>
+
+      <div style="height:10px;"></div>
+
+      <div class="row">
+        <button class="btn" id="btnAll">全选所有</button>
+        <button class="btn" id="btnNone">清空选择</button>
+      </div>
+
+      <div style="height:12px;"></div>
+
+      <div id="dicts"></div>
+
+      <div class="mutedBar">
+        <b>德语助手跳转：</b> 自动去掉冠词 der/die/das 和词形提示（如 <code>-ä</code>），<code>aus/sehen</code> 会拼成 <code>aussehen</code>，词组/短语保持空格并 URL 编码。
+      </div>
+    </div>
+    <div class="drawerFoot">
+      <span class="pill" title="当前勾选单元数"><b id="selUnits">0</b> 单元</span>
+      <span class="pill" title="加载状态"><b id="status">初始化…</b></span>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    (() => {
+      const $ = (sel, el=document) => el.querySelector(sel);
+      const $$ = (sel, el=document) => Array.from(el.querySelectorAll(sel));
+
+      const state = {
+        dictionaries: [],
+        unitsIndex: new Map(),
+        selectedUnitKeys: new Set(),
+        collapsedDicts: new Set(),
+        fileCache: new Map(),
+        loadedFiles: new Set(),
+        records: [],
+        currentMatches: [],
+        suggestIndex: -1,
+        loading: false,
+        searchMode: "auto",
+        suggestTotal: 16,
+        suggestVisible: 8,
+      };
+
+      const els = {
+        loadedCount: $("#loadedCount"),
+        fileCount: $("#fileCount"),
+        matchCount: $("#matchCount"),
+        modePill: $("#modePill"),
+        q: $("#q"),
+        results: $("#results"),
+        emptyState: $("#emptyState"),
+
+        suggestWrap: $("#suggestWrap"),
+        suggestBox: $("#suggestBox"),
+        suggest: $("#suggest"),
+        suggestTotalN: $("#suggestTotalN"),
+        suggestVisibleN: $("#suggestVisibleN"),
+        suggestInfo: $("#suggestInfo"),
+        btnScrollTop: $("#btnScrollTop"),
+        btnScrollBottom: $("#btnScrollBottom"),
+
+        toast: $("#toast"),
+
+        btnSettings: $("#btnSettings"),
+        btnTheme: $("#btnTheme"),
+        btnReload: $("#btnReload"),
+        btnHelp: $("#btnHelp"),
+        btnSearch: $("#btnSearch"),
+        btnClear: $("#btnClear"),
+        btnExport: $("#btnExport"),
+
+        overlay: $("#overlay"),
+        drawer: $("#drawer"),
+        btnClose: $("#btnClose"),
+        dicts: $("#dicts"),
+
+        searchMode: $("#searchMode"),
+        numSuggestTotal: $("#numSuggestTotal"),
+        numSuggestVisible: $("#numSuggestVisible"),
+
+        btnAll: $("#btnAll"),
+        btnNone: $("#btnNone"),
+        selUnits: $("#selUnits"),
+        status: $("#status"),
+      };
+
+      function toast(msg){
+        els.toast.textContent = msg;
+        els.toast.classList.add("show");
+        clearTimeout(toast._t);
+        toast._t = setTimeout(() => els.toast.classList.remove("show"), 1300);
+      }
+      function escapeHtml(s){
+        return (s ?? "").toString()
+          .replaceAll("&","&amp;")
+          .replaceAll("<","&lt;")
+          .replaceAll(">","&gt;")
+          .replaceAll('"',"&quot;")
+          .replaceAll("'","&#039;");
+      }
+      function setStatus(s){ els.status.textContent = s; }
+      function setCounts(){
+        els.loadedCount.textContent = String(state.records.length);
+        els.fileCount.textContent = String(state.loadedFiles.size);
+      }
+      function showEmptyState(show){
+        els.emptyState.style.display = show ? "" : "none";
+      }
+      function updateModePill(){
+        const map = { auto: "自动", de: "德语", zh: "中文" };
+        els.modePill.textContent = map[state.searchMode] || "自动";
+      }
+
+      // ---------- normalization ----------
+      function isChineseLike(s){ return /[\u4e00-\u9fff]/.test(s); }
+      function normalizeBasic(s){ return (s ?? "").toString().trim().toLowerCase().replace(/\s+/g, " "); }
+      function stripDiacritics(s){ return s.normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
+      function normalizeDePlain(s){ return stripDiacritics(normalizeBasic(s).replace(/ß/g,"ss")); }
+      function normalizeDeToAe(s){
+        return normalizeBasic(s)
+          .replace(/ß/g,"ss")
+          .replace(/ä/g,"ae").replace(/ö/g,"oe").replace(/ü/g,"ue");
+      }
+      function normalizeZh(s){
+        return normalizeBasic(s).replace(/[，。；、]/g," ").replace(/\s+/g," ");
+      }
+
+      function cleanGermanDisplay(name){ return (name ?? "").toString().trim(); }
+      function extractLemma(name){
+        let s = cleanGermanDisplay(name);
+        s = s.replace(/^(der|die|das)\s+/i, "");
+        s = s.replace(/\s*\([^)]*\)\s*/g, " ").trim();
+        s = s.replace(/\s+-[a-zA-ZäöüÄÖÜß\.\-]+$/g, "").trim();
+        s = s.replace(/\s+/g, " ").trim();
+        return s;
+      }
+      function godicKeyFromName(name){
+        let s = extractLemma(name);
+        s = s.replace(/\//g, "");
+        s = s.replace(/\s+/g, " ").trim();
+        return s.toLowerCase();
+      }
+      function godicUrlFromName(name){
+        return "https://www.godic.net/dicts/de/" + encodeURIComponent(godicKeyFromName(name));
+      }
+      function firstMeaning(transArr){
+        if (!Array.isArray(transArr) || transArr.length === 0) return "";
+        return (transArr[0] ?? "").toString();
+      }
+
+       //如果没有结果直接去德语助手查
+      function godicUrlFromQuery(q){
+        const raw = (q ?? "").toString().trim();
+        if (!raw) return "https://www.godic.net/dicts/de/";
+        // 复用 name 规则：去冠词、去 -ä、去 /、保留空格(会被 encode)
+        return "https://www.godic.net/dicts/de/" + encodeURIComponent(godicKeyFromName(raw));
+      }
+
+      function updateEmptyGoDic(){
+        const q = els.q.value.trim();
+        $("#emptyQueryHint").textContent = q ? q : "";
+        $("#btnGoDicEmpty").href = godicUrlFromQuery(q);
+      }
+
+      // ---------- Levenshtein ----------
+      function levenshtein(a,b){
+        if (a === b) return 0;
+        const al=a.length, bl=b.length;
+        if (al===0) return bl;
+        if (bl===0) return al;
+        if (bl > al) { const t=a; a=b; b=t; }
+
+        const m=a.length, n=b.length;
+        let prev=new Array(n+1), cur=new Array(n+1);
+        for (let j=0;j<=n;j++) prev[j]=j;
+
+        for (let i=1;i<=m;i++){
+          cur[0]=i;
+          const ca=a.charCodeAt(i-1);
+          for (let j=1;j<=n;j++){
+            const cb=b.charCodeAt(j-1);
+            const cost=(ca===cb)?0:1;
+            cur[j]=Math.min(prev[j]+1, cur[j-1]+1, prev[j-1]+cost);
+          }
+          const tmp=prev; prev=cur; cur=tmp;
+        }
+        return prev[n];
+      }
+
+      // ---------- scoring ----------
+      function scoreGerman(qRaw, rec){
+        const q = normalizeBasic(qRaw);
+        if (!q) return 0;
+
+        const qAe = normalizeDeToAe(q);
+        const qPl = normalizeDePlain(q);
+
+        const targets = [
+          {t: rec.lemmaAe, q: qAe, w: 1.00},
+          {t: rec.fullAe,  q: qAe, w: 0.90},
+          {t: rec.lemmaPl, q: qPl, w: 0.95},
+          {t: rec.fullPl,  q: qPl, w: 0.85}
+        ];
+
+        let best = 0;
+        for (const {t, q, w} of targets){
+          if (!t || !q) continue;
+          if (t === q) best = Math.max(best, 100 * w);
+          else if (t.startsWith(q)) best = Math.max(best, 85 * w);
+          else {
+            const pos = t.indexOf(q);
+            if (pos >= 0) best = Math.max(best, (70 * w) - Math.min(18, pos));
+          }
+        }
+
+        if (best === 0 && qAe.length >= 5){
+          const cand = rec.lemmaAe || "";
+          if (cand && cand[0] === qAe[0] && Math.abs(cand.length - qAe.length) <= 2){
+            const d = levenshtein(qAe, cand);
+            if (d <= 2) best = Math.max(best, 52 - d * 12);
+          }
+        }
+        return best > 0 ? best : 0;
+      }
+
+      function scoreChinese(qRaw, rec){
+        const q = normalizeZh(qRaw);
+        if (!q) return 0;
+        const tokens = q.split(" ").filter(Boolean);
+        if (tokens.length === 0) return 0;
+
+        let posSum = 0;
+        for (const tok of tokens){
+          const p = rec.transNorm.indexOf(tok);
+          if (p < 0) return 0;
+          posSum += p;
+        }
+        return 80 - Math.min(40, posSum / 6);
+      }
+
+      function decideMode(q){
+        if (state.searchMode === "auto") return isChineseLike(q) ? "zh" : "de";
+        return state.searchMode;
+      }
+
+      function searchAll(qRaw){
+        const q = (qRaw ?? "").toString().trim();
+        if (!q){
+          state.currentMatches = [];
+          els.matchCount.textContent = "0";
+          renderResults();
+          closeSuggest();
+          return [];
+        }
+
+        const mode = decideMode(q);
+        const scored = [];
+        for (const rec of state.records){
+          const s = (mode === "zh") ? scoreChinese(q, rec) : scoreGerman(q, rec);
+          if (s > 0) scored.push({rec, s});
+        }
+        scored.sort((a,b) => b.s - a.s || a.rec.lemma.localeCompare(b.rec.lemma, "de"));
+
+        const out = scored.map(x => x.rec);
+        state.currentMatches = out;
+        els.matchCount.textContent = String(out.length);
+        renderResults();
+        return out;
+      }
+
+      // ---------- suggestions (folded with scroll) ----------
+      function openSuggest(){ els.suggestWrap.classList.add("open"); }
+      function closeSuggest(){
+        els.suggestWrap.classList.remove("open");
+        els.suggest.innerHTML = "";
+        state.suggestIndex = -1;
+      }
+      function setActiveSuggest(i){
+        const items = $$(".sItem", els.suggest);
+        items.forEach(el => el.classList.remove("active"));
+        if (i >= 0 && i < items.length){
+          items[i].classList.add("active");
+          state.suggestIndex = i;
+          // keep active in view
+          items[i].scrollIntoView({block:"nearest"});
+        } else state.suggestIndex = -1;
+      }
+
+      function applySuggestFoldHeight(){
+        const visible = Math.max(1, Math.min(20, Number(state.suggestVisible) || 8));
+
+        const first = $(".sItem", els.suggest);
+        const itemH = first ? Math.max(44, Math.ceil(first.getBoundingClientRect().height)) : 52;
+        const maxH = visible * itemH;
+
+        els.suggestBox.style.maxHeight = `${maxH}px`;
+      }
+
+      function renderSuggest(list, qRaw){
+        const q = (qRaw ?? "").toString().trim();
+        const total = Math.max(4, Math.min(64, Number(state.suggestTotal) || 16));
+        const visible = Math.max(1, Math.min(20, Number(state.suggestVisible) || 8));
+
+        els.suggestTotalN.textContent = String(total);
+        els.suggestVisibleN.textContent = String(visible);
+
+        if (!q || !list || list.length === 0){
+          closeSuggest();
+          return;
+        }
+
+        const slice = list.slice(0, total);
+        els.suggest.innerHTML = slice.map((rec, idx) => {
+          const w = cleanGermanDisplay(rec.name);
+          const t = firstMeaning(rec.trans);
+          const tag = `${rec.dictId}${rec.unitName ? " · " + rec.unitName : ""}`;
+          return `
+            <div class="sItem" data-idx="${idx}">
+              <div class="sLeft">
+                <div class="sWord">${escapeHtml(w)}</div>
+                <div class="sTrans">${escapeHtml(t || "")}</div>
+              </div>
+              <div class="sRight">
+                <span class="tag">${escapeHtml(tag)}</span>
+              </div>
+            </div>
+          `;
+        }).join("");
+
+        openSuggest();
+        setActiveSuggest(-1);
+
+        // 下一帧测量高度并设置“同时显示 N 条”的折叠高度
+        requestAnimationFrame(() => applySuggestFoldHeight());
+      }
+
+      // ---------- results ----------
+      async function tryCopy(text){
+        try{
+          await navigator.clipboard.writeText(text);
+          toast("已复制");
+          return true;
+        }catch(e){
+          const ta = document.createElement("textarea");
+          ta.value = text;
+          ta.style.position = "fixed";
+          ta.style.left = "-9999px";
+          document.body.appendChild(ta);
+          ta.select();
+          try{
+            document.execCommand("copy");
+            toast("已复制");
+            return true;
+          }catch(e2){
+            toast("复制失败（浏览器限制）");
+            return false;
+          }finally{
+            ta.remove();
+          }
+        }
+      }
+
+      function renderResults(){
+        const list = state.currentMatches;
+
+        // ✅ 0 条结果：显示 emptyState + 更新“跳转德语助手”链接
+        if (!list || list.length === 0){
+          els.results.innerHTML = "";
+          showEmptyState(true);
+          updateEmptyGoDic();   // ← 新增这一行
+          return;
+        }
+
+        // ✅ 有结果：隐藏 emptyState
+        showEmptyState(false);
+
+        const renderLimit = 500;
+        const shown = list.slice(0, renderLimit);
+
+        els.results.innerHTML = shown.map(rec => {
+          const word = cleanGermanDisplay(rec.name);
+          const transLines = Array.isArray(rec.trans) ? rec.trans : [];
+          const src = rec.sourceFile || "";
+          const url = godicUrlFromName(rec.name);
+
+          return `
+            <div class="rCard">
+              <div class="rHd">
+                <div>
+                  <div class="rWord">${escapeHtml(word)}</div>
+                  <div class="rMeta">
+                    <span class="pill"><b>来源</b> ${escapeHtml(src)}</span>
+                    <span class="pill"><b>单元</b> ${escapeHtml(rec.unitName || rec.unitId || "")}</span>
+                    <span class="pill"><b>词库</b> ${escapeHtml(rec.dictId || "")}</span>
+                  </div>
+                </div>
+                <div class="rBtns">
+                  <a class="btn ghost" href="${url}" target="_blank" rel="noopener">去德语助手查看</a>
+                </div>
+              </div>
+              <div class="rBd">
+                <div class="rTransList">
+                  ${(transLines.length ? transLines : ["（无释义）"])
+                    .map(t => `<div class="tLine">${escapeHtml(t)}</div>`)
+                    .join("")}
+                </div>
+                <div class="rBtns">
+                  <button class="btn" data-act="copy" data-text="${escapeHtml(word)}">复制词</button>
+                  <button class="btn" data-act="copy" data-text="${escapeHtml(transLines.join("；"))}">复制释义</button>
+                  <button class="btn good" data-act="copy" data-text="${escapeHtml(word + " — " + transLines.join("；"))}">复制词+释义</button>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join("");
+
+        if (list.length > renderLimit){
+          els.results.insertAdjacentHTML("beforeend", `
+            <div class="mutedBar">已显示前 ${renderLimit} 条（总匹配 ${list.length} 条）。导出会包含全部匹配。</div>
+          `);
+        }
+      }
+
+
+      // ---------- export ----------
+      function escCsv(v){
+        const s = (v ?? "").toString();
+        if (/[",\r\n]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
+        return s;
+      }
+      function exportMatchesCsv(){
+        const list = state.currentMatches || [];
+        if (list.length === 0){
+          toast("没有可导出的匹配结果");
+          return;
+        }
+        const header = ["word","meaning","sourceFile","unit","dict","godicUrl"];
+        const rows = list.map(rec => [
+          rec.name,
+          rec.transJoined,
+          rec.sourceFile,
+          rec.unitName,
+          rec.dictId,
+          godicUrlFromName(rec.name)
+        ].map(escCsv).join(","));
+        const csv = "\ufeff" + header.join(",") + "\r\n" + rows.join("\r\n");
+
+        const blob = new Blob([csv], {type:"text/csv;charset=utf-8"});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        const d = new Date();
+        const stamp = [
+          d.getFullYear(),
+          String(d.getMonth()+1).padStart(2,"0"),
+          String(d.getDate()).padStart(2,"0"),
+          String(d.getHours()).padStart(2,"0"),
+          String(d.getMinutes()).padStart(2,"0"),
+        ].join("");
+        a.href = url;
+        a.download = `deutsch_matches_${stamp}.csv`;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+        toast("已导出 CSV");
+      }
+
+      // ---------- data loading (safe) ----------
+      async function fetchJsonSafe(file){
+        try{
+          const res = await fetch(file, { cache: "no-store" });
+          if (!res.ok) {
+            console.warn(`[DeutschLookup] Skip: ${file} (HTTP ${res.status})`);
+            return null;
+          }
+          return await res.json();
+        }catch(err){
+          console.warn(`[DeutschLookup] Skip: ${file} (fetch error)`, err);
+          return null;
+        }
+      }
+
+      function buildRecord(unitInfo, item){
+        const name = (item?.name ?? "").toString();
+        const trans = Array.isArray(item?.trans) ? item.trans.map(x => (x ?? "").toString()) : [];
+        const lemma = extractLemma(name);
+
+        const full = cleanGermanDisplay(name);
+        const lemmaAe = normalizeDeToAe(lemma);
+        const fullAe  = normalizeDeToAe(full);
+        const lemmaPl = normalizeDePlain(lemma);
+        const fullPl  = normalizeDePlain(full);
+
+        const transJoined = trans.join("；");
+        const transNorm = normalizeZh(transJoined);
+
+        return {
+          name: full,
+          lemma,
+          trans,
+          transJoined,
+          transNorm,
+          lemmaAe,
+          fullAe,
+          lemmaPl,
+          fullPl,
+          sourceFile: unitInfo.file,
+          unitId: unitInfo.unitId,
+          unitName: unitInfo.unitName,
+          dictId: unitInfo.dictId,
+          dictName: unitInfo.dictName,
+        };
+      }
+
+      async function loadSelectedToMemory({forceReload=false, silent=false} = {}){
+        if (state.loading) return;
+
+        const selected = Array.from(state.selectedUnitKeys)
+          .map(k => state.unitsIndex.get(k))
+          .filter(Boolean);
+
+        if (selected.length === 0){
+          setStatus("未选择单元");
+          if (!silent) toast("请先在设置里勾选至少一个单元");
+          return;
+        }
+
+        state.loading = true;
+        setStatus("加载中…");
+
+        if (forceReload){
+          state.fileCache.clear();
+          state.loadedFiles.clear();
+          state.records = [];
+        }
+
+        let skipped = 0;
+        let loadedEntries = 0;
+        try{
+          const newRecords = [];
+          for (let i=0; i<selected.length; i++){
+            const unit = selected[i];
+            const file = unit.file;
+            setStatus(`加载 ${i+1}/${selected.length}：${file}`);
+
+            let arr = state.fileCache.get(file);
+            if (!arr || forceReload){
+              const json = await fetchJsonSafe(file);
+              if (!json){ skipped++; continue; }
+              if (!Array.isArray(json)){
+                console.warn(`[DeutschLookup] Skip: ${file} (not an array JSON)`, json);
+                skipped++;
+                continue;
+              }
+              arr = json;
+              state.fileCache.set(file, arr);
+            }
+
+            state.loadedFiles.add(file);
+
+            for (const item of arr){
+              if (!item || typeof item !== "object") continue;
+              const rec = buildRecord(unit, item);
+              if (rec.name.trim()) newRecords.push(rec);
+            }
+            await new Promise(r => setTimeout(r, 0));
+          }
+
+          state.records = newRecords;
+          loadedEntries = newRecords.length;
+
+          setCounts();
+          setStatus(`已加载：${loadedEntries} 条（跳过 ${skipped} 个文件）`);
+          if (!silent) toast(`加载完成：${loadedEntries} 条（跳过 ${skipped}）`);
+
+          if (els.q.value.trim()){
+            const list = searchAll(els.q.value.trim());
+            renderSuggest(list, els.q.value.trim());
+          } else {
+            state.currentMatches = [];
+            els.matchCount.textContent = "0";
+            renderResults();
+            closeSuggest();
+            showEmptyState(loadedEntries === 0);
+          }
+        } finally {
+          state.loading = false;
+        }
+      }
+
+      // ---------- settings ----------
+      function unitKey(dictId, unitId){ return `${dictId}::${unitId}`; }
+
+      function fallbackDictionaries(){
+        return [{
+          id: "D1",
+          name: "默认词库（fallback）",
+          description: "",
+          units: Array.from({length: 7}, (_,i) => ({
+            id: `D1E${i+1}`,
+            name: `D1E${i+1}`,
+            file: `D1E${i+1}.json`,
+            wordCount: 0
+          }))
+        }];
+      }
+
+      function loadPrefs(){
+        try{
+          const t = localStorage.getItem("dl_theme");
+          if (t === "light") document.documentElement.setAttribute("data-theme","light");
+          else document.documentElement.removeAttribute("data-theme");
+
+          const mode = localStorage.getItem("dl_mode") || "auto";
+          state.searchMode = (mode === "de" || mode === "zh" || mode === "auto") ? mode : "auto";
+
+          const total = Number(localStorage.getItem("dl_suggest") || 16);
+          state.suggestTotal = Math.max(4, Math.min(64, total));
+
+          const visible = Number(localStorage.getItem("dl_suggest_visible") || 8);
+          state.suggestVisible = Math.max(1, Math.min(20, visible));
+
+          const selected = JSON.parse(localStorage.getItem("dl_selected_units") || "[]");
+          if (Array.isArray(selected)) state.selectedUnitKeys = new Set(selected);
+
+          const collapsed = JSON.parse(localStorage.getItem("dl_collapsed_dicts") || "[]");
+          if (Array.isArray(collapsed)) state.collapsedDicts = new Set(collapsed);
+        }catch(e){}
+      }
+
+      function savePrefs(){
+        try{
+          localStorage.setItem("dl_mode", state.searchMode);
+          localStorage.setItem("dl_suggest", String(state.suggestTotal));
+          localStorage.setItem("dl_suggest_visible", String(state.suggestVisible));
+          localStorage.setItem("dl_selected_units", JSON.stringify(Array.from(state.selectedUnitKeys)));
+          localStorage.setItem("dl_collapsed_dicts", JSON.stringify(Array.from(state.collapsedDicts)));
+        }catch(e){}
+      }
+
+      function updateSelUnitsCount(){ els.selUnits.textContent = String(state.selectedUnitKeys.size); }
+
+      function indexAllUnits(){
+        state.unitsIndex.clear();
+        for (const d of state.dictionaries){
+          const did = d.id;
+          const dname = d.name || "";
+          for (const u of (d.units || [])){
+            const k = unitKey(did, u.id);
+            state.unitsIndex.set(k, {
+              dictId: did,
+              dictName: dname,
+              unitId: u.id,
+              unitName: u.name || u.id,
+              file: u.file,
+              wordCount: u.wordCount ?? null
+            });
+          }
+        }
+      }
+
+      function renderSettings(){
+        updateSelUnitsCount();
+        els.searchMode.value = state.searchMode;
+        els.numSuggestTotal.value = String(state.suggestTotal);
+        els.numSuggestVisible.value = String(state.suggestVisible);
+        updateModePill();
+
+        els.dicts.innerHTML = state.dictionaries.map(dict => {
+          const did = dict.id;
+          const dname = dict.name ? `${did} · ${dict.name}` : did;
+          const desc = dict.description || "";
+          const collapsed = state.collapsedDicts.has(did);
+
+          const unitsHtml = (dict.units || []).map(u => {
+            const key = unitKey(did, u.id);
+            const checked = state.selectedUnitKeys.has(key) ? "checked" : "";
+            const wc = (u.wordCount != null) ? u.wordCount : "";
+            return `
+              <div class="unit-item" data-unitkey="${escapeHtml(key)}" title="${escapeHtml(u.file)}">
+                <input type="checkbox" ${checked} />
+                <div class="unit-meta">
+                  <div class="unit-name">${escapeHtml(u.name || u.id)}</div>
+                  <div class="unit-sub">
+                    <span>id: <span class="mono">${escapeHtml(u.id)}</span></span>
+                    <span>file: <span class="mono">${escapeHtml(u.file)}</span></span>
+                    ${wc !== "" ? `<span>words: <span class="mono">${escapeHtml(String(wc))}</span></span>` : ""}
+                  </div>
+                </div>
+              </div>
+            `;
+          }).join("");
+
+          return `
+            <div class="dictBlock" data-dict="${escapeHtml(did)}">
+              <div class="dictHd">
+                <div class="dictTitle">
+                  <div class="t1">${escapeHtml(dname)}</div>
+                  ${desc ? `<div class="t2">${escapeHtml(desc)}</div>` : `<div class="t2">共 ${escapeHtml(String((dict.units||[]).length))} 个单元</div>`}
+                </div>
+                <div class="dictBtns">
+                  <button class="btn" data-act="toggle">${collapsed ? "展开" : "折叠"}</button>
+                  <button class="btn" data-act="all">全选</button>
+                  <button class="btn" data-act="none">清空</button>
+                </div>
+              </div>
+              <div class="units" style="${collapsed ? "display:none;" : ""}">
+                ${unitsHtml}
+              </div>
+            </div>
+          `;
+        }).join("");
+      }
+
+      // ---------- drawer ----------
+      function openDrawer(){
+        els.overlay.classList.add("open");
+        els.drawer.classList.add("open");
+        els.drawer.setAttribute("aria-hidden", "false");
+      }
+      function closeDrawer(){
+        els.overlay.classList.remove("open");
+        els.drawer.classList.remove("open");
+        els.drawer.setAttribute("aria-hidden", "true");
+      }
+
+      function toggleTheme(){
+        const isLight = document.documentElement.getAttribute("data-theme") === "light";
+        if (isLight){
+          document.documentElement.removeAttribute("data-theme");
+          localStorage.setItem("dl_theme", "dark");
+          toast("已切换：深色");
+        } else {
+          document.documentElement.setAttribute("data-theme","light");
+          localStorage.setItem("dl_theme", "light");
+          toast("已切换：浅色");
+        }
+      }
+
+      // ---------- events ----------
+      function wireEvents(){
+        els.btnSettings.addEventListener("click", openDrawer);
+        els.btnClose.addEventListener("click", closeDrawer);
+        els.overlay.addEventListener("click", closeDrawer);
+
+        els.btnTheme.addEventListener("click", toggleTheme);
+        els.btnHelp.addEventListener("click", () => {
+          toast("快捷键：/ 聚焦；↑↓ 选推荐；Enter 搜索；Esc 关推荐/关设置；T 主题；R 刷新；S 设置");
+        });
+
+        els.btnReload.addEventListener("click", () => loadSelectedToMemory({forceReload:true}));
+
+        els.btnSearch.addEventListener("click", () => {
+          const q = els.q.value.trim();
+          const list = searchAll(q);
+          renderSuggest(list, q);
+        });
+
+        els.btnClear.addEventListener("click", () => {
+          els.q.value = "";
+          state.currentMatches = [];
+          els.matchCount.textContent = "0";
+          renderResults();
+          closeSuggest();
+          showEmptyState(state.records.length === 0);
+          els.q.focus();
+        });
+
+        els.btnExport.addEventListener("click", exportMatchesCsv);
+
+        els.btnScrollTop.addEventListener("click", () => { els.suggestBox.scrollTop = 0; });
+        els.btnScrollBottom.addEventListener("click", () => { els.suggestBox.scrollTop = els.suggestBox.scrollHeight; });
+
+        // live suggest + search
+        let inputTimer = null;
+        els.q.addEventListener("input", () => {
+          clearTimeout(inputTimer);
+          const q = els.q.value;
+          inputTimer = setTimeout(() => {
+            if (!q.trim()){
+              closeSuggest();
+              state.currentMatches = [];
+              els.matchCount.textContent = "0";
+              renderResults();
+              showEmptyState(state.records.length === 0);
+              return;
+            }
+            const list = searchAll(q);
+            renderSuggest(list, q);
+          }, 35);
+        });
+
+        els.q.addEventListener("keydown", (e) => {
+          const open = els.suggestWrap.classList.contains("open");
+          if (open){
+            const items = $$(".sItem", els.suggest);
+            if (e.key === "ArrowDown"){
+              e.preventDefault();
+              setActiveSuggest(Math.min(items.length-1, state.suggestIndex + 1));
+            } else if (e.key === "ArrowUp"){
+              e.preventDefault();
+              setActiveSuggest(Math.max(0, state.suggestIndex - 1));
+            } else if (e.key === "Enter"){
+              if (state.suggestIndex >= 0 && state.suggestIndex < items.length){
+                e.preventDefault();
+                const rec = state.currentMatches[state.suggestIndex];
+                if (rec){
+                  els.q.value = rec.lemma || rec.name;
+                  const list = searchAll(els.q.value);
+                  renderSuggest(list, els.q.value);
+                  els.q.setSelectionRange(els.q.value.length, els.q.value.length);
+                }
+              } else {
+                const list = searchAll(els.q.value.trim());
+                renderSuggest(list, els.q.value.trim());
+              }
+            } else if (e.key === "Escape"){
+              closeSuggest();
+            }
+          } else if (e.key === "Enter"){
+            const list = searchAll(els.q.value.trim());
+            renderSuggest(list, els.q.value.trim());
+          }
+        });
+
+        els.suggest.addEventListener("mousemove", (e) => {
+          const it = e.target.closest(".sItem");
+          if (!it) return;
+          const idx = Number(it.getAttribute("data-idx"));
+          if (Number.isFinite(idx)) setActiveSuggest(idx);
+        });
+        els.suggest.addEventListener("click", (e) => {
+          const it = e.target.closest(".sItem");
+          if (!it) return;
+          const idx = Number(it.getAttribute("data-idx"));
+          const rec = state.currentMatches[idx];
+          if (!rec) return;
+          els.q.value = rec.lemma || rec.name;
+          const list = searchAll(els.q.value);
+          renderSuggest(list, els.q.value);
+          els.q.focus();
+        });
+
+        els.results.addEventListener("click", async (e) => {
+          const btn = e.target.closest("button[data-act='copy']");
+          if (!btn) return;
+          const html = btn.getAttribute("data-text") || "";
+          const div = document.createElement("div");
+          div.innerHTML = html;
+          await tryCopy(div.textContent || "");
+        });
+
+        // settings controls
+        els.searchMode.addEventListener("change", () => {
+          const v = els.searchMode.value;
+          state.searchMode = (v === "de" || v === "zh" || v === "auto") ? v : "auto";
+          updateModePill();
+          savePrefs();
+          if (els.q.value.trim()){
+            const list = searchAll(els.q.value.trim());
+            renderSuggest(list, els.q.value.trim());
+          }
+        });
+
+        els.numSuggestTotal.addEventListener("change", () => {
+          const v = Math.max(4, Math.min(64, Number(els.numSuggestTotal.value) || 16));
+          state.suggestTotal = v;
+          els.numSuggestTotal.value = String(v);
+          savePrefs();
+          if (els.q.value.trim()){
+            const list = searchAll(els.q.value.trim());
+            renderSuggest(list, els.q.value.trim());
+          }
+        });
+
+        els.numSuggestVisible.addEventListener("change", () => {
+          const v = Math.max(1, Math.min(20, Number(els.numSuggestVisible.value) || 8));
+          state.suggestVisible = v;
+          els.numSuggestVisible.value = String(v);
+          savePrefs();
+          if (els.q.value.trim()){
+            // 仅更新高度
+            requestAnimationFrame(() => applySuggestFoldHeight());
+            els.suggestVisibleN.textContent = String(v);
+          }
+        });
+
+        els.btnAll.addEventListener("click", () => {
+          for (const [k] of state.unitsIndex) state.selectedUnitKeys.add(k);
+          updateSelUnitsCount();
+          renderSettings();
+          savePrefs();
+        });
+
+        els.btnNone.addEventListener("click", () => {
+          state.selectedUnitKeys.clear();
+          updateSelUnitsCount();
+          renderSettings();
+          savePrefs();
+        });
+
+        // dict-level buttons + unit toggles (delegation)
+        els.dicts.addEventListener("click", (e) => {
+          const dictBlock = e.target.closest(".dictBlock");
+          if (!dictBlock) return;
+
+          const did = dictBlock.getAttribute("data-dict");
+          const actBtn = e.target.closest("button[data-act]");
+          if (actBtn){
+            const act = actBtn.getAttribute("data-act");
+            const unitsEl = $(".units", dictBlock);
+            const unitItems = unitsEl ? $$(".unit-item", unitsEl) : [];
+
+            if (act === "toggle"){
+              const collapsed = state.collapsedDicts.has(did);
+              if (collapsed) state.collapsedDicts.delete(did);
+              else state.collapsedDicts.add(did);
+              renderSettings();
+              savePrefs();
+              return;
+            }
+
+            if (act === "all"){
+              unitItems.forEach(item => state.selectedUnitKeys.add(item.getAttribute("data-unitkey")));
+              updateSelUnitsCount();
+              renderSettings();
+              savePrefs();
+              return;
+            }
+
+            if (act === "none"){
+              unitItems.forEach(item => state.selectedUnitKeys.delete(item.getAttribute("data-unitkey")));
+              updateSelUnitsCount();
+              renderSettings();
+              savePrefs();
+              return;
+            }
+          }
+
+          const unitItem = e.target.closest(".unit-item");
+          if (unitItem){
+            const k = unitItem.getAttribute("data-unitkey");
+            const cb = $("input[type='checkbox']", unitItem);
+            if (e.target !== cb) cb.checked = !cb.checked;
+
+            if (cb.checked) state.selectedUnitKeys.add(k);
+            else state.selectedUnitKeys.delete(k);
+
+            updateSelUnitsCount();
+            savePrefs();
+          }
+        });
+
+        // global hotkeys
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "/" && document.activeElement !== els.q){
+            e.preventDefault();
+            els.q.focus();
+            return;
+          }
+          if (e.key === "Escape"){
+            if (els.drawer.classList.contains("open")) { closeDrawer(); return; }
+            if (els.suggestWrap.classList.contains("open")) { closeSuggest(); return; }
+          }
+          if ((e.key === "t" || e.key === "T") && !e.ctrlKey && !e.metaKey && !e.altKey){
+            if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) return;
+            toggleTheme();
+          }
+          if ((e.key === "r" || e.key === "R") && !e.ctrlKey && !e.metaKey && !e.altKey){
+            if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) return;
+            loadSelectedToMemory({forceReload:true});
+          }
+          if ((e.key === "s" || e.key === "S") && !e.ctrlKey && !e.metaKey && !e.altKey){
+            if (document.activeElement && (document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "TEXTAREA")) return;
+            if (els.drawer.classList.contains("open")) closeDrawer(); else openDrawer();
+          }
+        });
+      }
+
+      // ---------- boot ----------
+      async function boot(){
+        loadPrefs();
+        wireEvents();
+        updateModePill();
+
+        // reflect settings into UI
+        els.searchMode.value = state.searchMode;
+        els.numSuggestTotal.value = String(state.suggestTotal);
+        els.numSuggestVisible.value = String(state.suggestVisible);
+
+        setStatus("读取 dictionary.json…");
+        let dictsData = await fetchJsonSafe("dictionary.json");
+        if (!dictsData || !Array.isArray(dictsData?.dictionaries)){
+          console.warn("[DeutschLookup] dictionary.json missing/invalid, using fallback.");
+          dictsData = { dictionaries: fallbackDictionaries() };
+        }
+
+        state.dictionaries = dictsData.dictionaries.map(d => ({
+          id: d.id,
+          name: d.name || "",
+          description: d.description || "",
+          units: Array.isArray(d.units) ? d.units : [],
+          totalWords: d.totalWords || 0
+        }));
+
+        indexAllUnits();
+
+        // default select all if none saved
+        if (state.selectedUnitKeys.size === 0 && state.unitsIndex.size > 0){
+          for (const [k] of state.unitsIndex) state.selectedUnitKeys.add(k);
+        }
+
+        renderSettings();
+        setCounts();
+        showEmptyState(true);
+
+        // auto-load all selected
+        await loadSelectedToMemory({forceReload:true, silent:true});
+      }
+
+      boot();
+    })();
+
+
+   
+
+  </script>
+</body>
+</html>

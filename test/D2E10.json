@@ -1,0 +1,626 @@
+[
+    {
+        "name": "der Button -s",
+        "trans": [
+            "名词. 按钮；钮扣"
+        ]
+    },
+    {
+        "name": "klicken",
+        "trans": [
+            "Verb. （鼠标）点击；单击"
+        ]
+    },
+    {
+        "name": "das Detail -s",
+        "trans": [
+            "名词. 细节；详情"
+        ]
+    },
+    {
+        "name": "an/melden",
+        "trans": [
+            "Verb. 登记；通知；通报；报名；报到；登录 +A/sich"
+        ]
+    },
+    {
+        "name": "die Registration -en",
+        "trans": [
+            "名词. 登记；注册"
+        ]
+    },
+    {
+        "name": "der/das Account -s",
+        "trans": [
+            "名词. 账户；账号"
+        ]
+    },
+    {
+        "name": "die Webseite -n",
+        "trans": [
+            "名词. 网页"
+        ]
+    },
+    {
+        "name": "der Kopfhörer -",
+        "trans": [
+            "名词. （头戴式）耳机"
+        ]
+    },
+    {
+        "name": "das Mikrofon -e",
+        "trans": [
+            "名词. 麦克风；话筒"
+        ]
+    },
+    {
+        "name": "die Internetverbindung -en",
+        "trans": [
+            "名词. 网络连接"
+        ]
+    },
+    {
+        "name": "die Hinweistafel -n",
+        "trans": [
+            "名词. 指示牌；指令牌"
+        ]
+    },
+    {
+        "name": "je nachdem",
+        "trans": [
+            "连词. 视情况而定"
+        ]
+    },
+    {
+        "name": "benötigen",
+        "trans": [
+            "Verb. 需要 +A"
+        ]
+    },
+    {
+        "name": "die Vorkenntnis -se",
+        "trans": [
+            "名词. 基础知识"
+        ]
+    },
+    {
+        "name": "die Ausstattung -en",
+        "trans": [
+            "名词. 装备；配备"
+        ]
+    },
+    {
+        "name": "verabschieden sich",
+        "trans": [
+            "Verb. 向……告别 +von"
+        ]
+    },
+    {
+        "name": "der Intensivkurs -e",
+        "trans": [
+            "名词. 强化班；速成班"
+        ]
+    },
+    {
+        "name": "an/nehmen",
+        "trans": [
+            "Verb. 接受；接纳；采用；采纳 +A"
+        ]
+    },
+    {
+        "name": "das Video -s",
+        "trans": [
+            "名词. 录像；视频；录像磁带；录像带"
+        ]
+    },
+    {
+        "name": "einseitig",
+        "trans": [
+            "Adj. 片面的；单方面的"
+        ]
+    },
+    {
+        "name": "grob",
+        "trans": [
+            "Adj. 粗的；粗糙的；粗略的；大致的"
+        ]
+    },
+    {
+        "name": "der Zeitplan -e",
+        "trans": [
+            "名词. 时间表"
+        ]
+    },
+    {
+        "name": "der/die Lernende -n",
+        "trans": [
+            "名词. 学习者"
+        ]
+    },
+    {
+        "name": "der/die Lehrende -n",
+        "trans": [
+            "名词. 教学者"
+        ]
+    },
+    {
+        "name": "die Betreuung o. Pl.",
+        "trans": [
+            "名词. 照顾；看管"
+        ]
+    },
+    {
+        "name": "durch/machen",
+        "trans": [
+            "Verb. 上完；念完 +A"
+        ]
+    },
+    {
+        "name": "autonom",
+        "trans": [
+            "Adj. 自治的；独立的；自主的"
+        ]
+    },
+    {
+        "name": "einzig",
+        "trans": [
+            "Adj. 唯一的；仅有的"
+        ]
+    },
+    {
+        "name": "die Werbeanzeige -n",
+        "trans": [
+            "名词. 分类广告"
+        ]
+    },
+    {
+        "name": "intensiv",
+        "trans": [
+            "Adj. 紧张的；用全副精力的；紧凑的；集中的"
+        ]
+    },
+    {
+        "name": "muttersprachlich",
+        "trans": [
+            "Adj. 母语的"
+        ]
+    },
+    {
+        "name": "die Unterrichtseinheit -en",
+        "trans": [
+            "名词. 课程单位"
+        ]
+    },
+    {
+        "name": "systematisch",
+        "trans": [
+            "Adj. 有系统的；有条理的"
+        ]
+    },
+    {
+        "name": "irgendwo",
+        "trans": [
+            "Adv. 在任何地方"
+        ]
+    },
+    {
+        "name": "virtuell",
+        "trans": [
+            "Adj. 虚拟的；虚幻的"
+        ]
+    },
+    {
+        "name": "die Gelegenheit -en",
+        "trans": [
+            "名词. 机会"
+        ]
+    },
+    {
+        "name": "maximal",
+        "trans": [
+            "Adj./Adv. 最多的；最大限度地"
+        ]
+    },
+    {
+        "name": "das Endgerät -e",
+        "trans": [
+            "名词. 终端设备"
+        ]
+    },
+    {
+        "name": "eigenständig",
+        "trans": [
+            "Adj. 独立的"
+        ]
+    },
+    {
+        "name": "der Merkzettel -",
+        "trans": [
+            "名词. 便条；便笺"
+        ]
+    },
+    {
+        "name": "erdenken",
+        "trans": [
+            "Verb. 臆想；杜撰 +A"
+        ]
+    },
+    {
+        "name": "der Kontext -e",
+        "trans": [
+            "名词. 文章的上下文；语境"
+        ]
+    },
+    {
+        "name": "der Einstufungstest -s",
+        "trans": [
+            "名词. 分级测验"
+        ]
+    },
+    {
+        "name": "die Teilnehmer -",
+        "trans": [
+            "名词. 参加者"
+        ]
+    },
+    {
+        "name": "der Wortschatz -e",
+        "trans": [
+            "名词. 词汇；语汇"
+        ]
+    },
+    {
+        "name": "die Diskussion -en",
+        "trans": [
+            "名词. 讨论；议论"
+        ]
+    },
+    {
+        "name": "die Medienwissenschaft o. Pl.",
+        "trans": [
+            "名词. 传媒学"
+        ]
+    },
+    {
+        "name": "heutzutage",
+        "trans": [
+            "Adv. 如今；现代"
+        ]
+    },
+    {
+        "name": "die Serie -n",
+        "trans": [
+            "名词. 连续；系列；批；连续剧"
+        ]
+    },
+    {
+        "name": "jedoch",
+        "trans": [
+            "Adv. 可是；然而"
+        ]
+    },
+    {
+        "name": "die Ansicht -en",
+        "trans": [
+            "名词. 观点；看法；见解"
+        ]
+    },
+    {
+        "name": "das Gebäude -",
+        "trans": [
+            "名词. 建筑物；楼房"
+        ]
+    },
+    {
+        "name": "auf/wenden",
+        "trans": [
+            "Verb. 使用；花费 +A"
+        ]
+    },
+    {
+        "name": "das Lerntempo o. Pl.",
+        "trans": [
+            "名词. 学习速度"
+        ]
+    },
+    {
+        "name": "kontrollieren",
+        "trans": [
+            "Verb. 检查；监看；控制 +A"
+        ]
+    },
+    {
+        "name": "der Lernprozess -e",
+        "trans": [
+            "名词. 学习过程"
+        ]
+    },
+    {
+        "name": "zahlreich",
+        "trans": [
+            "Adj. 数目多的；众多的"
+        ]
+    },
+    {
+        "name": "ausgezeichnet",
+        "trans": [
+            "Adj. 极好的；优秀的"
+        ]
+    },
+    {
+        "name": "die Beschränkung -en",
+        "trans": [
+            "名词. 限制；约束"
+        ]
+    },
+    {
+        "name": "die Fachrichtung -en",
+        "trans": [
+            "名词. 专业"
+        ]
+    },
+    {
+        "name": "die Nationalität -en",
+        "trans": [
+            "名词. 国籍；民族"
+        ]
+    },
+    {
+        "name": "ersetzen",
+        "trans": [
+            "Verb. 替代；接替；补偿 +A"
+        ]
+    },
+    {
+        "name": "die Pandemie -n",
+        "trans": [
+            "名词. 大流行病"
+        ]
+    },
+    {
+        "name": "die Nachfrage -n",
+        "trans": [
+            "名词. 需求"
+        ]
+    },
+    {
+        "name": "deutlich",
+        "trans": [
+            "Adj. 清楚的；明白的"
+        ]
+    },
+    {
+        "name": "die Zukunft o. Pl.",
+        "trans": [
+            "名词. 未来；将来"
+        ]
+    },
+    {
+        "name": "problematisch",
+        "trans": [
+            "Adj. 难以解决的；成问题的"
+        ]
+    },
+    {
+        "name": "der Bildschirm -e",
+        "trans": [
+            "名词. 荧幕；荧光屏"
+        ]
+    },
+    {
+        "name": "ab/lenken",
+        "trans": [
+            "Verb. 把……引开；使分心 +A"
+        ]
+    },
+    {
+        "name": "zentral",
+        "trans": [
+            "Adj. 中心的；中央的"
+        ]
+    },
+    {
+        "name": "konstant",
+        "trans": [
+            "Adj. 不变的；恒定的"
+        ]
+    },
+    {
+        "name": "unterbrechen",
+        "trans": [
+            "Verb. 中断；暂停；打断某人说话 +A"
+        ]
+    },
+    {
+        "name": "die Kommunikation o. Pl.",
+        "trans": [
+            "名词. 交往；交际；交流"
+        ]
+    },
+    {
+        "name": "die Isolation -en",
+        "trans": [
+            "名词. 隔绝；隔离"
+        ]
+    },
+    {
+        "name": "die Zunahme -n",
+        "trans": [
+            "名词. 增加；变多"
+        ]
+    },
+    {
+        "name": "der Rücken -",
+        "trans": [
+            "名词. 背（部）"
+        ]
+    },
+    {
+        "name": "die Schulter -n",
+        "trans": [
+            "名词. 肩；肩膀"
+        ]
+    },
+    {
+        "name": "der Nacken -",
+        "trans": [
+            "名词. 颈项；后脖颈"
+        ]
+    },
+    {
+        "name": "die Ergänzung -en",
+        "trans": [
+            "名词. 补充；增补"
+        ]
+    },
+    {
+        "name": "die Randbemerkung -en",
+        "trans": [
+            "名词. 旁注；（书页四周白边上的）注释"
+        ]
+    },
+    {
+        "name": "die Einschränkung -en",
+        "trans": [
+            "名词. 限制；保留"
+        ]
+    },
+    {
+        "name": "der/die Bankangestellte -n",
+        "trans": [
+            "名词. 银行职员"
+        ]
+    },
+    {
+        "name": "beschäftigt",
+        "trans": [
+            "Adj. 忙碌的；从事（于……）的 (+mit)"
+        ]
+    },
+    {
+        "name": "die Kontrolle -n",
+        "trans": [
+            "名词. 检查；监看；控制"
+        ]
+    },
+    {
+        "name": "der Präsenzunterricht -e",
+        "trans": [
+            "名词. 实时授课"
+        ]
+    },
+    {
+        "name": "behaupten",
+        "trans": [
+            "Verb. 主张；宣称；断言 +A"
+        ]
+    },
+    {
+        "name": "vor/stellen",
+        "trans": [
+            "Verb. 想象 +A/sich"
+        ]
+    },
+    {
+        "name": "tatsächlich",
+        "trans": [
+            "Adj. 想象的；确实的；真正的"
+        ]
+    },
+    {
+        "name": "die Studentenschaft -en",
+        "trans": [
+            "名词. 学生会；全体大学生"
+        ]
+    },
+    {
+        "name": "das Jahrhundert -e",
+        "trans": [
+            "名词. 一百年；世纪"
+        ]
+    },
+    {
+        "name": "die Digitalisierung -en",
+        "trans": [
+            "名词. 数字化"
+        ]
+    },
+    {
+        "name": "selbstverständlich",
+        "trans": [
+            "Adv./Adj. 当然；自然；不加修饰地"
+        ]
+    },
+    {
+        "name": "die Intelligenz -en",
+        "trans": [
+            "名词. 智力；智能；才智；知识分子"
+        ]
+    },
+    {
+        "name": "speichern",
+        "trans": [
+            "Verb. 贮存；贮藏 +A"
+        ]
+    },
+    {
+        "name": "bearbeiten",
+        "trans": [
+            "Verb. 加工；处理 +A"
+        ]
+    },
+    {
+        "name": "die Überlegenheit o. Pl.",
+        "trans": [
+            "名词. 优势；优越性"
+        ]
+    },
+    {
+        "name": "der Philosoph -en",
+        "trans": [
+            "名词. 哲学家"
+        ]
+    },
+    {
+        "name": "das Zeitalter -",
+        "trans": [
+            "名词. 时期；时代；年代；世纪"
+        ]
+    },
+    {
+        "name": "das Wissen o. Pl.",
+        "trans": [
+            "名词. 知识；知道"
+        ]
+    },
+    {
+        "name": "die Explosion -en",
+        "trans": [
+            "名词. 爆炸"
+        ]
+    },
+    {
+        "name": "die Abbildung -en",
+        "trans": [
+            "名词. 图片；插图；照片"
+        ]
+    },
+    {
+        "name": "die Haltung -en",
+        "trans": [
+            "名词. 态度；观点；立场；看法"
+        ]
+    },
+    {
+        "name": "die Lernplattform -en",
+        "trans": [
+            "名词. 学习平台"
+        ]
+    },
+    {
+        "name": "empfehlenswert",
+        "trans": [
+            "Adj. 值得推荐的"
+        ]
+    }
+]

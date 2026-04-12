@@ -1,0 +1,596 @@
+[
+    {
+        "name": "umweltbewusst",
+        "trans": [
+            "Adj. 有环保意识的"
+        ]
+    },
+    {
+        "name": "werfen",
+        "trans": [
+            "Verb. 投；扔 +A"
+        ]
+    },
+    {
+        "name": "die Plastikflasche -n",
+        "trans": [
+            "名词. 塑料瓶"
+        ]
+    },
+    {
+        "name": "der Abfall -e",
+        "trans": [
+            "名词. 残留；垃圾"
+        ]
+    },
+    {
+        "name": "der Boden -",
+        "trans": [
+            "名词. 地板"
+        ]
+    },
+    {
+        "name": "trennen",
+        "trans": [
+            "Verb. 分开 +A/sich"
+        ]
+    },
+    {
+        "name": "die Plastiktüte -n",
+        "trans": [
+            "名词. 塑料袋"
+        ]
+    },
+    {
+        "name": "das Einweggeschirr o. Pl.",
+        "trans": [
+            "名词. 一次性餐具"
+        ]
+    },
+    {
+        "name": "verschmutzen",
+        "trans": [
+            "Verb. 弄脏；污染 +A"
+        ]
+    },
+    {
+        "name": "der Umweltschützer -",
+        "trans": [
+            "名词. 环境保护者"
+        ]
+    },
+    {
+        "name": "die Umweltschützerin -nen",
+        "trans": [
+            "名词. 女环保主义者"
+        ]
+    },
+    {
+        "name": "faul",
+        "trans": [
+            "Adj. 懒惰的；腐烂的"
+        ]
+    },
+    {
+        "name": "die Mülltonne -n",
+        "trans": [
+            "名词. 垃圾桶"
+        ]
+    },
+    {
+        "name": "die Mülltrennung o. Pl.",
+        "trans": [
+            "名词. 垃圾分类"
+        ]
+    },
+    {
+        "name": "der Karton -s",
+        "trans": [
+            "名词. 纸板箱"
+        ]
+    },
+    {
+        "name": "recycelbar",
+        "trans": [
+            "Adj. 可循环的；可回收的"
+        ]
+    },
+    {
+        "name": "die Batterie -n",
+        "trans": [
+            "名词. 电池（组）"
+        ]
+    },
+    {
+        "name": "das Recyclingpapier",
+        "trans": [
+            "名词. 再生纸"
+        ]
+    },
+    {
+        "name": "der Restmüll o. Pl.",
+        "trans": [
+            "名词. 其他垃圾"
+        ]
+    },
+    {
+        "name": "das Altpapier o. Pl.",
+        "trans": [
+            "名词. 旧纸；废纸"
+        ]
+    },
+    {
+        "name": "das Altglas o. Pl.",
+        "trans": [
+            "名词. 废旧玻璃"
+        ]
+    },
+    {
+        "name": "das Altmetall o. Pl.",
+        "trans": [
+            "名词. 废旧金属"
+        ]
+    },
+    {
+        "name": "das Einwegplastik o. Pl.",
+        "trans": [
+            "名词. 一次性塑料制品"
+        ]
+    },
+    {
+        "name": "der Joghurtbecher -",
+        "trans": [
+            "名词. 酸奶杯"
+        ]
+    },
+    {
+        "name": "entsorgen",
+        "trans": [
+            "Verb. 清除（垃圾） +A"
+        ]
+    },
+    {
+        "name": "nass",
+        "trans": [
+            "Adj. 湿的"
+        ]
+    },
+    {
+        "name": "kompliziert",
+        "trans": [
+            "Adj. 复杂的；叫人摸不透的"
+        ]
+    },
+    {
+        "name": "die Welt -en",
+        "trans": [
+            "名词. 世界；世间；地球"
+        ]
+    },
+    {
+        "name": "die Sorte -n",
+        "trans": [
+            "名词. 种类；品种"
+        ]
+    },
+    {
+        "name": "der Deckel -",
+        "trans": [
+            "名词. 盖子；书皮"
+        ]
+    },
+    {
+        "name": "der Trinkhalm -e",
+        "trans": [
+            "名词. 吸管"
+        ]
+    },
+    {
+        "name": "ein/führen",
+        "trans": [
+            "Verb. 采用；推广；进口；引进 +A"
+        ]
+    },
+    {
+        "name": "recyceln",
+        "trans": [
+            "Verb. 回收利用 +A"
+        ]
+    },
+    {
+        "name": "die Ressource -n",
+        "trans": [
+            "名词. 财源；资源；财力；物力"
+        ]
+    },
+    {
+        "name": "die Biotonne -n",
+        "trans": [
+            "名词. 厨余垃圾桶"
+        ]
+    },
+    {
+        "name": "der Sack -e",
+        "trans": [
+            "名词. 袋；口袋"
+        ]
+    },
+    {
+        "name": "die Speisereste Pl.",
+        "trans": [
+            "名词. 食物残渣"
+        ]
+    },
+    {
+        "name": "extra",
+        "trans": [
+            "Adj./Adv. 额外的；特别的；额外地；另外"
+        ]
+    },
+    {
+        "name": "das Taschentuch ¨er",
+        "trans": [
+            "名词. 餐巾纸；手帕"
+        ]
+    },
+    {
+        "name": "der Container -",
+        "trans": [
+            "名词. 大垃圾桶；集装箱；货运箱"
+        ]
+    },
+    {
+        "name": "giftig",
+        "trans": [
+            "Adj. 有毒的"
+        ]
+    },
+    {
+        "name": "das Reinigungsmittel -",
+        "trans": [
+            "名词. 清洁剂"
+        ]
+    },
+    {
+        "name": "der Farberest -e",
+        "trans": [
+            "名词. 涂料残余；剩余油漆"
+        ]
+    },
+    {
+        "name": "der Wert -e",
+        "trans": [
+            "名词. 价值；意义；重要性"
+        ]
+    },
+    {
+        "name": "die Gemeinsamkeit -en",
+        "trans": [
+            "名词. 共同性"
+        ]
+    },
+    {
+        "name": "das Forum Foren",
+        "trans": [
+            "名词. 讨论会；座谈会；论坛"
+        ]
+    },
+    {
+        "name": "aus/spülen",
+        "trans": [
+            "Verb. 冲洗；冲掉 +A"
+        ]
+    },
+    {
+        "name": "das Pfand ¨er",
+        "trans": [
+            "名词. 押金"
+        ]
+    },
+    {
+        "name": "verbrennen",
+        "trans": [
+            "Verb. 烧；烧掉 +A"
+        ]
+    },
+    {
+        "name": "die Quote -n",
+        "trans": [
+            "名词. 比例"
+        ]
+    },
+    {
+        "name": "der Ruf -e",
+        "trans": [
+            "名词. 呼喊；招呼；声誉"
+        ]
+    },
+    {
+        "name": "das Gegenteil -e",
+        "trans": [
+            "名词. 相反的事物；反面"
+        ]
+    },
+    {
+        "name": "im Gegenteil",
+        "trans": [
+            "Adv. 相反（地）"
+        ]
+    },
+    {
+        "name": "verbrauchen",
+        "trans": [
+            "Verb. 消耗；消费 +A"
+        ]
+    },
+    {
+        "name": "die Herstellung o. Pl.",
+        "trans": [
+            "名词. 制造；生产"
+        ]
+    },
+    {
+        "name": "halten",
+        "trans": [
+            "Verb. 认为；把……视为 +A +für +Adj."
+        ]
+    },
+    {
+        "name": "die Belastung -en",
+        "trans": [
+            "名词. 负载；负重"
+        ]
+    },
+    {
+        "name": "deswegen",
+        "trans": [
+            "Adv. 因此；所以"
+        ]
+    },
+    {
+        "name": "das Spülmittel -",
+        "trans": [
+            "名词. 洗涤剂"
+        ]
+    },
+    {
+        "name": "belasten",
+        "trans": [
+            "Verb. 使负重；使负载 +A"
+        ]
+    },
+    {
+        "name": "ernst nehmen",
+        "trans": [
+            "Verb. 认真对待"
+        ]
+    },
+    {
+        "name": "die Qualität -en",
+        "trans": [
+            "名词. 质量"
+        ]
+    },
+    {
+        "name": "das Recycling o. Pl.",
+        "trans": [
+            "名词. 回收利用"
+        ]
+    },
+    {
+        "name": "künstlich",
+        "trans": [
+            "Adj. 人工的"
+        ]
+    },
+    {
+        "name": "verursachen",
+        "trans": [
+            "Verb. 引起；造成 +A"
+        ]
+    },
+    {
+        "name": "die Verschmutzung -en",
+        "trans": [
+            "名词. 污染"
+        ]
+    },
+    {
+        "name": "ab/lehnen",
+        "trans": [
+            "Verb. 拒绝 +A"
+        ]
+    },
+    {
+        "name": "auf/listen",
+        "trans": [
+            "Verb. 列出；做成索引 +A"
+        ]
+    },
+    {
+        "name": "die Entsorgung -en",
+        "trans": [
+            "名词. 清除；排除"
+        ]
+    },
+    {
+        "name": "die Folge -n",
+        "trans": [
+            "名词. 后果；效果"
+        ]
+    },
+    {
+        "name": "das Meer -e",
+        "trans": [
+            "名词. 海；海洋"
+        ]
+    },
+    {
+        "name": "aus/sterben",
+        "trans": [
+            "Verb. 灭绝；灭种"
+        ]
+    },
+    {
+        "name": "reichen",
+        "trans": [
+            "Verb. 足够 +für"
+        ]
+    },
+    {
+        "name": "europaweit",
+        "trans": [
+            "Adj. 整个欧洲的"
+        ]
+    },
+    {
+        "name": "die Spitze -n",
+        "trans": [
+            "名词. 尖端；尖锥；刀尖；前列"
+        ]
+    },
+    {
+        "name": "an der Spitze stehen",
+        "trans": [
+            "Verb. 位于顶尖位置"
+        ]
+    },
+    {
+        "name": "das Umweltbewusstsein o. Pl.",
+        "trans": [
+            "名词. 环保意识"
+        ]
+    },
+    {
+        "name": "ferner",
+        "trans": [
+            "Adv. 此外；更"
+        ]
+    },
+    {
+        "name": "an/bieten",
+        "trans": [
+            "Verb. 提供 +D +A"
+        ]
+    },
+    {
+        "name": "das Konzept -e",
+        "trans": [
+            "名词. 草稿；提纲；纲领；计划"
+        ]
+    },
+    {
+        "name": "unverpackt",
+        "trans": [
+            "Adj. 未包装的"
+        ]
+    },
+    {
+        "name": "die Funktion -en",
+        "trans": [
+            "名词. 功能；作用"
+        ]
+    },
+    {
+        "name": "das Benzinfass ¨er",
+        "trans": [
+            "名词. 汽油桶"
+        ]
+    },
+    {
+        "name": "entsprechen",
+        "trans": [
+            "Verb. 符合；适应；满足 +D"
+        ]
+    },
+    {
+        "name": "das Motto -s",
+        "trans": [
+            "名词. 格言；箴言；座右铭；题词；警句"
+        ]
+    },
+    {
+        "name": "die Not -e",
+        "trans": [
+            "名词. 贫困；困苦；急迫；危急；困境"
+        ]
+    },
+    {
+        "name": "erfinderisch",
+        "trans": [
+            "Adj. 有创造才能的；有独创性的"
+        ]
+    },
+    {
+        "name": "die Kreativität o. Pl.",
+        "trans": [
+            "名词. 创造性；创造力"
+        ]
+    },
+    {
+        "name": "die Individualität o. Pl.",
+        "trans": [
+            "名词. 个性"
+        ]
+    },
+    {
+        "name": "individuell",
+        "trans": [
+            "Adj. 个人的；个体的；与众不同的"
+        ]
+    },
+    {
+        "name": "vorsichtig",
+        "trans": [
+            "Adj. 小心的；谨慎的"
+        ]
+    },
+    {
+        "name": "lächeln",
+        "trans": [
+            "Verb. 微笑"
+        ]
+    },
+    {
+        "name": "die Erfindung -en",
+        "trans": [
+            "名词. 发明；创造"
+        ]
+    },
+    {
+        "name": "beteiligen sich",
+        "trans": [
+            "Verb. 参加；参与 +an +D"
+        ]
+    },
+    {
+        "name": "die Interaktion -en",
+        "trans": [
+            "名词. 互动；相互作用"
+        ]
+    },
+    {
+        "name": "der Becher -",
+        "trans": [
+            "名词. （无柄）杯"
+        ]
+    },
+    {
+        "name": "der Briefkasten -",
+        "trans": [
+            "名词. 信箱"
+        ]
+    },
+    {
+        "name": "die Handlung -en",
+        "trans": [
+            "名词. 行为"
+        ]
+    },
+    {
+        "name": "auf/kleben",
+        "trans": [
+            "Verb. 贴上；粘上 +A"
+        ]
+    }
+]
