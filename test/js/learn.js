@@ -1050,7 +1050,7 @@
     const progressCount = Object.keys(state.progress || {}).length;
 
     elViewRoot.innerHTML = `
-      <div class="view">
+      <div class="view settings-view">
         <div class="view-title">
           <div>
             <h1>设置 / 打卡</h1>
@@ -1068,15 +1068,15 @@
         </div>
 
         <div class="quiz-card">
-          <div class="row" style="gap:14px; align-items:flex-end">
-            <div style="flex:1; min-width:220px">
+          <div class="row goal-form">
+            <div class="goal-field-main">
               <label>每日目标类型</label>
               <select id="set-goal-type">
                 <option value="words" ${goalType==="words" ? "selected" : ""}>每日目标词数</option>
                 <option value="chunks" ${goalType==="chunks" ? "selected" : ""}>每日目标词块数</option>
               </select>
             </div>
-            <div style="width:200px; min-width:160px">
+            <div class="goal-field-num">
               <label>目标数值</label>
               <input id="set-goal-value" type="number" min="1" value="${goalValue}" />
             </div>
@@ -1085,7 +1085,7 @@
 
           <div class="divider"></div>
 
-          <div class="row" style="justify-content:space-between; margin-bottom:8px">
+          <div class="row goal-progress">
             <span class="pill">今日目标：${escapeHtml(goalType==="words" ? "词数" : "词块")} × ${goalValue}</span>
             <span class="pill ${done ? "ok" : ""}">今日进度：${cur}/${goalValue}（${pct}%）</span>
           </div>
